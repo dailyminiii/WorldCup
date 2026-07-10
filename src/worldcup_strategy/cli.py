@@ -15,12 +15,94 @@ from worldcup_strategy.actions.pipeline import (
 from worldcup_strategy.config import load_data_config
 from worldcup_strategy.data.downloader import fetch_repository
 from worldcup_strategy.data.pipeline import build_canonical, validate_data, write_coverage
+from worldcup_strategy.pressure.pipeline import (
+    build_sequences_2022,
+    build_summary_2022,
+    compute_context_2022,
+    compute_events_2022,
+    compute_ppda_2022,
+    compute_regains_2022,
+    validate_2022,
+)
 
 app = typer.Typer(help="World Cup Strategy Lab reproducible research CLI.")
 data_app = typer.Typer(help="Acquire, canonicalize, and validate provider data.")
 app.add_typer(data_app, name="data")
 actions_app = typer.Typer(help="Build action metrics and attacking summaries.")
 app.add_typer(actions_app, name="actions")
+pressure_app = typer.Typer(help="Build PPDA, Pressure, regain, and 360-context metrics.")
+app.add_typer(pressure_app, name="pressure")
+
+
+@pressure_app.command("compute-ppda")
+def pressure_ppda(
+    competition: Annotated[str, typer.Option()] = "FIFA World Cup",
+    season: Annotated[int, typer.Option()] = 2022,
+    force: Annotated[bool, typer.Option()] = False,
+) -> None:
+    del competition, season, force
+    typer.echo(f"PPDA rows: {len(compute_ppda_2022())}")
+
+
+@pressure_app.command("compute-events")
+def pressure_events(
+    competition: Annotated[str, typer.Option()] = "FIFA World Cup",
+    season: Annotated[int, typer.Option()] = 2022,
+    force: Annotated[bool, typer.Option()] = False,
+) -> None:
+    del competition, season, force
+    typer.echo(f"Pressure events: {len(compute_events_2022())}")
+
+
+@pressure_app.command("build-sequences")
+def pressure_sequences(
+    competition: Annotated[str, typer.Option()] = "FIFA World Cup",
+    season: Annotated[int, typer.Option()] = 2022,
+    force: Annotated[bool, typer.Option()] = False,
+) -> None:
+    del competition, season, force
+    typer.echo(f"Pressure sequences: {len(build_sequences_2022())}")
+
+
+@pressure_app.command("compute-regains")
+def pressure_regains(
+    competition: Annotated[str, typer.Option()] = "FIFA World Cup",
+    season: Annotated[int, typer.Option()] = 2022,
+    force: Annotated[bool, typer.Option()] = False,
+) -> None:
+    del competition, season, force
+    regains, high, _ = compute_regains_2022()
+    typer.echo(f"Pressure events evaluated: {len(regains)}; high regains: {len(high)}")
+
+
+@pressure_app.command("compute-context360")
+def pressure_context360(
+    competition: Annotated[str, typer.Option()] = "FIFA World Cup",
+    season: Annotated[int, typer.Option()] = 2022,
+    force: Annotated[bool, typer.Option()] = False,
+) -> None:
+    del competition, season, force
+    typer.echo(f"360 context rows: {len(compute_context_2022())}")
+
+
+@pressure_app.command("build-summary")
+def pressure_summary(
+    competition: Annotated[str, typer.Option()] = "FIFA World Cup",
+    season: Annotated[int, typer.Option()] = 2022,
+    force: Annotated[bool, typer.Option()] = False,
+) -> None:
+    del competition, season, force
+    match, tournament = build_summary_2022()
+    typer.echo(f"Team-match rows: {len(match)}; teams: {len(tournament)}")
+
+
+@pressure_app.command("validate")
+def pressure_validate(
+    competition: Annotated[str, typer.Option()] = "FIFA World Cup",
+    season: Annotated[int, typer.Option()] = 2022,
+) -> None:
+    del competition, season
+    typer.echo(json_summary(validate_2022()))
 
 
 @actions_app.command("build-spadl")

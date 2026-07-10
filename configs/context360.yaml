@@ -1,0 +1,4 @@
+actor_location_fallback: false
+minimum_valid_context_events: 20
+minimum_valid_context_rate: 0.50
+distance_thresholds_m: [3, 5, 10]

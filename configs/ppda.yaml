@@ -1,0 +1,8 @@
+metric_version: ppda_classic_statsbomb_v1
+pitch_length_m: 105.0
+pitch_width_m: 68.0
+build_up_fraction: 0.60
+excluded_play_patterns: [From Corner, From Free Kick, From Throw In, From Goal Kick, From Kick Off]
+classic_defensive_events: [Interception, Foul Committed, Duel]
+include_50_50: false
+

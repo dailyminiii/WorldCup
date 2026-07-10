@@ -79,3 +79,20 @@ No acceptance criterion is reported as complete without a generated artifact or 
 
 Milestone 2 explicitly excludes pressure/PPDA, score-state models, qualification simulation,
 publication figures, and paper results.
+
+## Milestone 3 implementation (authorized 2026-07-10)
+
+1. Investigate every shot-orientation exception without changing normalization absent a
+   demonstrated systematic error.
+2. Add explicit acting, possession, and defending-team spatial frames using 180-degree
+   opponent rotation on the 105 × 68 pitch.
+3. Implement `ppda_classic_statsbomb_v1` and separately labeled
+   `ppda_pressure_augmented_statsbomb_v1` with raw components and null reasons.
+4. Build provider Pressure events, two-second same-possession sequences, 3/5/8-second regain
+   outcomes, provider counterpress labels, and high-regain indicators.
+5. Derive event-linked 360 geometry without player identities or off-camera imputation, and
+   report coverage/eligibility rather than treating freeze frames as tracking.
+6. Produce team-match/tournament summaries, validation reports, tests, and CLI reproduction.
+
+Milestone 3 excludes score-state models, qualification simulation, publication figures, and
+paper results.

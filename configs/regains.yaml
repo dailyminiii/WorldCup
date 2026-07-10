@@ -1,0 +1,5 @@
+windows_seconds: [3, 5, 8]
+high_regain_definition: high_regain_attacking_40pct_v1
+high_regain_x_m: 63.0
+shot_windows_seconds: [10, 15]
+
