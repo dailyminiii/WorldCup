@@ -1,0 +1,8 @@
+{
+  "actor_missing": 0,
+  "context_events": 203882,
+  "freeze_frame_join": "one_to_many",
+  "invalid_geometry": 0,
+  "valid_context_events": 203882,
+  "visible_area_join": "at_most_one"
+}

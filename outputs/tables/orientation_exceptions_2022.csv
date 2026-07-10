@@ -1,0 +1,4 @@
+match_id,event_id,team_id,team_name,opponent_id,period,elapsed_seconds,start_x,start_y,end_x,end_y,event_type,event_subtype,is_goal,is_own_goal,is_penalty,is_penalty_shootout,raw_event_reference,suspected_reason
+3857264,530b01f6-fd0d-4c7d-96c6-2d4443005a6d,779,Argentina,789,1,1937.0,104.65,67.32000000000001,104.5625,34.595000000000006,Shot,Corner,False,False,False,False,530b01f6-fd0d-4c7d-96c6-2d4443005a6d,provider_representation_edge_case
+3869220,58d48914-c17f-454c-a663-8fb983b47949,772,Spain,788,2,4860.0,103.95,43.265,103.6,0.085,Shot,Open Play,False,False,False,False,58d48914-c17f-454c-a663-8fb983b47949,provider_representation_edge_case
+3869117,1bb42f2e-3d37-4dfc-834a-ad4bce817151,1839,United States,941,2,5647.0,97.3875,34.17,94.15,22.355,Shot,Open Play,False,False,False,False,1bb42f2e-3d37-4dfc-834a-ad4bce817151,provider_representation_edge_case

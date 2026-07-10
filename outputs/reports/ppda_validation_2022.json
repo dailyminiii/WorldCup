@@ -1,0 +1,21 @@
+{
+  "augmented_denominator_zero_rows": 0,
+  "build_up_zone_m": [
+    0,
+    63
+  ],
+  "classic_defensive_total": 2625,
+  "classic_denominator_zero_rows": 0,
+  "classic_mapping": [
+    "Duel:Tackle",
+    "Interception",
+    "Foul Committed"
+  ],
+  "classic_pass_total": 20682,
+  "pressure_events_added_total": 9636,
+  "pressure_in_classic_denominator": false,
+  "pressure_mapping": "augmented only",
+  "raw_components_complete": true,
+  "rows": 128,
+  "valid": true
+}

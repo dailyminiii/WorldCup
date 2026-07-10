@@ -1,0 +1,72 @@
+{
+  "classification_counts": {
+    "provider_representation_edge_case": 3
+  },
+  "events": [
+    {
+      "elapsed_seconds": 1937.0,
+      "end_x": 104.5625,
+      "end_y": 34.595000000000006,
+      "event_id": "530b01f6-fd0d-4c7d-96c6-2d4443005a6d",
+      "event_subtype": "Corner",
+      "event_type": "Shot",
+      "is_goal": false,
+      "is_own_goal": false,
+      "is_penalty": false,
+      "is_penalty_shootout": false,
+      "match_id": 3857264,
+      "opponent_id": 789,
+      "period": 1,
+      "raw_event_reference": "530b01f6-fd0d-4c7d-96c6-2d4443005a6d",
+      "start_x": 104.65,
+      "start_y": 67.32000000000001,
+      "suspected_reason": "provider_representation_edge_case",
+      "team_id": 779,
+      "team_name": "Argentina"
+    },
+    {
+      "elapsed_seconds": 4860.0,
+      "end_x": 103.6,
+      "end_y": 0.085,
+      "event_id": "58d48914-c17f-454c-a663-8fb983b47949",
+      "event_subtype": "Open Play",
+      "event_type": "Shot",
+      "is_goal": false,
+      "is_own_goal": false,
+      "is_penalty": false,
+      "is_penalty_shootout": false,
+      "match_id": 3869220,
+      "opponent_id": 788,
+      "period": 2,
+      "raw_event_reference": "58d48914-c17f-454c-a663-8fb983b47949",
+      "start_x": 103.95,
+      "start_y": 43.265,
+      "suspected_reason": "provider_representation_edge_case",
+      "team_id": 772,
+      "team_name": "Spain"
+    },
+    {
+      "elapsed_seconds": 5647.0,
+      "end_x": 94.15,
+      "end_y": 22.355,
+      "event_id": "1bb42f2e-3d37-4dfc-834a-ad4bce817151",
+      "event_subtype": "Open Play",
+      "event_type": "Shot",
+      "is_goal": false,
+      "is_own_goal": false,
+      "is_penalty": false,
+      "is_penalty_shootout": false,
+      "match_id": 3869117,
+      "opponent_id": 941,
+      "period": 2,
+      "raw_event_reference": "1bb42f2e-3d37-4dfc-834a-ad4bce817151",
+      "start_x": 97.3875,
+      "start_y": 34.17,
+      "suspected_reason": "provider_representation_edge_case",
+      "team_id": 1839,
+      "team_name": "United States"
+    }
+  ],
+  "exception_count": 3,
+  "systematic_orientation_error": false
+}

@@ -1,0 +1,16 @@
+{
+  "event_regains_3s": 2464,
+  "event_regains_5s": 3279,
+  "event_regains_8s": 4060,
+  "high_regains": 803,
+  "reason_counts": {
+    "dead_ball_before_regain": 84,
+    "foul_restart": 2112,
+    "no_possession_change": 9660,
+    "out_of_play": 638,
+    "successful_regain": 4060
+  },
+  "sequence_regains_3s": 2161,
+  "sequence_regains_5s": 2801,
+  "sequence_regains_8s": 3469
+}
