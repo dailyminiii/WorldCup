@@ -61,3 +61,21 @@ After each milestone, run the narrow tests for changed modules, followed by `ruf
 ## Completion rule
 
 No acceptance criterion is reported as complete without a generated artifact or test result. Environment, source-data, dependency, or coverage gaps remain explicit limitations.
+
+## Milestone 2 implementation (authorized 2026-07-10)
+
+1. Add versioned action, shot-xG, xT, progression, and attacking-summary contracts.
+2. Convert canonical StatsBomb events through a project-owned SPADL-compatible adapter,
+   retaining provider IDs/coordinates and validating team-period orientation empirically.
+3. Aggregate provider-supplied StatsBomb xG with shootout exclusion and paired-own-goal
+   de-duplication.
+4. Fit deterministic 16 × 12 Markov xT grids in reference (2018) and explicitly exploratory
+   tournament-only modes; persist training provenance and null reason codes.
+5. Apply `progressive_goal_distance_v1` with inclusive threshold boundaries and configurable
+   set-piece/carry exclusions.
+6. Produce count and rate-separated team-match and tournament attacking summaries.
+7. Run synthetic unit/integration tests, real 2018/2022 CLI reproduction, artifact inspection,
+   and the full Milestone 1 quality gate before committing generated small reports.
+
+Milestone 2 explicitly excludes pressure/PPDA, score-state models, qualification simulation,
+publication figures, and paper results.

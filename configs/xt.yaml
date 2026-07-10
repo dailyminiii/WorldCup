@@ -1,0 +1,16 @@
+training_mode: reference
+reference_competition: FIFA World Cup
+reference_season: 2018
+reference_competition_id: 43
+reference_season_id: 3
+grid_width: 16
+grid_height: 12
+include_passes: true
+include_carries: true
+minimum_actions_per_cell: 1
+smoothing:
+  enabled: true
+  method: laplace
+  alpha: 1.0
+seed: 20262022
+

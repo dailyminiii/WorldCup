@@ -1,0 +1,8 @@
+definition: progressive_goal_distance_v1
+own_half_threshold_metres: 30.0
+cross_half_threshold_metres: 15.0
+opponent_half_threshold_metres: 10.0
+open_play_only: true
+excluded_play_patterns: [From Corner, From Free Kick, From Throw In, From Goal Kick, From Kick Off]
+minimum_carry_length_metres: 1.0
+maximum_carry_length_metres: 60.0

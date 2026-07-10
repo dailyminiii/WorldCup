@@ -1,0 +1,4 @@
+action_types: [Pass, Carry, Dribble, Shot]
+provider: statsbomb
+orientation: acting_team_attacks_left_to_right
+

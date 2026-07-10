@@ -4,6 +4,14 @@ from typing import Annotated
 
 import typer
 
+from worldcup_strategy.actions.pipeline import (
+    build_attacking_2022,
+    build_spadl_2022,
+    compute_progression_2022,
+    compute_xg_2022,
+    compute_xt_2022,
+    fit_xt,
+)
 from worldcup_strategy.config import load_data_config
 from worldcup_strategy.data.downloader import fetch_repository
 from worldcup_strategy.data.pipeline import build_canonical, validate_data, write_coverage
@@ -11,6 +19,71 @@ from worldcup_strategy.data.pipeline import build_canonical, validate_data, writ
 app = typer.Typer(help="World Cup Strategy Lab reproducible research CLI.")
 data_app = typer.Typer(help="Acquire, canonicalize, and validate provider data.")
 app.add_typer(data_app, name="data")
+actions_app = typer.Typer(help="Build action metrics and attacking summaries.")
+app.add_typer(actions_app, name="actions")
+
+
+@actions_app.command("build-spadl")
+def action_spadl(
+    competition: Annotated[str, typer.Option()] = "FIFA World Cup",
+    season: Annotated[int, typer.Option()] = 2022,
+    force: Annotated[bool, typer.Option()] = False,
+) -> None:
+    del competition, season, force
+    typer.echo(f"SPADL actions: {len(build_spadl_2022())}")
+
+
+@actions_app.command("compute-xg")
+def action_xg(
+    competition: Annotated[str, typer.Option()] = "FIFA World Cup",
+    season: Annotated[int, typer.Option()] = 2022,
+    force: Annotated[bool, typer.Option()] = False,
+) -> None:
+    del competition, season, force
+    typer.echo(f"Team-match xG rows: {len(compute_xg_2022())}")
+
+
+@actions_app.command("fit-xt")
+def action_fit_xt(
+    train_competition: Annotated[str, typer.Option()] = "FIFA World Cup",
+    train_season: Annotated[int, typer.Option()] = 2018,
+    mode: Annotated[str, typer.Option()] = "reference",
+    force: Annotated[bool, typer.Option()] = False,
+) -> None:
+    del train_competition, train_season, force
+    typer.echo(f"xT training actions: {fit_xt(mode)['training_action_count']}")
+
+
+@actions_app.command("compute-xt")
+def action_compute_xt(
+    competition: Annotated[str, typer.Option()] = "FIFA World Cup",
+    season: Annotated[int, typer.Option()] = 2022,
+    model: Annotated[str, typer.Option()] = "reference",
+    force: Annotated[bool, typer.Option()] = False,
+) -> None:
+    del competition, season, force
+    typer.echo(f"Action xT rows: {len(compute_xt_2022(model))}")
+
+
+@actions_app.command("compute-progression")
+def action_progression(
+    competition: Annotated[str, typer.Option()] = "FIFA World Cup",
+    season: Annotated[int, typer.Option()] = 2022,
+    force: Annotated[bool, typer.Option()] = False,
+) -> None:
+    del competition, season, force
+    typer.echo(f"Progression rows: {len(compute_progression_2022())}")
+
+
+@actions_app.command("build-attacking-summary")
+def action_summary(
+    competition: Annotated[str, typer.Option()] = "FIFA World Cup",
+    season: Annotated[int, typer.Option()] = 2022,
+    force: Annotated[bool, typer.Option()] = False,
+) -> None:
+    del competition, season, force
+    match, tournament = build_attacking_2022()
+    typer.echo(f"Team-match rows: {len(match)}; teams: {len(tournament)}")
 
 
 @data_app.command("fetch")
