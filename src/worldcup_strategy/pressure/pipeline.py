@@ -139,7 +139,31 @@ def build_sequences_2022() -> pd.DataFrame:
 def compute_regains_2022() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     p = pd.read_parquet(OUT / "pressure_events_2022.parquet")
     s = pd.read_parquet(OUT / "pressure_sequences_2022.parquet")
-    r, h = compute_pressure_regains(p, s, _read("events"))
+    events = _read("events")
+    r, h = compute_pressure_regains(p, s, events)
+    actions = pd.read_parquet(ROOT / "actions/spadl_actions_2022.parquet")
+    action_xt = pd.read_parquet(ROOT / "actions/action_xt_2022.parquet")
+    valued = actions[["match_id", "action_id", "team_id", "possession_id", "time_seconds"]].merge(
+        action_xt[["match_id", "action_id", "xt_added"]],
+        on=["match_id", "action_id"],
+        how="left",
+    )
+    xt_groups = {
+        key: group
+        for key, group in valued.groupby(["match_id", "team_id", "possession_id"], sort=False)
+    }
+    event_lookup = {(row.match_id, row.event_id): row for row in events.itertuples(index=False)}
+
+    def post_regain_xt(row: pd.Series) -> float | None:
+        event = event_lookup.get((row.match_id, row.regain_event_id))
+        if event is None:
+            return None
+        group = xt_groups.get((row.match_id, row.team_id, event.possession_id))
+        if group is None:
+            return None
+        return group.loc[group.time_seconds >= row.regain_seconds, "xt_added"].sum(min_count=1)
+
+    h["same_possession_xt"] = h.apply(post_regain_xt, axis=1)
     s = sequence_regain_flags(s, r)
     _write(r, "pressure_regains")
     _write(h, "high_regains")
