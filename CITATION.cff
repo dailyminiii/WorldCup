@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software, cite this repository and StatsBomb Open Data."
+title: "World Cup Strategy Lab"
+type: software
+version: 0.1.0
+license: MIT
+date-released: 2026-07-10
+

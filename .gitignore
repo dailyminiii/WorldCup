@@ -1,0 +1,24 @@
+.DS_Store
+.venv/
+.uv-cache/
+.tools/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Provider data and generated bulk products
+data/raw/*
+!data/raw/README.md
+data/interim/*
+data/processed/*
+data/external/*
+data/manifests/*.jsonl
+outputs/**/*.parquet
+outputs/**/*.png
+outputs/**/*.pdf
+outputs/**/*.svg
+

@@ -1,0 +1,14 @@
+provider: statsbomb
+competition_name: FIFA World Cup
+season_name: "2022"
+expected_competition_id: 43
+expected_season_id: 106
+expected_match_count: 64
+expected_group_match_count: 48
+raw_repository: data/raw/statsbomb-open-data
+processed_directory: data/processed
+manifest_directory: data/manifests
+report_directory: outputs/reports
+table_directory: outputs/tables
+source_url: https://github.com/statsbomb/open-data.git
+

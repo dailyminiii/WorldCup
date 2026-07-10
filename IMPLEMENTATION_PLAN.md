@@ -3,9 +3,9 @@
 ## Current-state inspection
 
 - Inspection date: 2026-07-10 (Asia/Seoul).
-- The workspace was empty at inspection time; there is no existing implementation or user work to preserve.
-- Git and the system Python are currently blocked by an unaccepted Apple Xcode licence.
-- `uv` is not installed, and no alternative Python interpreter was discovered in the usual Homebrew locations.
+- The workspace began with this implementation plan and environment configuration; there is no prior analytical implementation to preserve.
+- Git 2.50.1 is available and the repository is initialized on `main`.
+- A workspace-local `uv` 0.11.28 executable provisions CPython 3.12.13. Project commands set `UV_CACHE_DIR=.uv-cache`; the system Python 3.9 is never used.
 - No StatsBomb Open Data checkout is present. Dataset counts and coverage must therefore be discovered after the environment and source data are available; they will not be fabricated.
 
 ## Assumptions
@@ -46,14 +46,13 @@
 
 ## Milestones
 
-1. **Repository and contracts** — metadata, dependency lock, configuration, provider-independent schemas, provenance documents, CLI skeleton, test harness, and implementation log.
-2. **Ingestion and validation** — source resolution, checksums/manifests, canonical Event/360 conversion, coverage reports, and schema validation.
-3. **Action metrics** — xG aggregation, SPADL adapter, reference/tournament-only xT, progression, and metric definitions.
-4. **Pressure and context** — classic and augmented PPDA, pressure/regain metrics, and coverage-aware 360 features.
-5. **State reconstruction** — event before/after score and discipline state, team windows, and observational association models.
-6. **Qualification engine** — official 2022 rules, leak-free snapshots, seeded joint simulations, fair-play/lot diagnostics, and final-table validation.
-7. **Reporting** — generated figures/tables/manifests and a claim-conservative LaTeX scaffold.
-8. **Reproduction and audit** — unit/integration/regression tests, Ruff, Mypy, data validation, reduced simulation, complete reproduction, tracked-raw-data scan, and audit artifacts.
+1. **Milestone 1 — repository, contracts, and ingestion** — metadata, dependency lock, configuration, provider-independent schemas, provenance documents, CLI, source resolution, checksums/manifests, canonical Event/360 conversion, coverage reports, schema validation, and unit/integration tests.
+2. **Milestone 2 — action metrics** — xG aggregation, SPADL adapter, reference/tournament-only xT, progression, and metric definitions.
+3. **Milestone 3 — pressure and context** — classic and augmented PPDA, pressure/regain metrics, and coverage-aware 360 features.
+4. **Milestone 4 — state reconstruction** — event before/after score and discipline state, team windows, and observational association models.
+5. **Milestone 5 — qualification engine** — official 2022 rules, leak-free snapshots, seeded joint simulations, fair-play/lot diagnostics, and final-table validation.
+6. **Milestone 6 — reporting** — generated figures/tables/manifests and a claim-conservative LaTeX scaffold.
+7. **Final reproduction and audit** — unit/integration/regression tests, Ruff, Mypy, data validation, reduced simulation, complete reproduction, tracked-raw-data scan, and audit artifacts.
 
 ## Validation cadence
 

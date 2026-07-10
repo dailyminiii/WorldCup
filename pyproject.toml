@@ -1,0 +1,59 @@
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "worldcup-strategy-lab"
+version = "0.1.0"
+description = "Reproducible World Cup event-data research infrastructure"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = {text = "MIT"}
+authors = [{name = "World Cup Strategy Lab contributors"}]
+dependencies = [
+  "numpy==2.2.6",
+  "pandas==2.3.1",
+  "pandera==0.25.0",
+  "pyarrow==20.0.0",
+  "pydantic==2.11.7",
+  "pydantic-settings==2.10.1",
+  "pyyaml==6.0.2",
+  "typer==0.16.0",
+]
+
+[project.scripts]
+wcstrategy = "worldcup_strategy.cli:app"
+
+[dependency-groups]
+dev = [
+  "mypy==1.16.1",
+  "pandas-stubs==2.2.3.250527",
+  "pytest==8.4.1",
+  "pytest-cov==6.2.1",
+  "ruff==0.12.3",
+  "types-pyyaml==6.0.12.20250516",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/worldcup_strategy"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+packages = ["worldcup_strategy"]
+mypy_path = "src"
+
+[tool.pytest.ini_options]
+addopts = "-ra --strict-config --strict-markers"
+testpaths = ["tests"]
+
