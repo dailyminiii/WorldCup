@@ -1,0 +1,24 @@
+{
+  "competition_id": 43,
+  "configuration_hash": "a1a4c4de0cdf46c51e606295509ecbbdce8e975d5308969e32e0483ca8a1a74b",
+  "dependency_versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.1"
+  },
+  "grid_height": 12,
+  "grid_width": 16,
+  "in_sample_exploratory": true,
+  "season_id": 106,
+  "seed": 20262022,
+  "smoothing_configuration": {
+    "alpha": 1.0,
+    "enabled": true,
+    "method": "laplace"
+  },
+  "source_action_count": 125566,
+  "source_commit_sha": "b0bc9f22dd77c206ddedc1d742893b3bbe64baec",
+  "training_action_count": 125525,
+  "training_competition": "FIFA World Cup",
+  "training_mode": "tournament_only",
+  "training_season": 2022
+}

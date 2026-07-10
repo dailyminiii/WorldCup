@@ -1,0 +1,17 @@
+{
+  "all_finite": true,
+  "bounded_zero_one": true,
+  "danger_exceeds_defensive": true,
+  "danger_zone_mean": 0.12465378502120493,
+  "defensive_zone_mean": 0.01986382241143949,
+  "eligible_actions": 110546,
+  "missing_reason_counts": {
+    "eligible": 110546,
+    "failed_action": 12589,
+    "ineligible_action_type": 1453,
+    "missing_end_location": 937,
+    "penalty_shootout": 41
+  },
+  "training_mode": "reference",
+  "valid": true
+}

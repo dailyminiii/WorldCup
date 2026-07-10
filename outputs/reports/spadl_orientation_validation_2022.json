@@ -1,0 +1,784 @@
+{
+  "by_team_period": [
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 94.5,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 30,
+      "team_id": 768
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 94.85,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 33,
+      "team_id": 768
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 103.6875,
+      "median_shot_start_x": 89.95,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 29,
+      "team_id": 770
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 94.0625,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 39,
+      "team_id": 770
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 103.6,
+      "median_shot_start_x": 94.54374999999999,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 46,
+      "team_id": 771
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 104.43125,
+      "median_shot_start_x": 95.19999999999999,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 52,
+      "team_id": 771
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 90.3875,
+      "median_shot_start_x": 78.575,
+      "period": 3,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 1,
+      "team_id": 771
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 95.9875,
+      "median_shot_start_x": 90.7375,
+      "period": 4,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 3,
+      "team_id": 771
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 94.5875,
+      "period": 5,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 4,
+      "team_id": 771
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 92.575,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 17,
+      "team_id": 772
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 90.5625,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 0.96,
+      "shot_count": 25,
+      "team_id": 772
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 99.225,
+      "median_shot_start_x": 87.7625,
+      "period": 3,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 3,
+      "team_id": 772
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 97.65,
+      "median_shot_start_x": 91.2625,
+      "period": 4,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 3,
+      "team_id": 772
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 104.65,
+      "median_shot_start_x": 94.5,
+      "period": 5,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 3,
+      "team_id": 772
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 104.0375,
+      "median_shot_start_x": 94.0625,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 17,
+      "team_id": 773
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 99.79375,
+      "median_shot_start_x": 92.96875,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 20,
+      "team_id": 773
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 103.73125,
+      "median_shot_start_x": 92.79374999999999,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 10,
+      "team_id": 776
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 103.6,
+      "median_shot_start_x": 93.975,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 25,
+      "team_id": 776
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 102.025,
+      "median_shot_start_x": 95.55,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 15,
+      "team_id": 777
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 102.1125,
+      "median_shot_start_x": 90.9125,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 17,
+      "team_id": 777
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 97.825,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 8,
+      "team_id": 778
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 103.55625,
+      "median_shot_start_x": 91.04375,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 32,
+      "team_id": 778
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 97.16874999999999,
+      "median_shot_start_x": 88.55000000000001,
+      "period": 3,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 4,
+      "team_id": 778
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 104.125,
+      "median_shot_start_x": 94.5875,
+      "period": 5,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 4,
+      "team_id": 778
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 104.0375,
+      "median_shot_start_x": 91.175,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 0.972972972972973,
+      "shot_count": 37,
+      "team_id": 779
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 104.5625,
+      "median_shot_start_x": 93.1875,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 49,
+      "team_id": 779
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 101.80625,
+      "median_shot_start_x": 88.94375,
+      "period": 3,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 4,
+      "team_id": 779
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 104.125,
+      "median_shot_start_x": 90.65,
+      "period": 4,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 11,
+      "team_id": 779
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 94.5875,
+      "period": 5,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 9,
+      "team_id": 779
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 103.29375,
+      "median_shot_start_x": 88.9,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 36,
+      "team_id": 780
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 94.45625,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 30,
+      "team_id": 780
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 103.03125,
+      "median_shot_start_x": 93.1,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 36,
+      "team_id": 781
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 103.20625,
+      "median_shot_start_x": 92.8375,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 54,
+      "team_id": 781
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 103.90625,
+      "median_shot_start_x": 96.29374999999999,
+      "period": 3,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 4,
+      "team_id": 781
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 103.25,
+      "median_shot_start_x": 99.75,
+      "period": 4,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 1,
+      "team_id": 781
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 94.5,
+      "period": 5,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 4,
+      "team_id": 781
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 101.5875,
+      "median_shot_start_x": 95.375,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 15,
+      "team_id": 782
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 104.3,
+      "median_shot_start_x": 97.16874999999999,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 20,
+      "team_id": 782
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 94.85,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 13,
+      "team_id": 783
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 104.95625,
+      "median_shot_start_x": 87.4125,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 20,
+      "team_id": 783
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 91.7875,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 33,
+      "team_id": 785
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 103.94999999999999,
+      "median_shot_start_x": 90.78125,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 38,
+      "team_id": 785
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 94.7625,
+      "median_shot_start_x": 90.7375,
+      "period": 3,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 3,
+      "team_id": 785
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 90.3,
+      "period": 4,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 5,
+      "team_id": 785
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 94.54375,
+      "period": 5,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 8,
+      "team_id": 785
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 95.025,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 16,
+      "team_id": 786
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 91.91875,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 16,
+      "team_id": 786
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 93.625,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 25,
+      "team_id": 787
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 91.2625,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 25,
+      "team_id": 787
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 92.925,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 34,
+      "team_id": 788
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 103.38125,
+      "median_shot_start_x": 93.625,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 26,
+      "team_id": 788
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 101.7625,
+      "median_shot_start_x": 95.9875,
+      "period": 3,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 1,
+      "team_id": 788
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 52.15,
+      "period": 4,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 1,
+      "team_id": 788
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 94.5,
+      "period": 5,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 4,
+      "team_id": 788
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 101.63125,
+      "median_shot_start_x": 95.50625,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 14,
+      "team_id": 789
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 95.2,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 17,
+      "team_id": 789
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 103.1625,
+      "median_shot_start_x": 88.025,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 17,
+      "team_id": 791
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 104.125,
+      "median_shot_start_x": 93.45,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 31,
+      "team_id": 791
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 103.8625,
+      "median_shot_start_x": 90.7375,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 16,
+      "team_id": 792
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 100.975,
+      "median_shot_start_x": 90.08125,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 10,
+      "team_id": 792
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 103.5125,
+      "median_shot_start_x": 89.25,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 19,
+      "team_id": 794
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 103.29374999999999,
+      "median_shot_start_x": 88.15625,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 22,
+      "team_id": 794
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 96.29375,
+      "median_shot_start_x": 84.0,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 4,
+      "team_id": 795
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 103.6,
+      "median_shot_start_x": 95.2875,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 7,
+      "team_id": 795
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 103.73125,
+      "median_shot_start_x": 88.76875,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 6,
+      "team_id": 797
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 103.6875,
+      "median_shot_start_x": 88.2,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 27,
+      "team_id": 797
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 104.3875,
+      "median_shot_start_x": 94.5875,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 9,
+      "team_id": 799
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 91.175,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 21,
+      "team_id": 799
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 104.51875,
+      "median_shot_start_x": 87.5875,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 8,
+      "team_id": 907
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 103.20625,
+      "median_shot_start_x": 90.16875,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 16,
+      "team_id": 907
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 91.7875,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 21,
+      "team_id": 941
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 95.8125,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 21,
+      "team_id": 941
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 98.0875,
+      "median_shot_start_x": 97.0375,
+      "period": 4,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 1,
+      "team_id": 941
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 94.5875,
+      "period": 5,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 5,
+      "team_id": 941
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 104.5625,
+      "median_shot_start_x": 94.5875,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 17,
+      "team_id": 1833
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 88.725,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 18,
+      "team_id": 1833
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 104.0375,
+      "median_shot_start_x": 94.2375,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 21,
+      "team_id": 1839
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 102.375,
+      "median_shot_start_x": 90.9125,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 0.96,
+      "shot_count": 25,
+      "team_id": 1839
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 103.8625,
+      "median_shot_start_x": 95.1125,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 13,
+      "team_id": 2722
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 103.775,
+      "median_shot_start_x": 93.1,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 15,
+      "team_id": 2722
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 100.23125,
+      "median_shot_start_x": 90.825,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 12,
+      "team_id": 3565
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 103.07499999999999,
+      "median_shot_start_x": 92.05000000000001,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 18,
+      "team_id": 3565
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 81.9,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 7,
+      "team_id": 3566
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 87.675,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 13,
+      "team_id": 3566
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 104.78125,
+      "median_shot_start_x": 96.73125,
+      "period": 1,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 6,
+      "team_id": 4885
+    },
+    {
+      "invalid_coordinate_count": 0,
+      "median_shot_end_x": 105.0,
+      "median_shot_start_x": 90.3875,
+      "period": 2,
+      "proportion_shots_toward_right_goal": 1.0,
+      "shot_count": 19,
+      "team_id": 4885
+    }
+  ],
+  "definition": "acting_team_attacks_left_to_right",
+  "meaningful_shot_count": 1489,
+  "shot_count": 1494,
+  "valid": true,
+  "wrong_direction_count": 3,
+  "wrong_direction_proportion": 0.0020147750167897917
+}

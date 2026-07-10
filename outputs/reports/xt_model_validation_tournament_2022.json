@@ -1,0 +1,8 @@
+{
+  "all_finite": true,
+  "bounded_zero_one": true,
+  "danger_exceeds_defensive": true,
+  "danger_zone_mean": 0.1650081678784042,
+  "defensive_zone_mean": 0.020122634509844164,
+  "valid": true
+}

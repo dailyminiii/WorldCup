@@ -1,0 +1,7 @@
+metric_name,implementation_version,unit
+statsbomb_xg,statsbomb_provider_xg_v1,expected goals
+xt_added,xt_markov_v1,expected possession goals
+progressive_passes,progressive_goal_distance_v1,actions
+progressive_carries,progressive_goal_distance_v1,actions
+final_third_entries,entry_geometry_v1,actions
+box_entries,entry_geometry_v1,actions

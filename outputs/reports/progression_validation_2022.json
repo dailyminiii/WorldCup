@@ -1,0 +1,13 @@
+{
+  "exclusion_reason_counts": {
+    "carry_above_maximum_length": 3,
+    "carry_below_minimum_length": 14819,
+    "eligible": 63341,
+    "excluded_set_piece": 32383,
+    "ineligible_action_type": 1494,
+    "missing_coordinates": 937,
+    "unsuccessful_action": 12589
+  },
+  "progressive_carries": 2270,
+  "progressive_passes": 2060
+}
