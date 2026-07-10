@@ -1,4 +1,4 @@
-UV := UV_CACHE_DIR=.uv-cache ./.tools/uv/uv
+UV := PYTHONPATH=src UV_CACHE_DIR=.uv-cache ./.tools/uv/uv
 
 .PHONY: setup fetch-data validate-data build-data coverage test lint typecheck actions xg xt progression attacking-summary milestone-2
 setup:
