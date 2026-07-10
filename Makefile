@@ -1,6 +1,6 @@
 UV := UV_CACHE_DIR=.uv-cache ./.tools/uv/uv
 
-.PHONY: setup fetch-data validate-data build-data coverage test lint typecheck
+.PHONY: setup fetch-data validate-data build-data coverage test lint typecheck actions xg xt progression attacking-summary milestone-2
 setup:
 	$(UV) sync
 
@@ -26,3 +26,15 @@ lint:
 typecheck:
 	$(UV) run mypy src
 
+actions:
+	$(UV) run wcstrategy actions build-spadl --season 2022
+xg:
+	$(UV) run wcstrategy actions compute-xg --season 2022
+xt:
+	$(UV) run wcstrategy actions fit-xt --train-season 2018 --mode reference
+	$(UV) run wcstrategy actions compute-xt --season 2022 --model reference
+progression:
+	$(UV) run wcstrategy actions compute-progression --season 2022
+attacking-summary:
+	$(UV) run wcstrategy actions build-attacking-summary --season 2022
+milestone-2: actions xg xt progression attacking-summary

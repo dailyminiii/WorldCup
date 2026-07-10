@@ -26,3 +26,13 @@
   reading Parquet. Reads and validation completed successfully.
 - Final Milestone 1 quality gate: Ruff check passed, Ruff format check passed, strict Mypy
   passed for 11 source files, and all 16 pytest tests passed under CPython 3.12.13.
+
+## 2026-07-10 — Milestone 2
+
+- Added a project-owned SPADL-compatible action adapter over canonical StatsBomb events.
+- Preserved original event IDs, provider raw coordinates, and normalized metric endpoints.
+- Added provider xG extraction with shootout exclusion and paired-own-goal de-duplication.
+- Added deterministic reference/tournament-only xT fitting, action valuation, provenance,
+  and explicit null reasons. Reference mode resolves and trains only on World Cup 2018.
+- Added `progressive_goal_distance_v1`, entry geometry, possession/count rates, and attacking
+  summaries. No Milestone 3 functionality was introduced.

@@ -16,3 +16,17 @@ make coverage
 StatsBomb data is used under its published open-data terms and must be attributed as
 described in [DATA_SOURCES.md](DATA_SOURCES.md). Raw data is local-only and Git-ignored.
 
+## Milestone 2 reproduction
+
+```bash
+make actions
+make xg
+make xt
+make progression
+make attacking-summary
+# or: make milestone-2
+```
+
+The action representation is SPADL-compatible but project-owned: conversion changes the
+provider event representation while retaining original event IDs and raw coordinates.
+Reference xT is fitted only on the 2018 World Cup and then applied to 2022.

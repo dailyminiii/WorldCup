@@ -13,4 +13,5 @@
   licence and attribution language before redistribution.
 - 360 limitation: event-linked freeze frames and visible-area polygons have incomplete and
   potentially selective coverage; they are not continuous tracking.
-
+- Milestone 2 reference sample: FIFA World Cup 2018, resolved as competition 43/season 3 at
+  the same pinned source revision. It trains reference xT and excludes every 2022 action.
