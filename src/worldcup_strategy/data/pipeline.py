@@ -7,6 +7,7 @@ from typing import Any
 import pandas as pd
 
 from worldcup_strategy.config import DataConfig
+from worldcup_strategy.constants import PROVIDER
 from worldcup_strategy.data.manifests import build_match_manifest, write_json
 from worldcup_strategy.data.schemas import EVENT_VALIDATION_SCHEMA
 from worldcup_strategy.data.statsbomb import (
@@ -80,6 +81,22 @@ def build_canonical(config: DataConfig) -> dict[str, int]:
         if all_areas
         else canonical_three_sixty(0, [])[1],
     }
+    tables["teams"] = pd.concat(
+        [
+            match_table[["home_team_id", "home_team_name"]].rename(
+                columns={"home_team_id": "team_id", "home_team_name": "team_name"}
+            ),
+            match_table[["away_team_id", "away_team_name"]].rename(
+                columns={"away_team_id": "team_id", "away_team_name": "team_name"}
+            ),
+        ],
+        ignore_index=True,
+    ).drop_duplicates(subset=["team_id"])
+    tables["teams"].insert(0, "provider", PROVIDER)
+    tables["players"] = tables["lineups"][["player_id", "player_name"]].drop_duplicates(
+        subset=["player_id"]
+    )
+    tables["players"].insert(0, "provider", PROVIDER)
     for name, table in tables.items():
         _write_parquet(table, config.processed_directory / f"{name}_2022.parquet")
     manifest_path = config.manifest_directory / "matches_2022.jsonl"

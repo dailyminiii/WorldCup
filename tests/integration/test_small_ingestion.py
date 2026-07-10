@@ -84,6 +84,8 @@ def test_small_source_builds_all_tables(tmp_path: Path) -> None:
     )
     counts = build_canonical(config)
     assert counts["events"] == 1
+    assert counts["teams"] == 2
+    assert counts["players"] == 0
     matches = pd.read_parquet(tmp_path / "processed/matches_2022.parquet")
     assert matches.loc[0, "group_name"] == "Group A"
     assert write_coverage(config)["three_sixty_match_count"] == 1

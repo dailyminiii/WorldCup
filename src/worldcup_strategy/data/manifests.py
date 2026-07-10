@@ -55,6 +55,7 @@ def build_match_manifest(
     three_sixty = repository / "data" / "three-sixty" / f"{match_id}.json"
     return {
         "source_commit_sha": source_commit(repository),
+        "download_timestamp_utc": datetime.now(UTC).isoformat(),
         "competition_id": competition_id,
         "season_id": season_id,
         "match_id": match_id,

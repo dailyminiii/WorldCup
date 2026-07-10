@@ -101,6 +101,8 @@ CANONICAL_COLUMNS: Mapping[str, tuple[str, ...]] = {
         "polygon_area",
     ),
     "lineups": ("provider", "match_id", "team_id", "team_name", "player_id", "player_name"),
+    "teams": ("provider", "team_id", "team_name"),
+    "players": ("provider", "player_id", "player_name"),
 }
 
 EVENT_VALIDATION_SCHEMA = DataFrameSchema(
