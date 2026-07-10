@@ -1,0 +1,905 @@
+{
+  "competition_id": 43,
+  "coverage_by_event_type": [
+    {
+      "coverage_proportion": 0.8389830508474576,
+      "event_type": "50/50",
+      "events": 236,
+      "three_sixty_linked": 198
+    },
+    {
+      "coverage_proportion": 0.0,
+      "event_type": "Bad Behaviour",
+      "events": 44,
+      "three_sixty_linked": 0
+    },
+    {
+      "coverage_proportion": 0.8982401607560558,
+      "event_type": "Ball Receipt*",
+      "events": 63699,
+      "three_sixty_linked": 57217
+    },
+    {
+      "coverage_proportion": 0.8928019240680295,
+      "event_type": "Ball Recovery",
+      "events": 5821,
+      "three_sixty_linked": 5197
+    },
+    {
+      "coverage_proportion": 0.8776194467728415,
+      "event_type": "Block",
+      "events": 2386,
+      "three_sixty_linked": 2094
+    },
+    {
+      "coverage_proportion": 0.9189420430027527,
+      "event_type": "Carry",
+      "events": 53764,
+      "three_sixty_linked": 49406
+    },
+    {
+      "coverage_proportion": 0.9225037257824144,
+      "event_type": "Clearance",
+      "events": 2684,
+      "three_sixty_linked": 2476
+    },
+    {
+      "coverage_proportion": 0.8385744234800838,
+      "event_type": "Dispossessed",
+      "events": 1431,
+      "three_sixty_linked": 1200
+    },
+    {
+      "coverage_proportion": 0.8237590630228667,
+      "event_type": "Dribble",
+      "events": 1793,
+      "three_sixty_linked": 1477
+    },
+    {
+      "coverage_proportion": 0.8407335907335908,
+      "event_type": "Dribbled Past",
+      "events": 1036,
+      "three_sixty_linked": 871
+    },
+    {
+      "coverage_proportion": 0.8605604921394395,
+      "event_type": "Duel",
+      "events": 4389,
+      "three_sixty_linked": 3777
+    },
+    {
+      "coverage_proportion": 0.8214285714285714,
+      "event_type": "Error",
+      "events": 28,
+      "three_sixty_linked": 23
+    },
+    {
+      "coverage_proportion": 0.856338028169014,
+      "event_type": "Foul Committed",
+      "events": 1775,
+      "three_sixty_linked": 1520
+    },
+    {
+      "coverage_proportion": 0.852333136444182,
+      "event_type": "Foul Won",
+      "events": 1693,
+      "three_sixty_linked": 1443
+    },
+    {
+      "coverage_proportion": 0.4346368715083799,
+      "event_type": "Goal Keeper",
+      "events": 1790,
+      "three_sixty_linked": 778
+    },
+    {
+      "coverage_proportion": 0.0,
+      "event_type": "Half End",
+      "events": 286,
+      "three_sixty_linked": 0
+    },
+    {
+      "coverage_proportion": 0.0,
+      "event_type": "Half Start",
+      "events": 286,
+      "three_sixty_linked": 0
+    },
+    {
+      "coverage_proportion": 0.0,
+      "event_type": "Injury Stoppage",
+      "events": 403,
+      "three_sixty_linked": 0
+    },
+    {
+      "coverage_proportion": 0.9299781181619255,
+      "event_type": "Interception",
+      "events": 1371,
+      "three_sixty_linked": 1275
+    },
+    {
+      "coverage_proportion": 0.8524216524216525,
+      "event_type": "Miscontrol",
+      "events": 1755,
+      "three_sixty_linked": 1496
+    },
+    {
+      "coverage_proportion": 0.8846153846153846,
+      "event_type": "Offside",
+      "events": 26,
+      "three_sixty_linked": 23
+    },
+    {
+      "coverage_proportion": 0.6666666666666666,
+      "event_type": "Own Goal Against",
+      "events": 3,
+      "three_sixty_linked": 2
+    },
+    {
+      "coverage_proportion": 0.6666666666666666,
+      "event_type": "Own Goal For",
+      "events": 3,
+      "three_sixty_linked": 2
+    },
+    {
+      "coverage_proportion": 0.8376705830839962,
+      "event_type": "Pass",
+      "events": 68515,
+      "three_sixty_linked": 57393
+    },
+    {
+      "coverage_proportion": 0.0,
+      "event_type": "Player Off",
+      "events": 74,
+      "three_sixty_linked": 0
+    },
+    {
+      "coverage_proportion": 0.0,
+      "event_type": "Player On",
+      "events": 74,
+      "three_sixty_linked": 0
+    },
+    {
+      "coverage_proportion": 0.8761628609399541,
+      "event_type": "Pressure",
+      "events": 16554,
+      "three_sixty_linked": 14504
+    },
+    {
+      "coverage_proportion": 0.012345679012345678,
+      "event_type": "Referee Ball-Drop",
+      "events": 162,
+      "three_sixty_linked": 2
+    },
+    {
+      "coverage_proportion": 0.5961538461538461,
+      "event_type": "Shield",
+      "events": 104,
+      "three_sixty_linked": 62
+    },
+    {
+      "coverage_proportion": 0.9678714859437751,
+      "event_type": "Shot",
+      "events": 1494,
+      "three_sixty_linked": 1446
+    },
+    {
+      "coverage_proportion": 0.0,
+      "event_type": "Starting XI",
+      "events": 128,
+      "three_sixty_linked": 0
+    },
+    {
+      "coverage_proportion": 0.0,
+      "event_type": "Substitution",
+      "events": 587,
+      "three_sixty_linked": 0
+    },
+    {
+      "coverage_proportion": 0.0,
+      "event_type": "Tactical Shift",
+      "events": 243,
+      "three_sixty_linked": 0
+    }
+  ],
+  "coverage_by_match": [
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8479929161747344,
+      "events": 3388,
+      "match_id": 3857276,
+      "three_sixty_linked": 2873
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.9051795012332146,
+      "events": 3649,
+      "match_id": 3857271,
+      "three_sixty_linked": 3303
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8952866861030127,
+      "events": 4116,
+      "match_id": 3857296,
+      "three_sixty_linked": 3685
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8700533258490036,
+      "events": 3563,
+      "match_id": 3857274,
+      "three_sixty_linked": 3100
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.891685393258427,
+      "events": 4450,
+      "match_id": 3857255,
+      "three_sixty_linked": 3968
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8996874111963626,
+      "events": 3519,
+      "match_id": 3857272,
+      "three_sixty_linked": 3166
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8342602892102335,
+      "events": 3596,
+      "match_id": 3857278,
+      "three_sixty_linked": 3000
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8884108631352514,
+      "events": 3719,
+      "match_id": 3857277,
+      "three_sixty_linked": 3304
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8834982444940951,
+      "events": 3133,
+      "match_id": 3857273,
+      "three_sixty_linked": 2768
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8832772166105499,
+      "events": 3564,
+      "match_id": 3857275,
+      "three_sixty_linked": 3148
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8805429864253393,
+      "events": 3315,
+      "match_id": 3857261,
+      "three_sixty_linked": 2919
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.9036378783671203,
+      "events": 3601,
+      "match_id": 3857290,
+      "three_sixty_linked": 3254
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8747993579454254,
+      "events": 3738,
+      "match_id": 3857298,
+      "three_sixty_linked": 3270
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8400893712097032,
+      "events": 3133,
+      "match_id": 3857285,
+      "three_sixty_linked": 2632
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8947653919175481,
+      "events": 3687,
+      "match_id": 3857282,
+      "three_sixty_linked": 3299
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8881948782011243,
+      "events": 3202,
+      "match_id": 3857297,
+      "three_sixty_linked": 2844
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.907446068197634,
+      "events": 4311,
+      "match_id": 3857294,
+      "three_sixty_linked": 3912
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8543991694783286,
+      "events": 3853,
+      "match_id": 3857266,
+      "three_sixty_linked": 3292
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8845843422114609,
+      "events": 3717,
+      "match_id": 3857284,
+      "three_sixty_linked": 3288
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8589673913043478,
+      "events": 3680,
+      "match_id": 3857254,
+      "three_sixty_linked": 3161
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8759422110552764,
+      "events": 3184,
+      "match_id": 3857265,
+      "three_sixty_linked": 2789
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8477157360406091,
+      "events": 3546,
+      "match_id": 3857301,
+      "three_sixty_linked": 3006
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8619605601600457,
+      "events": 3499,
+      "match_id": 3857268,
+      "three_sixty_linked": 3016
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8729529846804015,
+      "events": 3786,
+      "match_id": 3857269,
+      "three_sixty_linked": 3305
+    },
+    {
+      "competition_stage": "Quarter-finals",
+      "coverage_proportion": 0.8258283772302464,
+      "events": 4708,
+      "match_id": 3869321,
+      "three_sixty_linked": 3888
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8712845696562419,
+      "events": 3869,
+      "match_id": 3857292,
+      "three_sixty_linked": 3371
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.9056209150326797,
+      "events": 3825,
+      "match_id": 3857295,
+      "three_sixty_linked": 3464
+    },
+    {
+      "competition_stage": "Final",
+      "coverage_proportion": 0.8357159065123667,
+      "events": 4407,
+      "match_id": 3869685,
+      "three_sixty_linked": 3683
+    },
+    {
+      "competition_stage": "3rd Place Final",
+      "coverage_proportion": 0.8660112359550561,
+      "events": 3560,
+      "match_id": 3869684,
+      "three_sixty_linked": 3083
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.821183800623053,
+      "events": 3210,
+      "match_id": 3857256,
+      "three_sixty_linked": 2636
+    },
+    {
+      "competition_stage": "Round of 16",
+      "coverage_proportion": 0.8390361445783132,
+      "events": 4150,
+      "match_id": 3869151,
+      "three_sixty_linked": 3482
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8539232053422371,
+      "events": 3594,
+      "match_id": 3857257,
+      "three_sixty_linked": 3069
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8421772428884027,
+      "events": 3656,
+      "match_id": 3857258,
+      "three_sixty_linked": 3079
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8868710925870795,
+      "events": 3359,
+      "match_id": 3857288,
+      "three_sixty_linked": 2979
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8394057304563141,
+      "events": 2827,
+      "match_id": 3857267,
+      "three_sixty_linked": 2373
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8989023685730791,
+      "events": 3462,
+      "match_id": 3857287,
+      "three_sixty_linked": 3112
+    },
+    {
+      "competition_stage": "Quarter-finals",
+      "coverage_proportion": 0.8518189884649512,
+      "events": 3381,
+      "match_id": 3869486,
+      "three_sixty_linked": 2880
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8255494505494505,
+      "events": 2912,
+      "match_id": 3857260,
+      "three_sixty_linked": 2404
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8886969397828233,
+      "events": 4052,
+      "match_id": 3857264,
+      "three_sixty_linked": 3601
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8151111111111111,
+      "events": 3375,
+      "match_id": 3857289,
+      "three_sixty_linked": 2751
+    },
+    {
+      "competition_stage": "Round of 16",
+      "coverage_proportion": 0.8562244301578025,
+      "events": 3422,
+      "match_id": 3869254,
+      "three_sixty_linked": 2930
+    },
+    {
+      "competition_stage": "Round of 16",
+      "coverage_proportion": 0.8850213980028531,
+      "events": 3505,
+      "match_id": 3869118,
+      "three_sixty_linked": 3102
+    },
+    {
+      "competition_stage": "Semi-finals",
+      "coverage_proportion": 0.8215974776668419,
+      "events": 3806,
+      "match_id": 3869519,
+      "three_sixty_linked": 3127
+    },
+    {
+      "competition_stage": "Quarter-finals",
+      "coverage_proportion": 0.8487187403519605,
+      "events": 3239,
+      "match_id": 3869354,
+      "three_sixty_linked": 2749
+    },
+    {
+      "competition_stage": "Semi-finals",
+      "coverage_proportion": 0.8239932413404675,
+      "events": 3551,
+      "match_id": 3869552,
+      "three_sixty_linked": 2926
+    },
+    {
+      "competition_stage": "Quarter-finals",
+      "coverage_proportion": 0.8767735665694849,
+      "events": 5145,
+      "match_id": 3869420,
+      "three_sixty_linked": 4511
+    },
+    {
+      "competition_stage": "Round of 16",
+      "coverage_proportion": 0.9141052631578948,
+      "events": 4750,
+      "match_id": 3869220,
+      "three_sixty_linked": 4342
+    },
+    {
+      "competition_stage": "Round of 16",
+      "coverage_proportion": 0.8969072164948454,
+      "events": 4559,
+      "match_id": 3869219,
+      "three_sixty_linked": 4089
+    },
+    {
+      "competition_stage": "Round of 16",
+      "coverage_proportion": 0.8578843302026693,
+      "events": 4046,
+      "match_id": 3869253,
+      "three_sixty_linked": 3471
+    },
+    {
+      "competition_stage": "Round of 16",
+      "coverage_proportion": 0.8454947484798231,
+      "events": 3618,
+      "match_id": 3869152,
+      "three_sixty_linked": 3059
+    },
+    {
+      "competition_stage": "Round of 16",
+      "coverage_proportion": 0.8860971524288107,
+      "events": 3582,
+      "match_id": 3869117,
+      "three_sixty_linked": 3174
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8549840162743388,
+      "events": 3441,
+      "match_id": 3857270,
+      "three_sixty_linked": 2942
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.9167360532889259,
+      "events": 3603,
+      "match_id": 3857263,
+      "three_sixty_linked": 3303
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8834862385321101,
+      "events": 3270,
+      "match_id": 3857259,
+      "three_sixty_linked": 2889
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8533149171270719,
+      "events": 3620,
+      "match_id": 3857283,
+      "three_sixty_linked": 3089
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.9314943922400728,
+      "events": 3299,
+      "match_id": 3857286,
+      "three_sixty_linked": 3073
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8573145088615199,
+      "events": 3329,
+      "match_id": 3857300,
+      "three_sixty_linked": 2854
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8610280932456664,
+      "events": 3346,
+      "match_id": 3857299,
+      "three_sixty_linked": 2881
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8746781115879828,
+      "events": 3495,
+      "match_id": 3857293,
+      "three_sixty_linked": 3057
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8749712709721903,
+      "events": 4351,
+      "match_id": 3857291,
+      "three_sixty_linked": 3807
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8617078410311493,
+      "events": 3724,
+      "match_id": 3857281,
+      "three_sixty_linked": 3209
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8266141254925735,
+      "events": 3299,
+      "match_id": 3857280,
+      "three_sixty_linked": 2727
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8854403229876356,
+      "events": 3963,
+      "match_id": 3857279,
+      "three_sixty_linked": 3509
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8599763173475429,
+      "events": 3378,
+      "match_id": 3857262,
+      "three_sixty_linked": 2905
+    }
+  ],
+  "coverage_by_team": [
+    {
+      "coverage_proportion": 0.8539828666410945,
+      "events": 15642,
+      "team_name": "Argentina",
+      "three_sixty_linked": 13358
+    },
+    {
+      "coverage_proportion": 0.8496002664890073,
+      "events": 6004,
+      "team_name": "Australia",
+      "three_sixty_linked": 5101
+    },
+    {
+      "coverage_proportion": 0.875,
+      "events": 6128,
+      "team_name": "Belgium",
+      "three_sixty_linked": 5362
+    },
+    {
+      "coverage_proportion": 0.858854982944593,
+      "events": 10847,
+      "team_name": "Brazil",
+      "three_sixty_linked": 9316
+    },
+    {
+      "coverage_proportion": 0.8706838185511171,
+      "events": 4431,
+      "team_name": "Cameroon",
+      "three_sixty_linked": 3858
+    },
+    {
+      "coverage_proportion": 0.8575840145322434,
+      "events": 5505,
+      "team_name": "Canada",
+      "three_sixty_linked": 4721
+    },
+    {
+      "coverage_proportion": 0.858372264568478,
+      "events": 4067,
+      "team_name": "Costa Rica",
+      "three_sixty_linked": 3491
+    },
+    {
+      "coverage_proportion": 0.8721413036314506,
+      "events": 15173,
+      "team_name": "Croatia",
+      "three_sixty_linked": 13233
+    },
+    {
+      "coverage_proportion": 0.857475909232204,
+      "events": 6434,
+      "team_name": "Denmark",
+      "three_sixty_linked": 5517
+    },
+    {
+      "coverage_proportion": 0.8799524564183835,
+      "events": 5048,
+      "team_name": "Ecuador",
+      "three_sixty_linked": 4442
+    },
+    {
+      "coverage_proportion": 0.8912586074980873,
+      "events": 10456,
+      "team_name": "England",
+      "three_sixty_linked": 9319
+    },
+    {
+      "coverage_proportion": 0.8584686774941995,
+      "events": 13361,
+      "team_name": "France",
+      "three_sixty_linked": 11470
+    },
+    {
+      "coverage_proportion": 0.8934120571783717,
+      "events": 6436,
+      "team_name": "Germany",
+      "three_sixty_linked": 5750
+    },
+    {
+      "coverage_proportion": 0.8606227494174963,
+      "events": 4721,
+      "team_name": "Ghana",
+      "three_sixty_linked": 4063
+    },
+    {
+      "coverage_proportion": 0.8653750620963736,
+      "events": 4026,
+      "team_name": "Iran",
+      "three_sixty_linked": 3484
+    },
+    {
+      "coverage_proportion": 0.8930086410054988,
+      "events": 6365,
+      "team_name": "Japan",
+      "three_sixty_linked": 5684
+    },
+    {
+      "coverage_proportion": 0.8392354124748491,
+      "events": 4970,
+      "team_name": "Mexico",
+      "three_sixty_linked": 4171
+    },
+    {
+      "coverage_proportion": 0.854334394308182,
+      "events": 10682,
+      "team_name": "Morocco",
+      "three_sixty_linked": 9126
+    },
+    {
+      "coverage_proportion": 0.8756362910470107,
+      "events": 10019,
+      "team_name": "Netherlands",
+      "three_sixty_linked": 8773
+    },
+    {
+      "coverage_proportion": 0.8580348943985308,
+      "events": 5445,
+      "team_name": "Poland",
+      "three_sixty_linked": 4672
+    },
+    {
+      "coverage_proportion": 0.8682117254247275,
+      "events": 10183,
+      "team_name": "Portugal",
+      "three_sixty_linked": 8841
+    },
+    {
+      "coverage_proportion": 0.8821362799263351,
+      "events": 4887,
+      "team_name": "Qatar",
+      "three_sixty_linked": 4311
+    },
+    {
+      "coverage_proportion": 0.8530076888285844,
+      "events": 4422,
+      "team_name": "Saudi Arabia",
+      "three_sixty_linked": 3772
+    },
+    {
+      "coverage_proportion": 0.8488046166529266,
+      "events": 6065,
+      "team_name": "Senegal",
+      "three_sixty_linked": 5148
+    },
+    {
+      "coverage_proportion": 0.8584430673896204,
+      "events": 5164,
+      "team_name": "Serbia",
+      "three_sixty_linked": 4433
+    },
+    {
+      "coverage_proportion": 0.8673632273980554,
+      "events": 6891,
+      "team_name": "South Korea",
+      "three_sixty_linked": 5977
+    },
+    {
+      "coverage_proportion": 0.909349131634475,
+      "events": 12322,
+      "team_name": "Spain",
+      "three_sixty_linked": 11205
+    },
+    {
+      "coverage_proportion": 0.861728758651156,
+      "events": 6791,
+      "team_name": "Switzerland",
+      "three_sixty_linked": 5852
+    },
+    {
+      "coverage_proportion": 0.8771929824561403,
+      "events": 4788,
+      "team_name": "Tunisia",
+      "three_sixty_linked": 4200
+    },
+    {
+      "coverage_proportion": 0.8846806843411258,
+      "events": 7657,
+      "team_name": "United States",
+      "three_sixty_linked": 6774
+    },
+    {
+      "coverage_proportion": 0.871273166800967,
+      "events": 4964,
+      "team_name": "Uruguay",
+      "three_sixty_linked": 4325
+    },
+    {
+      "coverage_proportion": 0.8713894159814464,
+      "events": 4743,
+      "team_name": "Wales",
+      "three_sixty_linked": 4133
+    }
+  ],
+  "coverage_by_tournament_stage": [
+    {
+      "competition_stage": "3rd Place Final",
+      "coverage_proportion": 0.8660112359550561,
+      "events": 3560,
+      "three_sixty_linked": 3083
+    },
+    {
+      "competition_stage": "Final",
+      "coverage_proportion": 0.8357159065123667,
+      "events": 4407,
+      "three_sixty_linked": 3683
+    },
+    {
+      "competition_stage": "Group Stage",
+      "coverage_proportion": 0.8725410027568805,
+      "events": 171208,
+      "three_sixty_linked": 149386
+    },
+    {
+      "competition_stage": "Quarter-finals",
+      "coverage_proportion": 0.8515753050446184,
+      "events": 16473,
+      "three_sixty_linked": 14028
+    },
+    {
+      "competition_stage": "Round of 16",
+      "coverage_proportion": 0.8740832068791098,
+      "events": 31632,
+      "three_sixty_linked": 27649
+    },
+    {
+      "competition_stage": "Semi-finals",
+      "coverage_proportion": 0.822753839880386,
+      "events": 7357,
+      "three_sixty_linked": 6053
+    }
+  ],
+  "duplicated_event_ids": 0,
+  "event_count": 234637,
+  "events_file_count": 64,
+  "events_with_locations": 232512,
+  "group_stage_match_count": 48,
+  "knockout_match_count": 16,
+  "lineup_file_count": 64,
+  "lineup_player_records": 3244,
+  "malformed_visible_area_polygons": 0,
+  "match_count": 64,
+  "missing_player_ids": 0,
+  "missing_team_ids": 0,
+  "out_of_range_event_locations": 0,
+  "season_id": 106,
+  "shots": 1494,
+  "shots_with_xg": 1494,
+  "three_sixty_linked_event_count": 203882,
+  "three_sixty_match_count": 64,
+  "valid": true,
+  "validation_errors": []
+}
