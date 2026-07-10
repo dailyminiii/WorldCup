@@ -1,0 +1,64 @@
+# World Cup Strategy Lab implementation plan
+
+## Current-state inspection
+
+- Inspection date: 2026-07-10 (Asia/Seoul).
+- The workspace was empty at inspection time; there is no existing implementation or user work to preserve.
+- Git and the system Python are currently blocked by an unaccepted Apple Xcode licence.
+- `uv` is not installed, and no alternative Python interpreter was discovered in the usual Homebrew locations.
+- No StatsBomb Open Data checkout is present. Dataset counts and coverage must therefore be discovered after the environment and source data are available; they will not be fabricated.
+
+## Assumptions
+
+1. StatsBomb Open Data is the only provider used for the 2022 implementation.
+2. Competition and season are resolved from `competitions.json`; IDs 43/106 (2022) and 43/3 (2018 reference) are assertions, not lookup keys.
+3. Raw provider files remain local and Git-ignored. Only small, legally redistributable synthetic fixtures are committed by default.
+4. All stochastic workflows use seed `20262022` unless configuration explicitly overrides it.
+5. Null analytical values remain null and carry a reason code where a metric cannot be computed.
+6. The 2018 reference xT mode is the default publishable mode. A 2022-only fit is labelled exploratory and in-sample in every derived artifact.
+7. StatsBomb 360 is event-linked freeze-frame context, not continuous tracking.
+8. Qualification snapshots use only information observable at the snapshot timestamp. Final-matchday matches with the same kickoff are advanced jointly.
+
+## Unresolved choices
+
+- Exact StatsBomb Open Data source commit SHA and actual Event/360 coverage (requires a local checkout or network fetch).
+- Whether derived aggregate outputs may be committed under the user's intended distribution policy.
+- Effective-play-time convention for team windows beyond the supplied defaults.
+- Pre-tournament strength prior source; the baseline will use a documented neutral prior until an external provider is configured.
+- Future-card model calibration when pre-snapshot samples are sparse.
+- LaTeX engine availability in the target environment.
+
+## Risks and safeguards
+
+| Risk | Safeguard |
+|---|---|
+| Future-information leakage | Timestamp-bounded strength updates, immutable completed/current states, and counterfactual regression tests. |
+| Incorrect FIFA tiebreak recursion | Criterion-block implementation with partially resolved multi-team regression cases. |
+| Goal-event off-by-one | Separate before/after state and synthetic own-goal, penalty, and shootout tests. |
+| Direction errors | Explicit team-period direction map with null preservation and involution tests. |
+| In-sample xT mislabelling | Required training-mode metadata propagated to models, actions, tables, and captions. |
+| PPDA construct conflation | Versioned mappings; `Pressure` excluded from classic and included only in the named augmented variant. |
+| Biased 360 analysis | Match/team/type/stage coverage tables and complete-case reason codes; no off-camera imputation. |
+| Missing values becoming zero | Nullable schemas and validation tests at every aggregation boundary. |
+| Non-determinism | Explicit NumPy generators, stable sorting, seed/config manifests, and byte-level regression checks where practical. |
+| Manual paper results | Generated tables/macros and figure manifests tied to processed source files. |
+| Raw data committed | `.gitignore`, provenance docs, and tracked-file validation. |
+
+## Milestones
+
+1. **Repository and contracts** — metadata, dependency lock, configuration, provider-independent schemas, provenance documents, CLI skeleton, test harness, and implementation log.
+2. **Ingestion and validation** — source resolution, checksums/manifests, canonical Event/360 conversion, coverage reports, and schema validation.
+3. **Action metrics** — xG aggregation, SPADL adapter, reference/tournament-only xT, progression, and metric definitions.
+4. **Pressure and context** — classic and augmented PPDA, pressure/regain metrics, and coverage-aware 360 features.
+5. **State reconstruction** — event before/after score and discipline state, team windows, and observational association models.
+6. **Qualification engine** — official 2022 rules, leak-free snapshots, seeded joint simulations, fair-play/lot diagnostics, and final-table validation.
+7. **Reporting** — generated figures/tables/manifests and a claim-conservative LaTeX scaffold.
+8. **Reproduction and audit** — unit/integration/regression tests, Ruff, Mypy, data validation, reduced simulation, complete reproduction, tracked-raw-data scan, and audit artifacts.
+
+## Validation cadence
+
+After each milestone, run the narrow tests for changed modules, followed by `ruff check`, `ruff format --check`, and `mypy src` when those tools become available. Before completion run `make test`, `make lint`, `make typecheck`, `make validate-data`, a reduced qualification simulation, `make reproduce`, and the paper build. Every command and failure is recorded in `docs/implementation_log.md` and the run manifest.
+
+## Completion rule
+
+No acceptance criterion is reported as complete without a generated artifact or test result. Environment, source-data, dependency, or coverage gaps remain explicit limitations.
