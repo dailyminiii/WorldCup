@@ -48,3 +48,33 @@
 - Rates retain explicit denominators. Counts and possession-normalized rates answer different
   questions and are never given interchangeable names.
 
+## `ppda_classic_statsbomb_v1`
+
+- Opponent open-play pass attempts starting at `0 <= x <= 63` in the possession-team frame,
+  divided by defending tackle duels, interceptions, and fouls in the same physical zone.
+- Incomplete passes are included; restarts and shootouts are excluded. A zero defensive
+  denominator produces null plus `no_eligible_defensive_actions`.
+- Lower PPDA indicates more eligible defensive actions per pass; it does not directly measure
+  press quality or success. StatsBomb Pressure events are never in the classic denominator.
+
+## `ppda_pressure_augmented_statsbomb_v1`
+
+- Uses the classic numerator and adds provider-defined StatsBomb Pressure events to the
+  denominator. This is provider-dependent, is not standard PPDA, and is reported only with
+  the classic metric and raw components.
+
+## Pressure, sequences, and regains
+
+- `high_pressure_attacking_40pct_v1`: Pressure at `x >= 63m` in pressing-team coordinates.
+- `pressure_sequence_same_possession_gap2s_v1`: same team, opponent possession, and period,
+  with gaps of at most two seconds. Event and sequence conversion answer different questions.
+- Regain windows are 3, 5, and 8 seconds, within-period and before a dead ball, foul restart,
+  or out-of-play boundary. These are observational associations, not causal effects.
+- StatsBomb counterpress is a provider label and remains distinct from inferred counterpress.
+
+## 360 context
+
+- Event-linked freeze-frame geometry, not tracking. Distances use the visible actor and visible
+  players only; the actor is excluded from teammate counts. Missing actors remain explicit.
+- Visible players are not the complete set on the pitch. Team comparisons must accompany
+  coverage rates because event/type/visible-area missingness may bias geometry.

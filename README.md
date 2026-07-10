@@ -30,3 +30,17 @@ make attacking-summary
 The action representation is SPADL-compatible but project-owned: conversion changes the
 provider event representation while retaining original event IDs and raw coordinates.
 Reference xT is fitted only on the 2018 World Cup and then applied to 2022.
+
+## Milestone 3 reproduction
+
+```bash
+make ppda
+make pressure-events
+make pressure-regains
+make context360
+make pressure-summary
+# or: make milestone-3
+```
+
+Classic PPDA and the StatsBomb Pressure-augmented project variant are deliberately separate.
+All 360 outputs describe event-linked visible context, never continuous tracking.

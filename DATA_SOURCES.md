@@ -15,3 +15,6 @@
   potentially selective coverage; they are not continuous tracking.
 - Milestone 2 reference sample: FIFA World Cup 2018, resolved as competition 43/season 3 at
   the same pinned source revision. It trains reference xT and excludes every 2022 action.
+- Milestone 3 uses provider-defined StatsBomb Pressure/counterpress fields and event-linked
+  360 freeze frames. Visible-player geometry is coverage-limited and must not be interpreted
+  as full-pitch tracking or complete team shape.

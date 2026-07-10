@@ -1,6 +1,6 @@
 UV := PYTHONPATH=src UV_CACHE_DIR=.uv-cache ./.tools/uv/uv
 
-.PHONY: setup fetch-data validate-data build-data coverage test lint typecheck actions xg xt progression attacking-summary milestone-2
+.PHONY: setup fetch-data validate-data build-data coverage test lint typecheck actions xg xt progression attacking-summary milestone-2 ppda pressure-events pressure-regains context360 pressure-summary milestone-3
 setup:
 	$(UV) sync
 
@@ -38,3 +38,16 @@ progression:
 attacking-summary:
 	$(UV) run wcstrategy actions build-attacking-summary --season 2022
 milestone-2: actions xg xt progression attacking-summary
+ppda:
+	$(UV) run --no-sync wcstrategy pressure compute-ppda --season 2022
+pressure-events:
+	$(UV) run --no-sync wcstrategy pressure compute-events --season 2022
+	$(UV) run --no-sync wcstrategy pressure build-sequences --season 2022
+pressure-regains:
+	$(UV) run --no-sync wcstrategy pressure compute-regains --season 2022
+context360:
+	$(UV) run --no-sync wcstrategy pressure compute-context360 --season 2022
+pressure-summary:
+	$(UV) run --no-sync wcstrategy pressure build-summary --season 2022
+	$(UV) run --no-sync wcstrategy pressure validate --season 2022
+milestone-3: ppda pressure-events pressure-regains context360 pressure-summary

@@ -36,3 +36,14 @@
   and explicit null reasons. Reference mode resolves and trains only on World Cup 2018.
 - Added `progressive_goal_distance_v1`, entry geometry, possession/count rates, and attacking
   summaries. No Milestone 3 functionality was introduced.
+
+## 2026-07-10 — Milestone 3
+
+- Added explicit possession/defending spatial frames with 180-degree opponent rotation.
+- Implemented separately versioned classic and Pressure-augmented PPDA with raw components.
+- Built StatsBomb Pressure events, two-second sequences, 3/5/8-second regain outcomes,
+  provider counterpress labels, high-pressure and high-regain indicators.
+- Built actor-aware event-linked 360 geometry and coverage tables without player identity
+  requirements or off-camera imputation.
+- Investigated three wrong-direction shot endpoints; all were isolated provider endpoint edge
+  cases, so Milestone 1 orientation logic was not changed.
