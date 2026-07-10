@@ -42,13 +42,16 @@ def test_shootout_is_separate_from_regular_penalty() -> None:
     assert not bool(frame.loc[0, "is_penalty"])
 
 
-def test_own_goal_is_recognized_without_shot_payload() -> None:
+def test_own_goal_pair_has_one_scoring_record() -> None:
     event = shot()
     event["type"] = {"name": "Own Goal Against"}
     event.pop("shot")
-    frame = canonical_events(99, [event])
-    assert bool(frame.loc[0, "is_goal"])
-    assert bool(frame.loc[0, "is_own_goal"])
+    beneficiary = dict(event)
+    beneficiary["id"] = "event-2"
+    beneficiary["type"] = {"name": "Own Goal For"}
+    frame = canonical_events(99, [event, beneficiary])
+    assert frame["is_goal"].tolist() == [False, True]
+    assert frame["is_own_goal"].tolist() == [True, True]
     assert pd.isna(frame.loc[0, "statsbomb_xg"])
 
 

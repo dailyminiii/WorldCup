@@ -76,6 +76,16 @@ def canonical_matches(rows: Iterable[dict[str, Any]]) -> pd.DataFrame:
     output: list[dict[str, Any]] = []
     for row in rows:
         stage = (row.get("competition_stage") or {}).get("name")
+        home_group = (row.get("home_team") or {}).get("home_team_group")
+        away_group = (row.get("away_team") or {}).get("away_team_group")
+        provider_group = home_group or away_group
+        group_name = (
+            f"Group {provider_group}"
+            if stage == "Group Stage" and provider_group
+            else stage
+            if isinstance(stage, str) and stage.startswith("Group ")
+            else None
+        )
         output.append(
             {
                 "provider": PROVIDER,
@@ -85,9 +95,7 @@ def canonical_matches(rows: Iterable[dict[str, Any]]) -> pd.DataFrame:
                 "match_date": row.get("match_date"),
                 "kickoff_datetime": f"{row.get('match_date')}T{row.get('kick_off')}",
                 "competition_stage": stage,
-                "group_name": stage
-                if isinstance(stage, str) and stage.startswith("Group ")
-                else None,
+                "group_name": group_name,
                 "match_week": row.get("match_week"),
                 "home_team_id": row.get("home_team", {}).get("home_team_id"),
                 "home_team_name": row.get("home_team", {}).get("home_team_name"),
@@ -138,6 +146,7 @@ def canonical_events(match_id: int, events: Iterable[dict[str, Any]]) -> pd.Data
         shot_type = shot.get("type") if isinstance(shot, dict) else None
         shot_type_name = shot_type.get("name") if isinstance(shot_type, dict) else None
         own_goal = event_type in {"Own Goal Against", "Own Goal For"}
+        scoring_own_goal_record = event_type == "Own Goal For"
         period = event.get("period")
         output.append(
             {
@@ -177,7 +186,9 @@ def canonical_events(match_id: int, events: Iterable[dict[str, Any]]) -> pd.Data
                 "body_part": _name(shot.get("body_part") or detail.get("body_part")),
                 "technique": _name(shot.get("technique") or detail.get("technique")),
                 "statsbomb_xg": shot.get("statsbomb_xg"),
-                "is_goal": shot_outcome_name == "Goal" or own_goal,
+                # StatsBomb emits paired Own Goal For/Against records. Only the beneficiary's
+                # Own Goal For record counts as the scoring record, preventing double counts.
+                "is_goal": shot_outcome_name == "Goal" or scoring_own_goal_record,
                 "is_own_goal": own_goal,
                 "is_penalty": event_type == "Shot" and shot_type_name == "Penalty" and period != 5,
                 "is_penalty_shootout": period == 5,

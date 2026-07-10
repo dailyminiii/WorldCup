@@ -2,6 +2,8 @@ import json
 import subprocess
 from pathlib import Path
 
+import pandas as pd
+
 from worldcup_strategy.config import DataConfig
 from worldcup_strategy.data.pipeline import build_canonical, validate_data, write_coverage
 
@@ -39,7 +41,7 @@ def test_small_source_builds_all_tables(tmp_path: Path) -> None:
         "season": {"season_id": 106},
         "competition_stage": {"name": "Group A"},
         "match_week": 1,
-        "home_team": {"home_team_id": 1, "home_team_name": "A"},
+        "home_team": {"home_team_id": 1, "home_team_name": "A", "home_team_group": "A"},
         "away_team": {"away_team_id": 2, "away_team_name": "B"},
         "home_score": 0,
         "away_score": 0,
@@ -82,5 +84,7 @@ def test_small_source_builds_all_tables(tmp_path: Path) -> None:
     )
     counts = build_canonical(config)
     assert counts["events"] == 1
+    matches = pd.read_parquet(tmp_path / "processed/matches_2022.parquet")
+    assert matches.loc[0, "group_name"] == "Group A"
     assert write_coverage(config)["three_sixty_match_count"] == 1
     assert validate_data(config)["valid"] is True
