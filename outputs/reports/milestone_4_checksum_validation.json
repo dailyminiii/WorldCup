@@ -1,0 +1,15 @@
+{
+  "algorithm": "SHA-1",
+  "scope": [
+    "data/processed/state",
+    "outputs/models/score_state",
+    "outputs/reports",
+    "outputs/tables"
+  ],
+  "files_compared": 79,
+  "run_1_manifest_checksum": "0568d646651e39f5981d8fc6cd8ec4ceb478d15a",
+  "run_2_manifest_checksum": "0568d646651e39f5981d8fc6cd8ec4ceb478d15a",
+  "differing_files": 0,
+  "byte_deterministic": true,
+  "note": "The manifest itself contains sorted per-file checksums; both independent milestone-4 runs produced an empty diff."
+}

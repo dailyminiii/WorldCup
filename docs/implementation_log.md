@@ -81,3 +81,18 @@
   are retained as unavailable because they are not identifiable with the paired team-window
   design and existing team effects.
 - Generated the Milestone 4 completion and validation reports. Milestone 5 was not started.
+
+## 2026-07-13 — Independent Milestone 4 audit
+
+- Reproduced Milestone 1 data validation and the complete Milestone 2–4 pipeline offline.
+- Fixed Make targets that incorrectly attempted dependency resolution during pinned local runs.
+- Replaced literal zero validation assertions with upstream-versus-integrated reconciliation.
+- Corrected the robustness matrix: two-way match fixed effects now execute where identifiable,
+  and non-applicable raw-count/exposure-normalized model-family cells remain explicit rather
+  than being mislabeled as executed.
+- Added a synthetic end-to-end state-feature integration test spanning classic PPDA, Pressure,
+  xT, progression, substitutions, Tactical Shift, and a right-closed boundary.
+- Compared 79 generated state/model/report/table files across two complete Milestone 4 runs;
+  every checksum matched.
+- Recorded two low-severity open limitations: a static dashboard SVG contains literal display
+  totals, and sandboxed PyArrow emits harmless hardware-cache detection warnings.
