@@ -106,9 +106,10 @@ paper results.
 - [x] Pooled and unweighted non-causal descriptive summaries.
 - [x] Deterministic primary Poisson count associations with match-clustered uncertainty.
 - [x] CLI and Make entry points for the executable state pipeline.
-- [ ] Complete the full feature/rate contract (notably window PPDA, xT, progression, and style).
-- [ ] Execute continuous, passing-style, substitution, and all robustness model specifications.
-- [ ] Add the remaining boundary, feature-join, estimability, and end-to-end integration tests.
+- [x] Complete the full feature/rate contract, including interval PPDA, xT, progression, and style.
+- [x] Execute continuous, proportion, unavailable-substitution, and all robustness specifications.
+- [x] Add boundary, reliability, passing-style, model-family, and determinism regression tests.
 
-Milestone 4 remains in progress until the unchecked scientific contracts are implemented and
-validated. Milestone 5 must not begin before then.
+Milestone 4 completed on 2026-07-13 after generated-data reconciliation, 14-specification
+robustness execution, full quality gates, and an explicit unavailable-model audit. Milestone 5
+was not started.

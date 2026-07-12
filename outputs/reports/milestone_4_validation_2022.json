@@ -1,0 +1,17 @@
+{
+  "team_window_rows": 2822,
+  "team_segment_rows": 626,
+  "window_state_reconciliation_failures": 0,
+  "numerical_duration_reconciliation_failures": 0,
+  "zero_duration_segments": 0,
+  "xt_eligible_actions": 110546,
+  "progressive_passes": 2060,
+  "progressive_carries": 2270,
+  "classic_pressure_event_leakage_count": 0,
+  "rate_contract_missing_fields": 0,
+  "zero_denominator_nonnull_rate_failures": 0,
+  "robustness_specifications": 14,
+  "robustness_executed_rows": 338,
+  "robustness_unavailable_rows": 55,
+  "valid": true
+}

@@ -64,3 +64,20 @@
   limitation rather than represented as complete.
 - The executable CLI reproduction completed for windows, segments, features, summaries,
   models, and validation. Ruff, strict Mypy, and 43 tests passed under Python 3.12.13.
+
+## 2026-07-13 — Milestone 4 completion
+
+- Extended both windows and segments with classic PPDA using the authoritative physical frame;
+  totals reconcile to 20,682 opponent passes and 2,625 defensive actions, with zero provider
+  Pressure leakage.
+- Integrated 110,546 out-of-sample xT-eligible actions from the 2018 reference model, total xT
+  278.8409161692973, 2,060 progressive passes, and 2,270 progressive carries.
+- Added versioned passing direction, length, directness, possession-time, and complete
+  numerator/denominator/reliability/reason contracts without zero-filling undefined rates.
+- Executed 13 primary observational model families/outcomes: Poisson counts, clustered OLS,
+  grouped binomial logits, and fractional logit. Three substitution specifications remain
+  explicitly unavailable for evidence or estimability reasons.
+- Represented all 14 robustness specifications. Estimable cells executed; match fixed effects
+  are retained as unavailable because they are not identifiable with the paired team-window
+  design and existing team effects.
+- Generated the Milestone 4 completion and validation reports. Milestone 5 was not started.
