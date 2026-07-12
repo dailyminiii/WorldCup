@@ -1,0 +1,13 @@
+{
+  "passes": 68515,
+  "forward_passes": 39911,
+  "backward_passes": 23730,
+  "lateral_passes": 4874,
+  "long_passes": 8801,
+  "pass_length_valid_count": 68515,
+  "missing_coordinate_passes": 0,
+  "pass_length_sum_m": 1242317.191866362,
+  "mean_pass_length_m": 18.13204687829471,
+  "mean_window_directness": 0.4935467582691667,
+  "definition_version": "pass_style_metric_coordinates_v1"
+}

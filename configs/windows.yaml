@@ -11,7 +11,14 @@ minimum_denominators:
   effective_seconds: 30
   passes: 5
   possessions: 2
+  opponent_passes: 5
   opponent_passes_for_ppda: 5
   defensive_actions_for_ppda: 1
+  pressure_events: 3
   pressure_events_for_conversion: 3
-
+passing_style:
+  direction_threshold_m: 1.0
+  long_pass_threshold_m: 30.0
+  directness_formula: sum_positive_longitudinal_displacement_over_sum_pass_length
+  version: pass_style_metric_coordinates_v1
+rate_contract_version: interval_rate_reliability_v1

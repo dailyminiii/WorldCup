@@ -6,6 +6,8 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+from worldcup_strategy.state.feature_contract import complete_feature_contract
+
 COUNT_COLUMNS = (
     "possessions",
     "passes",
@@ -168,4 +170,4 @@ def integrate_features(
         result[f"pressure_regain_{seconds}s_rate"] = (
             result[f"pressure_regains_{seconds}s"] / denominator
         )
-    return result.drop(columns="interval_key")
+    return complete_feature_contract(result, root).drop(columns="interval_key")

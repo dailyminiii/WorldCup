@@ -1,0 +1,15 @@
+{
+  "window_rows": 2822,
+  "segment_rows": 626,
+  "window_zero_defensive_denominator_rows": 1160,
+  "segment_zero_defensive_denominator_rows": 113,
+  "window_low_pass_numerator_rows": 1305,
+  "segment_low_pass_numerator_rows": 125,
+  "window_reliable_ppda_rows": 955,
+  "segment_reliable_ppda_rows": 459,
+  "window_unreliable_ppda_rows": 1867,
+  "segment_unreliable_ppda_rows": 167,
+  "classic_pressure_event_leakage_count": 0,
+  "opponent_passes_reconciled": 20682.0,
+  "defensive_actions_reconciled": 2625.0
+}

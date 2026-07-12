@@ -48,6 +48,22 @@
 - Rates retain explicit denominators. Counts and possession-normalized rates answer different
   questions and are never given interchangeable names.
 
+## Milestone 4 interval features
+
+- `pass_style_metric_coordinates_v1` uses the normalized 105 × 68 metre acting-team frame.
+  Longitudinal displacement above 1 metre is forward, below -1 metre is backward, and the
+  inclusive interval [-1, 1] is lateral. Euclidean pass length is in metres; at least 30 metres
+  is long. Missing endpoints are excluded from direction, length, and directness denominators.
+- Pass directness is the sum of positive longitudinal displacement divided by total Euclidean
+  pass length among valid passes. It is dimensionless and null when valid length is zero.
+- `interval_rate_reliability_v1` stores numerator, denominator, value, reliability, and a reason
+  for every derived rate. Missing and zero denominators remain null; low-count rows remain but
+  are flagged unreliable.
+- Interval classic PPDA reuses `ppda_classic_statsbomb_v1`; StatsBomb `Pressure` never enters
+  the classic denominator.
+- Possession time is event-derived, not tracking-derived. The within-period gap to the next
+  event is attributed to the current possession team and capped at 30 seconds.
+
 ## `ppda_classic_statsbomb_v1`
 
 - Opponent open-play pass attempts starting at `0 <= x <= 63` in the possession-team frame,

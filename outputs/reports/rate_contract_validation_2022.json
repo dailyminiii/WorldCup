@@ -1,0 +1,209 @@
+{
+  "backward_pass_share": {
+    "reliable": 2649,
+    "unreliable": 173,
+    "missing": 52,
+    "reason_counts": {
+      "reliable": 2649,
+      "below_minimum_passes": 121,
+      "zero_denominator": 52
+    }
+  },
+  "forward_pass_share": {
+    "reliable": 2649,
+    "unreliable": 173,
+    "missing": 52,
+    "reason_counts": {
+      "reliable": 2649,
+      "below_minimum_passes": 121,
+      "zero_denominator": 52
+    }
+  },
+  "high_pressure_share": {
+    "reliable": 2329,
+    "unreliable": 493,
+    "missing": 146,
+    "reason_counts": {
+      "reliable": 2329,
+      "below_minimum_pressure_events": 347,
+      "zero_denominator": 146
+    }
+  },
+  "long_pass_share": {
+    "reliable": 2649,
+    "unreliable": 173,
+    "missing": 52,
+    "reason_counts": {
+      "reliable": 2649,
+      "below_minimum_passes": 121,
+      "zero_denominator": 52
+    }
+  },
+  "pass_completion_rate": {
+    "reliable": 2649,
+    "unreliable": 173,
+    "missing": 52,
+    "reason_counts": {
+      "reliable": 2649,
+      "below_minimum_passes": 121,
+      "zero_denominator": 52
+    }
+  },
+  "possession_share": {
+    "reliable": 2772,
+    "unreliable": 50,
+    "missing": 20,
+    "reason_counts": {
+      "reliable": 2772,
+      "below_minimum_effective_seconds": 30,
+      "zero_denominator": 20
+    }
+  },
+  "ppda_classic": {
+    "reliable": 955,
+    "unreliable": 1867,
+    "missing": 1160,
+    "reason_counts": {
+      "zero_denominator": 1160,
+      "reliable": 955,
+      "below_minimum_opponent_passes": 707
+    }
+  },
+  "pressure_events_per_30_opponent_passes": {
+    "reliable": 2649,
+    "unreliable": 173,
+    "missing": 52,
+    "reason_counts": {
+      "reliable": 2649,
+      "below_minimum_opponent_passes": 121,
+      "zero_denominator": 52
+    }
+  },
+  "pressure_events_per_opponent_possession": {
+    "reliable": 2765,
+    "unreliable": 57,
+    "missing": 2,
+    "reason_counts": {
+      "reliable": 2765,
+      "below_minimum_possessions": 55,
+      "zero_denominator": 2
+    }
+  },
+  "pressure_regain_3s_rate": {
+    "reliable": 2329,
+    "unreliable": 493,
+    "missing": 146,
+    "reason_counts": {
+      "reliable": 2329,
+      "below_minimum_pressure_events": 347,
+      "zero_denominator": 146
+    }
+  },
+  "pressure_regain_5s_rate": {
+    "reliable": 2329,
+    "unreliable": 493,
+    "missing": 146,
+    "reason_counts": {
+      "reliable": 2329,
+      "below_minimum_pressure_events": 347,
+      "zero_denominator": 146
+    }
+  },
+  "pressure_regain_8s_rate": {
+    "reliable": 2329,
+    "unreliable": 493,
+    "missing": 146,
+    "reason_counts": {
+      "reliable": 2329,
+      "below_minimum_pressure_events": 347,
+      "zero_denominator": 146
+    }
+  },
+  "progressive_carries_per_100_possessions": {
+    "reliable": 2765,
+    "unreliable": 57,
+    "missing": 2,
+    "reason_counts": {
+      "reliable": 2765,
+      "below_minimum_possessions": 55,
+      "zero_denominator": 2
+    }
+  },
+  "progressive_passes_per_100_passes": {
+    "reliable": 2649,
+    "unreliable": 173,
+    "missing": 52,
+    "reason_counts": {
+      "reliable": 2649,
+      "below_minimum_passes": 121,
+      "zero_denominator": 52
+    }
+  },
+  "sequence_regain_3s_rate": {
+    "reliable": 2258,
+    "unreliable": 564,
+    "missing": 147,
+    "reason_counts": {
+      "reliable": 2258,
+      "below_minimum_pressure_events": 417,
+      "zero_denominator": 147
+    }
+  },
+  "sequence_regain_5s_rate": {
+    "reliable": 2258,
+    "unreliable": 564,
+    "missing": 147,
+    "reason_counts": {
+      "reliable": 2258,
+      "below_minimum_pressure_events": 417,
+      "zero_denominator": 147
+    }
+  },
+  "sequence_regain_8s_rate": {
+    "reliable": 2258,
+    "unreliable": 564,
+    "missing": 147,
+    "reason_counts": {
+      "reliable": 2258,
+      "below_minimum_pressure_events": 417,
+      "zero_denominator": 147
+    }
+  },
+  "shots_per_effective_10min": {
+    "reliable": 2780,
+    "unreliable": 42,
+    "missing": 0,
+    "reason_counts": {
+      "reliable": 2780,
+      "below_minimum_effective_seconds": 42
+    }
+  },
+  "xg_per_effective_10min": {
+    "reliable": 2780,
+    "unreliable": 42,
+    "missing": 0,
+    "reason_counts": {
+      "reliable": 2780,
+      "below_minimum_effective_seconds": 42
+    }
+  },
+  "xt_per_effective_10min": {
+    "reliable": 2780,
+    "unreliable": 42,
+    "missing": 0,
+    "reason_counts": {
+      "reliable": 2780,
+      "below_minimum_effective_seconds": 42
+    }
+  },
+  "xt_per_possession": {
+    "reliable": 2765,
+    "unreliable": 57,
+    "missing": 2,
+    "reason_counts": {
+      "reliable": 2765,
+      "below_minimum_possessions": 55,
+      "zero_denominator": 2
+    }
+  }
+}
