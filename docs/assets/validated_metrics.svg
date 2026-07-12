@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440">
+  <rect width="1200" height="440" rx="24" fill="#f8fafc"/>
+  <text x="52" y="58" fill="#0f172a" font-family="Arial" font-size="28" font-weight="700">Validated 2022 dataset and analytical outputs</text>
+  <text x="52" y="88" fill="#64748b" font-family="Arial" font-size="15">Pinned StatsBomb source revision · all values generated from repository outputs</text>
+  <g font-family="Arial">
+    <g transform="translate(52 125)"><rect width="250" height="120" rx="16" fill="#dbeafe"/><text x="22" y="42" fill="#1e3a8a" font-size="17">Canonical events</text><text x="22" y="88" fill="#1d4ed8" font-size="38" font-weight="700">234,637</text></g>
+    <g transform="translate(330 125)"><rect width="250" height="120" rx="16" fill="#ede9fe"/><text x="22" y="42" fill="#4c1d95" font-size="17">360-linked events</text><text x="22" y="88" fill="#7c3aed" font-size="38" font-weight="700">203,882</text></g>
+    <g transform="translate(608 125)"><rect width="250" height="120" rx="16" fill="#ccfbf1"/><text x="22" y="42" fill="#134e4a" font-size="17">Action records</text><text x="22" y="88" fill="#0f766e" font-size="38" font-weight="700">125,566</text></g>
+    <g transform="translate(886 125)"><rect width="250" height="120" rx="16" fill="#ffe4e6"/><text x="22" y="42" fill="#881337" font-size="17">Pressure events</text><text x="22" y="88" fill="#be123c" font-size="38" font-weight="700">16,554</text></g>
+    <g transform="translate(52 275)"><rect width="250" height="105" rx="16" fill="#fef3c7"/><text x="22" y="38" fill="#78350f" font-size="16">Tournament goals</text><text x="22" y="79" fill="#b45309" font-size="32" font-weight="700">172</text></g>
+    <g transform="translate(330 275)"><rect width="250" height="105" rx="16" fill="#e0f2fe"/><text x="22" y="38" fill="#0c4a6e" font-size="16">Progressive pass / carry</text><text x="22" y="79" fill="#0369a1" font-size="32" font-weight="700">2,060 / 2,270</text></g>
+    <g transform="translate(608 275)"><rect width="250" height="105" rx="16" fill="#dcfce7"/><text x="22" y="38" fill="#14532d" font-size="16">5-second regains</text><text x="22" y="79" fill="#15803d" font-size="32" font-weight="700">3,279</text></g>
+    <g transform="translate(886 275)"><rect width="250" height="105" rx="16" fill="#f1f5f9"/><text x="22" y="38" fill="#334155" font-size="16">Final-score mismatches</text><text x="22" y="79" fill="#0f172a" font-size="32" font-weight="700">0 / 64</text></g>
+  </g>
+</svg>

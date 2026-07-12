@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
+  <rect width="1200" height="330" rx="24" fill="#07111f"/>
+  <text x="55" y="62" fill="#f8fafc" font-family="Arial" font-size="31" font-weight="700">World Cup Strategy Lab</text>
+  <text x="55" y="98" fill="#94a3b8" font-family="Arial" font-size="17">Reproducible 2022 tournament analytics · provider-independent architecture</text>
+  <g font-family="Arial" font-size="16" text-anchor="middle">
+    <g fill="#172554" stroke="#60a5fa" stroke-width="2"><rect x="50" y="145" width="190" height="92" rx="15"/><text x="145" y="185" fill="#dbeafe">StatsBomb</text><text x="145" y="211" fill="#93c5fd">Event + 360</text></g>
+    <g fill="#1e1b4b" stroke="#a78bfa" stroke-width="2"><rect x="285" y="145" width="190" height="92" rx="15"/><text x="380" y="185" fill="#ede9fe">Canonical</text><text x="380" y="211" fill="#c4b5fd">Parquet schemas</text></g>
+    <g fill="#052e2b" stroke="#2dd4bf" stroke-width="2"><rect x="520" y="145" width="190" height="92" rx="15"/><text x="615" y="185" fill="#ccfbf1">Action metrics</text><text x="615" y="211" fill="#5eead4">xG · xT · progression</text></g>
+    <g fill="#3f1d2e" stroke="#fb7185" stroke-width="2"><rect x="755" y="145" width="190" height="92" rx="15"/><text x="850" y="185" fill="#ffe4e6">Pressure</text><text x="850" y="211" fill="#fda4af">PPDA · regains · 360</text></g>
+    <g fill="#3b2f0b" stroke="#fbbf24" stroke-width="2"><rect x="990" y="145" width="160" height="92" rx="15"/><text x="1070" y="185" fill="#fef3c7">Match state</text><text x="1070" y="211" fill="#fde68a">score · cards</text></g>
+  </g>
+  <g stroke="#64748b" stroke-width="3" fill="none"><path d="M240 191h45"/><path d="M475 191h45"/><path d="M710 191h45"/><path d="M945 191h45"/></g>
+  <text x="55" y="292" fill="#64748b" font-family="Arial" font-size="14">Raw provider data stays local · deterministic outputs · explicit missingness · research claims remain observational</text>
+</svg>
+
