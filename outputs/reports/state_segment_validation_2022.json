@@ -1,0 +1,13 @@
+{
+  "team_segment_rows": 626,
+  "unique_match_segments": 313,
+  "goal_triggered_splits": 172,
+  "red_card_triggered_splits": 3,
+  "period_triggered_splits": 138,
+  "zero_duration_segments": 0,
+  "period_spanning_segments": 0,
+  "score_homogeneity_failures": 0,
+  "goal_difference_homogeneity_failures": 0,
+  "numerical_state_homogeneity_failures": 0,
+  "perspective_interval_mismatches": 0
+}

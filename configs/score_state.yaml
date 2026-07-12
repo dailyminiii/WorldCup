@@ -1,0 +1,8 @@
+state_segment_version: state_segment_goal_redcard_period_v1
+split_on_goal: true
+split_on_red_card: true
+split_on_period: true
+split_on_substitution: false
+split_on_tactical_shift: false
+effective_time_gap_cap_seconds: 30
+
