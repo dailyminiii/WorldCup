@@ -1,0 +1,588 @@
+match_id,event_id,period,elapsed_seconds,team_id,player_out_id,player_in_id,player_out_position,player_in_position,score_state_before,goal_difference_before,red_card_difference_before,substitution_number,substitution_window_id,substitution_classification,substitution_classification_version,classification_uncertainty_reason
+3857254,b80c05c8-25dd-44cf-814d-0c69552d9382,1,2732.0,776,5527.0,24443,Center Defensive Midfield,,drawing,0,0,1,3857254-776-1-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857254,4c65a014-ab4a-49ed-8039-27ddfdfe6625,2,3839.0,776,5534.0,18722,Center Back,,drawing,0,0,2,3857254-776-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857254,374f1653-c245-49fb-baae-3b3b3923029a,2,3868.0,776,17042.0,27569,Right Attacking Midfield,,drawing,0,0,3,3857254-776-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857254,bd7863d4-a605-4485-9cb5-066d8a49f2c8,2,3868.0,776,6302.0,5732,Center Forward,,drawing,0,0,4,3857254-776-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857254,894170ff-2f52-465b-a017-84944b2f2484,2,4003.0,777,35592.0,3557,Right Wing,,drawing,0,0,1,3857254-777-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857254,4df985b4-bf4f-4699-95a1-189313608292,2,4787.0,777,23910.0,50988,Left Wing,,drawing,0,0,2,3857254-777-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857254,0162ca7b-0f2b-4526-b3ff-2073e3ff8280,2,4801.0,777,16352.0,128793,Center Forward,,drawing,0,0,3,3857254-777-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857254,9e33f002-bea8-42fb-91f8-48ca39cce993,2,5237.0,777,9236.0,105944,Right Wing Back,,drawing,0,0,4,3857254-777-2-29,unknown,substitution_position_balance_v1,missing_player_in_position
+3857254,d298a8fa-e9ec-4712-8cd5-9df3d2c9c90a,2,5266.0,777,44955.0,5650,Left Defensive Midfield,,drawing,0,0,5,3857254-777-2-29,unknown,substitution_position_balance_v1,missing_player_in_position
+3857255,09c6b15a-1f0c-4c8c-abf0-c5d0fe880a7b,2,2700.0,772,3957.0,5721,Right Back,,leading,1,0,1,3857255-772-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857255,4febc959-152f-4c28-a39d-894332e95dce,2,3366.0,772,68574.0,6748,Right Wing,,trailing,-1,0,2,3857255-772-2-18,unknown,substitution_position_balance_v1,missing_player_in_position
+3857255,c741e132-3943-4448-aaa1-e26c25d87711,2,3377.0,772,3477.0,5719,Center Forward,,trailing,-1,0,3,3857255-772-2-18,unknown,substitution_position_balance_v1,missing_player_in_position
+3857255,1775e084-e2f1-475f-9b87-0fca1229e4bd,2,4033.0,772,133353.0,30756,Right Center Midfield,,trailing,-1,0,4,3857255-772-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857255,9f490ec7-f290-4849-a973-24912482ea62,2,4134.0,772,39161.0,5211,Left Back,,trailing,-1,0,5,3857255-772-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857255,30cfe6c8-c95f-435e-a10a-fb5410b23f3e,2,2700.0,778,31090.0,8361,Right Wing,,trailing,-1,0,1,3857255-778-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857255,e4f96ff4-7075-47a8-a945-51834548978c,2,2700.0,778,5690.0,37211,Left Wing Back,,trailing,-1,0,2,3857255-778-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857255,dfeae11b-b4b7-457e-9aa6-f6702b60fbfe,2,3662.0,778,30628.0,8949,Center Forward,,leading,1,0,3,3857255-778-2-20,unknown,substitution_position_balance_v1,missing_player_in_position
+3857255,e7a3e7ae-356e-4186-881c-2d0c01531768,2,4129.0,778,9411.0,23730,Left Wing,,leading,1,0,4,3857255-778-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857255,88171f38-a88b-43cb-8e49-db64b30ffd63,2,5190.0,778,37208.0,23721,Right Defensive Midfield,,leading,1,0,5,3857255-778-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3857256,f1638ab0-d97a-4327-8349-c47f1b18ba20,2,4071.0,773,16026.0,3913,Center Attacking Midfield,,leading,1,0,1,3857256-773-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857256,e57e06ab-d12f-43ca-ba7f-7550df0ae4f9,2,4097.0,773,3533.0,5538,Right Wing,,leading,1,0,2,3857256-773-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857256,4f65a529-9d06-458b-8ac8-a29901d95e8d,2,4971.0,773,30401.0,16022,Left Wing,,leading,1,0,3,3857256-773-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3857256,dd15b2cf-b188-4606-bc8e-91f956e7891f,2,5724.0,773,5545.0,29006,Center Forward,,leading,1,0,4,3857256-773-2-31,unknown,substitution_position_balance_v1,missing_player_in_position
+3857256,bc89d79c-d081-4a80-bc50-7486c7ed4b16,2,3242.0,786,6321.0,16489,Center Back,,trailing,-1,0,1,3857256-786-2-18,unknown,substitution_position_balance_v1,missing_player_in_position
+3857256,9939d361-dda1-4d69-a7b9-a3acf2428312,2,3255.0,786,18015.0,6319,Right Center Forward,,trailing,-1,0,2,3857256-786-2-18,unknown,substitution_position_balance_v1,missing_player_in_position
+3857256,c6b97cde-9a3a-482f-83fd-07673bd3d916,2,4019.0,786,5589.0,6901,Left Defensive Midfield,,trailing,-1,0,3,3857256-786-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857256,57b8af86-aeef-47bd-8f05-6657b51df70b,2,4655.0,786,3831.0,7117,Center Attacking Midfield,,trailing,-1,0,4,3857256-786-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857256,aef444af-03d3-4dcc-a073-baf623ccbcec,2,4660.0,786,6318.0,5833,Right Wing Back,,trailing,-1,0,5,3857256-786-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857257,b1013ad8-5e47-47b0-ac13-75d7cabbb8c6,2,2700.0,776,16190.0,24547,Right Back,,drawing,0,0,1,3857257-776-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857257,a33994e5-574d-4d0f-8033-50a9a763c6db,2,3493.0,776,4447.0,6302,Center Forward,,drawing,0,0,2,3857257-776-2-19,unknown,substitution_position_balance_v1,missing_player_in_position
+3857257,ae21d32c-f5bc-4ac0-bab4-7caa3f41e7a8,2,3510.0,776,18722.0,24443,Right Center Midfield,,drawing,0,0,3,3857257-776-2-19,unknown,substitution_position_balance_v1,missing_player_in_position
+3857257,02fd834d-cd59-496a-991d-9fd89c792b06,2,4136.0,776,17042.0,16294,Right Wing,,trailing,-1,0,4,3857257-776-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857257,c4ddba45-dff6-421c-ab81-635c7c964731,2,4161.0,776,16554.0,5732,Left Back,,trailing,-1,0,5,3857257-776-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857257,5451e62a-29e3-4bdc-8e97-5e44d55701ec,2,2700.0,792,8346.0,33488,Left Midfield,,drawing,0,0,1,3857257-792-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857257,45a47fb8-2360-42e3-ba80-163ed7b296d7,2,4395.0,792,33477.0,22371,Left Wing,,leading,1,0,2,3857257-792-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857257,89c78ee6-bddf-4419-b87d-d52a1b2f45ce,2,4912.0,792,33492.0,9980,Center Forward,,leading,1,0,3,3857257-792-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3857257,66be34fe-f7b1-4593-a9d4-9ad5b9f9644b,2,5288.0,792,5481.0,8859,Left Wing,,leading,1,0,4,3857257-792-2-29,unknown,substitution_position_balance_v1,missing_player_in_position
+3857258,2aff811c-19a3-4433-8de8-1b55664fc8df,2,4488.0,781,22600.0,9904,Right Defensive Midfield,,leading,2,0,1,3857258-781-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857258,9c00a897-766a-47d5-8c85-ab5b0c8c12be,2,4512.0,781,18395.0,25104,Left Wing,,leading,2,0,2,3857258-781-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857258,c418bcb1-4d3c-440e-a48d-8cb2abceb83a,2,4699.0,781,3280.0,3202,Center Forward,,leading,2,0,3,3857258-781-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857258,23c7b8db-e84f-4ccc-8347-22a40d7a7742,2,4749.0,781,4320.0,25363,Center Attacking Midfield,,leading,2,0,4,3857258-781-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857258,a475b5ba-4478-4c67-8dca-ec1331a23ea4,2,5214.0,781,10595.0,29976,Right Wing,,leading,2,0,5,3857258-781-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3857258,a7a9d8c0-9274-4714-984f-afbdce083dd1,2,3383.0,786,16489.0,30179,Left Defensive Midfield,,drawing,0,0,1,3857258-786-2-18,unknown,substitution_position_balance_v1,missing_player_in_position
+3857258,d02e89b0-74ec-4499-8f7e-32ac022b9b49,2,3404.0,786,6318.0,5833,Right Wing Back,,drawing,0,0,2,3857258-786-2-18,unknown,substitution_position_balance_v1,missing_player_in_position
+3857258,2b7c3178-cb5c-4e4d-8293-20456bbc8bc4,2,3908.0,786,6687.0,7145,Right Defensive Midfield,,trailing,-1,0,3,3857258-786-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857258,43cad167-fa7b-4036-8366-6e9f30b13f32,2,3919.0,786,7993.0,18015,Left Wing Back,,trailing,-1,0,4,3857258-786-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857258,f8919ec4-2ed5-4877-88ee-f5ef1f01114e,2,4974.0,786,4269.0,6901,Left Center Forward,,trailing,-2,0,5,3857258-786-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3857259,e1595be8-d640-4f2a-b686-2cff04ccaea2,2,3325.0,786,27719.0,10477,Left Center Back,,leading,2,0,1,3857259-786-2-18,unknown,substitution_position_balance_v1,missing_player_in_position
+3857259,c0b60c4d-a85e-4bed-b3e3-dff0ecb6af78,2,4661.0,786,6318.0,5833,Right Wing Back,,drawing,0,0,2,3857259-786-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857259,ba614cf8-4efc-4fc3-84be-b66071cd65af,2,4664.0,786,6321.0,18737,Center Back,,drawing,0,0,3,3857259-786-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857259,e44ef0ea-5b5c-47a6-912c-0ba03d7ea49b,2,4705.0,786,5589.0,3512,Left Attacking Midfield,,drawing,0,0,4,3857259-786-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857259,80807ca9-107a-4016-8ff2-6d0990201628,2,5453.0,786,5591.0,7117,Left Wing Back,,drawing,0,0,5,3857259-786-2-30,unknown,substitution_position_balance_v1,missing_player_in_position
+3857259,12d4bd8c-758a-42dc-bb13-ceed728fddd8,2,3279.0,2722,30016.0,11174,Center Defensive Midfield,,trailing,-2,0,1,3857259-2722-2-18,unknown,substitution_position_balance_v1,missing_player_in_position
+3857259,82d1d9c6-c745-4cdc-b670-83cf55a776c1,2,4019.0,2722,3551.0,46903,Left Wing,,drawing,0,0,2,3857259-2722-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857259,cf7c2e24-a0ca-4f71-b686-f4cd6575155c,2,4021.0,2722,12623.0,28966,Right Defensive Midfield,,drawing,0,0,3,3857259-2722-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857259,56dd4a4d-fd57-49b0-b77a-3f7c5394b46b,2,4819.0,2722,3141.0,8591,Left Defensive Midfield,,drawing,0,0,4,3857259-2722-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857259,031d17a4-2391-4f9d-b0d1-08ce65435e84,2,4821.0,2722,4935.0,3639,Left Wing,,drawing,0,0,5,3857259-2722-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857260,a0d6fdbd-9bee-417e-97bc-e1ace3f8655c,2,2700.0,794,26301.0,15452,Left Wing,,drawing,0,0,1,3857260-794-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857260,56eb8cb0-21ea-4845-b605-56c7136dea33,2,4583.0,794,26280.0,26297,Center Attacking Midfield,,leading,2,0,2,3857260-794-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857260,23b73ee3-2cd0-4694-96f2-6bed0e59ea99,2,4588.0,794,26400.0,5568,Center Forward,,leading,2,0,3,3857260-794-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857260,569cefeb-5e42-48d6-99e4-85647c07a450,2,5143.0,794,26406.0,30500,Right Back,,leading,2,0,4,3857260-794-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3857260,942e59c3-076c-4886-bc85-645c5ebf5aa7,2,5151.0,794,5567.0,26318,Right Defensive Midfield,,leading,2,0,5,3857260-794-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3857260,4607d6f2-7d53-4737-93c5-e18eb5c83bd8,1,2162.0,799,5715.0,51470,Left Back,,drawing,0,0,1,3857260-799-1-12,unknown,substitution_position_balance_v1,missing_player_in_position
+3857260,31d5f0dc-5891-4cad-ac8e-297a05cf18de,2,2700.0,799,51096.0,51103,Right Defensive Midfield,,drawing,0,0,2,3857260-799-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857260,c70a1bbd-a4e5-4e2b-866e-e520b7f0cab4,2,3663.0,799,51469.0,51705,Center Forward,,trailing,-2,0,3,3857260-799-2-20,unknown,substitution_position_balance_v1,missing_player_in_position
+3857260,79687d53-a834-42ef-b059-aca1c0a3eb8a,2,5243.0,799,57620.0,5188,Right Wing Back,,trailing,-2,0,4,3857260-799-2-29,unknown,substitution_position_balance_v1,missing_player_in_position
+3857261,ecfd4afe-b72c-48a7-b85a-1bbb1d8e0011,2,3410.0,768,3205.0,3664,Right Back,,leading,2,0,1,3857261-768-2-18,unknown,substitution_position_balance_v1,missing_player_in_position
+3857261,0bf5037c-515e-490f-a5f7-d4b750eb20da,2,3426.0,768,10955.0,3616,Center Forward,,leading,2,0,2,3857261-768-2-19,unknown,substitution_position_balance_v1,missing_player_in_position
+3857261,ca2a4a42-3a70-4686-a5ea-498dda24308c,2,3433.0,768,3943.0,4706,Center Defensive Midfield,,leading,2,0,3,3857261-768-2-19,unknown,substitution_position_balance_v1,missing_player_in_position
+3857261,191b1b72-48a5-4f31-a5f6-55add02d2e4b,2,3890.0,768,3382.0,3308,Left Back,,leading,2,0,4,3857261-768-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857261,7d853336-3452-483e-8db8-735831eae1e4,2,4501.0,768,3318.0,9638,Right Wing,,leading,3,0,5,3857261-768-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857261,082d867e-3710-446e-95cb-5d89e15269f0,1,2156.0,907,34794.0,4774,Right Back,,drawing,0,0,1,3857261-907-1-11,unknown,substitution_position_balance_v1,missing_player_in_position
+3857261,75892cd7-7610-4f63-a959-87a45440800a,2,2700.0,907,6399.0,29377,Right Wing,,drawing,0,0,2,3857261-907-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857261,1c829600-1ffd-4707-bb47-c165c3d2d025,2,3517.0,907,3086.0,22074,Left Back,,trailing,-2,0,3,3857261-907-2-19,unknown,substitution_position_balance_v1,missing_player_in_position
+3857261,6d2a27b4-f4a9-4012-83fe-274ea86e815e,2,4575.0,907,11252.0,9540,Left Wing,,trailing,-3,0,4,3857261-907-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857261,f2c8af65-27bc-4a94-afe7-efeecded5abe,2,4820.0,907,10931.0,82257,Right Defensive Midfield,,trailing,-3,0,5,3857261-907-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857262,c819dc62-c935-4284-8e81-b4b007c07142,2,3866.0,780,40874.0,12169,Right Center Midfield,,drawing,0,0,1,3857262-780-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857262,e30b8126-21b7-4810-91a8-bc6ed6756734,2,3882.0,780,9927.0,18360,Center Defensive Midfield,,drawing,0,0,2,3857262-780-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857262,288ab522-b916-49b7-98d7-9ff3895d0f04,2,3896.0,780,5207.0,5218,Center Forward,,drawing,0,0,3,3857262-780-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857262,87843ec2-ebab-4ad8-ba7b-3b53fd356f03,2,4873.0,780,4272.0,5214,Right Center Midfield,,drawing,0,0,4,3857262-780-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3857262,650af2c9-a2f8-43ec-add6-d238944382ec,2,4873.0,780,34639.0,3193,Left Center Midfield,,drawing,0,0,5,3857262-780-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3857262,972248fa-0abe-47b6-af36-0edd7afa4a4b,2,3923.0,791,5623.0,5620,Left Wing,,drawing,0,0,1,3857262-791-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857262,1790948b-2e93-4659-b1bc-4273d26a6675,2,4831.0,791,5604.0,40558,Left Center Back,,drawing,0,0,2,3857262-791-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857262,056c29c8-ef1c-407c-ba62-57a8b0dca7cc,2,4873.0,791,22740.0,29966,Left Center Midfield,,drawing,0,0,3,3857262-791-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3857262,7f9e9eda-c56c-4100-9ee0-b19294ffc3fc,2,5566.0,791,40542.0,99479,Right Center Forward,,leading,1,0,4,3857262-791-2-30,unknown,substitution_position_balance_v1,missing_player_in_position
+3857263,9fd32b61-bc84-462a-9a00-f902888dfebd,2,4142.0,770,10287.0,3053,Center Attacking Midfield,,trailing,-1,0,1,3857263-770-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857263,0d33a8a2-85c5-436a-8a93-f197c57ac565,2,4155.0,770,5562.0,8546,Center Forward,,trailing,-1,0,2,3857263-770-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857263,e239a490-19e9-4f9f-b76f-0fc2487b6e0c,2,4160.0,770,8511.0,8507,Right Back,,trailing,-1,0,3,3857263-770-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857263,e4403e35-f7af-4327-b8f3-fb543a62aca7,2,5057.0,770,8400.0,8804,Left Wing,,drawing,0,0,4,3857263-770-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3857263,397d7e72-003b-44c2-affa-a17ee5b0fdce,2,5177.0,770,12034.0,24118,Left Back,,drawing,0,0,5,3857263-770-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3857263,811dd47a-54ed-42e3-9fb9-bce43cb017b8,2,3205.0,772,6748.0,3477,Right Wing,,drawing,0,0,1,3857263-772-2-17,unknown,substitution_position_balance_v1,missing_player_in_position
+3857263,6c846d8a-1683-44d0-84a3-f5c3c2f9ecbd,2,3914.0,772,5719.0,5199,Right Wing,,leading,1,0,2,3857263-772-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857263,75809579-1a65-44f3-9d93-119fed499701,2,3937.0,772,133353.0,68574,Right Center Midfield,,leading,1,0,3,3857263-772-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857263,ab39ee27-3362-4298-9928-e9d06b34fe72,2,4911.0,772,5211.0,39161,Left Back,,leading,1,0,4,3857263-772-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3857264,e1c1e603-ca8a-4a73-a0a4-87c384917eb1,2,3498.0,779,2995.0,16308,Right Wing,,leading,1,0,1,3857264-779-2-19,unknown,substitution_position_balance_v1,missing_player_in_position
+3857264,f8d35d32-7a3b-4d78-98e7-bdaff200280f,2,3507.0,779,19597.0,5507,Left Back,,leading,1,0,2,3857264-779-2-19,unknown,substitution_position_balance_v1,missing_player_in_position
+3857264,ceb37325-79ce-47a7-8d67-2d356e782266,2,4685.0,779,29560.0,11456,Center Forward,,leading,2,0,3,3857264-779-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857264,68573339-c788-4d8f-aacd-1f784347c858,2,4704.0,779,38718.0,7161,Left Center Midfield,,leading,2,0,4,3857264-779-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857264,decab4d8-3f6f-4dfa-8c4c-9553c0cc6fdb,2,4967.0,779,27886.0,28637,Left Wing,,leading,2,0,5,3857264-779-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3857264,55e9f46e-b91c-48af-8bf5-adeb7aff854b,2,2700.0,789,8836.0,28453,Left Center Forward,,drawing,0,0,1,3857264-789-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857264,e1e533c9-0d00-465d-9d47-6bf45f2b6aa6,2,2700.0,789,7979.0,31955,Left Midfield,,drawing,0,0,2,3857264-789-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857264,36019601-f71b-4919-abf7-d77a52ef5512,2,3705.0,789,11737.0,8714,Right Defensive Midfield,,trailing,-1,0,3,3857264-789-2-20,unknown,substitution_position_balance_v1,missing_player_in_position
+3857264,9a72002e-328b-460a-a08d-3489db37faed,2,4320.0,789,5673.0,4685,Left Back,,trailing,-2,0,4,3857264-789-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857264,7ae55be9-8f7d-4c06-b405-0b7bddacbb94,2,4977.0,789,3637.0,12493,Left Defensive Midfield,,trailing,-2,0,5,3857264-789-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3857265,986a15bd-0a68-472d-b393-aac4d5eb2e8e,2,2700.0,789,50502.0,11737,Left Midfield,,drawing,0,0,1,3857265-789-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857265,d6ee0b30-0ed5-4bd0-a7cf-a0bf08ee4ef6,2,4270.0,789,4664.0,7979,Left Midfield,,drawing,0,0,2,3857265-789-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857265,77e81df6-ea72-475e-af5b-7945f72770a5,2,5220.0,789,5660.0,5665,Center Attacking Midfield,,drawing,0,0,3,3857265-789-2-29,unknown,substitution_position_balance_v1,missing_player_in_position
+3857265,5cdc84d1-7da5-40b2-a862-e4777d844dcb,2,4215.0,794,5575.0,26297,Right Center Midfield,,drawing,0,0,1,3857265-794-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857265,e019d8d3-30ce-4cb2-99b7-fc4be06f097b,2,4218.0,794,26400.0,5568,Center Forward,,drawing,0,0,2,3857265-794-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857265,db4960a2-54e9-4ffa-803e-40423f45426f,2,5028.0,794,26301.0,15452,Left Wing,,drawing,0,0,3,3857265-794-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3857266,469c11ba-24eb-49e9-bc01-b465508c831c,2,3719.0,771,3604.0,2972,Center Forward,,leading,1,0,1,3857266-771-2-20,unknown,substitution_position_balance_v1,missing_player_in_position
+3857266,ed5ee939-7873-40a1-8fd7-bf8c9dd32df5,2,4431.0,771,5485.0,11135,Right Center Back,,drawing,0,0,2,3857266-771-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857266,1d7a6c42-ceb0-49ea-acae-e6024b83cbbd,2,4450.0,771,5477.0,8217,Right Wing,,drawing,0,0,3,3857266-771-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857266,b3002b12-ec2f-4b0c-8d13-f1a2b338e7ab,2,5533.0,771,5487.0,11990,Center Attacking Midfield,,leading,1,0,4,3857266-771-2-30,unknown,substitution_position_balance_v1,missing_player_in_position
+3857266,bcc116c5-4bab-4262-9ae1-a07b8e62177a,2,2700.0,776,5732.0,4447,Center Forward,,drawing,0,0,1,3857266-776-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857266,9869aa62-80f2-4db8-93b4-797ef50b352c,2,4377.0,776,24443.0,6302,Left Wing,,drawing,0,0,2,3857266-776-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857266,3a15a300-4061-4b96-a620-d2bdb719ea48,2,5056.0,776,27569.0,7097,Right Wing,,drawing,0,0,3,3857266-776-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3857266,df0555b2-256b-4923-a53d-c8c6633db5c9,2,5497.0,776,16190.0,24547,Right Wing Back,,trailing,-1,0,4,3857266-776-2-30,unknown,substitution_position_balance_v1,missing_player_in_position
+3857267,7e201be0-1909-4492-a107-f0d9eafb9dd1,2,4431.0,787,31751.0,4506,Right Defensive Midfield,,leading,1,0,1,3857267-787-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857267,713f7d2e-3b8e-40e6-be5d-df78e400104f,2,4443.0,787,80484.0,88123,Right Wing,,leading,1,0,2,3857267-787-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857267,3d0c372b-933f-4902-960c-a42fd634ebad,2,5683.0,787,20611.0,15970,Right Wing,,leading,1,0,3,3857267-787-2-31,unknown,substitution_position_balance_v1,missing_player_in_position
+3857267,9b52a4a0-5fbc-460a-97da-d76ef5dd00ca,2,2700.0,3565,12583.0,36148,Center Defensive Midfield,,trailing,-1,0,1,3857267-3565-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857267,2c6801f1-854e-46b3-aa1b-58ff5fe4551b,2,2700.0,3565,37945.0,40211,Right Center Midfield,,trailing,-1,0,2,3857267-3565-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857267,f287f0b2-8364-4655-9dc0-2bb7986cf8fa,2,3796.0,3565,34396.0,91090,Right Center Forward,,trailing,-1,0,3,3857267-3565-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857267,268ee6f8-314c-494a-9480-051c4725cbb0,2,5086.0,3565,37737.0,51969,Right Back,,trailing,-1,0,4,3857267-3565-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3857268,fa2af6cc-2a25-4735-a4d4-eca928acfd94,2,2700.0,782,2954.0,48347,Right Defensive Midfield,,leading,1,0,1,3857268-782-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857268,fd8274c3-6f90-4676-86d9-4fd3b16fe91d,2,2700.0,782,5633.0,3176,Left Wing Back,,leading,1,0,2,3857268-782-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857268,3d98b5b9-2e07-40fe-9182-cb99fdeb7446,2,3709.0,782,3621.0,16559,Left Attacking Midfield,,leading,1,0,3,3857268-782-2-20,unknown,substitution_position_balance_v1,missing_player_in_position
+3857268,c540746e-ee9e-42ad-8d57-7d4896975f0e,2,4673.0,782,3457.0,16275,Center Forward,,leading,1,0,4,3857268-782-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857268,d2f24a0a-f4bd-4b43-97c6-d4930a190929,2,3444.0,1833,9922.0,16459,Left Attacking Midfield,,trailing,-1,0,1,3857268-1833-2-19,unknown,substitution_position_balance_v1,missing_player_in_position
+3857268,8f9164c3-2847-44c6-9cca-a09a2aa7564c,2,3461.0,1833,31684.0,133229,Right Defensive Midfield,,trailing,-1,0,2,3857268-1833-2-19,unknown,substitution_position_balance_v1,missing_player_in_position
+3857268,b4428be1-2a9e-48b7-b10b-916aacdfc13f,2,4392.0,1833,16120.0,29758,Right Wing Back,,trailing,-1,0,3,3857268-1833-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857268,a78b3ed0-af62-43f3-95e8-db3a99b157b5,2,4810.0,1833,24024.0,23363,Right Wing Back,,trailing,-1,0,4,3857268-1833-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857268,77b9d4ad-8e4a-4874-b50f-9ce6eb175139,2,4821.0,1833,11187.0,12770,Left Defensive Midfield,,trailing,-1,0,5,3857268-1833-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857269,75480828-e0d0-4e03-8f26-f433ce22ac3b,2,3472.0,773,30401.0,3913,Left Wing,,drawing,0,0,1,3857269-773-2-19,unknown,substitution_position_balance_v1,missing_player_in_position
+3857269,fed645e6-ea8e-476e-a53b-ff7540dcc961,2,3495.0,773,50436.0,12326,Right Wing,,drawing,0,0,2,3857269-773-2-19,unknown,substitution_position_balance_v1,missing_player_in_position
+3857269,642487e9-d615-4a88-b244-3e57fb62d277,2,4483.0,773,16026.0,16016,Center Attacking Midfield,,drawing,0,0,3,3857269-773-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857269,3349d720-ad21-41d9-b0fd-d8efd603622a,2,4487.0,773,5545.0,5543,Center Forward,,drawing,0,0,4,3857269-773-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857269,3a254f43-8cf4-4073-980a-487b14d84d25,2,5119.0,773,7796.0,8561,Right Back,,trailing,-1,0,5,3857269-773-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3857269,30cb3923-b6fe-4b6e-b9e6-cf9154e777f2,2,2700.0,781,22600.0,25104,Center Attacking Midfield,,drawing,0,0,1,3857269-781-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857269,cb0d1f3c-fc00-44a0-907c-c3641a51d2ff,2,3460.0,781,9904.0,25142,Right Defensive Midfield,,drawing,0,0,2,3857269-781-2-19,unknown,substitution_position_balance_v1,missing_player_in_position
+3857269,3a02c9f8-2c72-4895-8816-80a0445c2dcf,2,4360.0,781,3280.0,3202,Center Forward,,drawing,0,0,3,3857269-781-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857269,9688e44b-946f-48c7-9734-135f7e8b1db2,2,4379.0,781,10595.0,25363,Right Midfield,,drawing,0,0,4,3857269-781-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857269,d0da4aa6-82c9-4b87-a4e3-fd7f77e71343,2,5122.0,781,6945.0,11183,Left Back,,leading,1,0,5,3857269-781-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3857270,7d3eb704-b2da-4b5b-9283-e63e3e7f741e,1,2489.0,780,41092.0,5209,Left Back,,drawing,0,0,1,3857270-780-1-13,unknown,substitution_position_balance_v1,missing_player_in_position
+3857270,4e9196ad-9c27-47a2-83f9-11f5ba4f36ce,2,4134.0,780,9927.0,18360,Center Defensive Midfield,,leading,1,0,2,3857270-780-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857270,a37284f9-77e0-4d65-b3da-6641f7d89589,2,4920.0,780,5207.0,38803,Center Forward,,leading,1,0,3,3857270-780-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3857270,800b063e-ffa9-41e1-bc1d-e42627aacaa6,2,4920.0,780,12041.0,40874,Right Wing,,leading,1,0,4,3857270-780-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3857270,adf27c2a-d39c-4a43-831d-3b0e66030ffe,2,4922.0,780,5214.0,12169,Center Defensive Midfield,,leading,1,0,5,3857270-780-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3857270,6fa0cdc6-51ba-41cc-83a6-72ea9949c5a2,2,3693.0,783,5255.0,5258,Left Center Midfield,,trailing,-1,0,1,3857270-783-2-20,unknown,substitution_position_balance_v1,missing_player_in_position
+3857270,a023ea04-28ae-4b15-97e5-180e11120bd2,2,3703.0,783,5249.0,36288,Center Back,,trailing,-1,0,2,3857270-783-2-20,unknown,substitution_position_balance_v1,missing_player_in_position
+3857270,8ae23a4f-6e71-4364-bc82-c77b829bb962,2,4305.0,783,32478.0,6297,Left Center Forward,,trailing,-1,0,3,3857270-783-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857270,5444cdb5-fd6d-4d47-96f7-26dc1241f0fc,2,4379.0,783,4319.0,5246,Right Center Forward,,trailing,-1,0,4,3857270-783-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857270,769a418f-a832-403d-9e8b-4538d6d9415a,2,5111.0,783,7104.0,34476,Left Back,,trailing,-1,0,5,3857270-783-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3857271,0db58865-7da4-47dd-8b76-a96ae7322d9c,2,4227.0,768,3233.0,9638,Left Wing,,leading,3,0,1,3857271-768-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857271,3b6cae3e-463d-4484-a48c-4d0c2b47578a,2,4227.0,768,22084.0,3318,Right Wing,,leading,3,0,2,3857271-768-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857271,5608b0b7-01b0-4dcb-9879-a085fb3ac19b,2,4228.0,768,3336.0,10956,Left Center Back,,leading,3,0,3,3857271-768-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857271,10fed23e-609c-47b5-8ea2-88f2192d8c19,2,4228.0,768,7843.0,4354,Center Attacking Midfield,,leading,3,0,4,3857271-768-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857271,bbb054d6-909a-47a0-bc6f-187df303b75b,2,4510.0,768,10955.0,3616,Center Forward,,leading,4,0,5,3857271-768-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857271,f84b18a1-fbfe-4643-8dbc-ae7f64730826,1,1152.0,797,5227.0,125823,Goalkeeper,,drawing,0,0,1,3857271-797-1-6,goalkeeper,substitution_position_balance_v1,
+3857271,894f5f42-5ab3-444f-8d2f-d4930b5023d7,2,2700.0,797,125818.0,5722,Left Defensive Midfield,,trailing,-3,0,2,3857271-797-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857271,cb8a34b1-f110-460b-a4e4-fd9878e236ce,2,2700.0,797,5239.0,23874,Right Wing,,trailing,-3,0,3,3857271-797-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857271,2777cca8-930d-4f44-8b63-18910145ab83,2,2700.0,797,5222.0,124175,Center Back,,trailing,-3,0,4,3857271-797-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857271,9d54fb83-7090-493c-94a6-3da2f7010262,2,3770.0,797,5720.0,124161,Left Wing Back,,trailing,-4,0,5,3857271-797-2-20,unknown,substitution_position_balance_v1,missing_player_in_position
+3857271,91298db9-de46-4ee5-bd70-adbaac3e973c,2,4602.0,797,124167.0,5224,Right Defensive Midfield,,trailing,-4,0,6,3857271-797-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857272,2a52e5ff-18e3-435f-ad1c-c0dcf7ef219f,2,4071.0,768,3233.0,9638,Left Wing,,drawing,0,0,1,3857272-768-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857272,e194156b-d16d-4b7c-863d-f20d96fc225b,2,4097.0,768,30714.0,3532,Right Defensive Midfield,,drawing,0,0,2,3857272-768-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857272,45d19e3e-391f-4c62-ba0a-d5dcaf507a31,2,4662.0,768,22084.0,3318,Right Wing,,drawing,0,0,3,3857272-768-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857272,94c9bfab-5799-4735-b634-7cec47201505,2,4602.0,1839,8526.0,24243,Right Midfield,,drawing,0,0,1,3857272-1839-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857272,488f3964-cee4-4a22-a718-222ae56c4eac,2,4633.0,1839,21881.0,6806,Right Back,,drawing,0,0,2,3857272-1839-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857272,460d5dd6-3f0e-43cb-ac3f-f85f237aca61,2,4941.0,1839,3377.0,34339,Right Center Forward,,drawing,0,0,3,3857272-1839-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3857272,8da92e6d-ba3b-4c19-81fa-2fd891ac8317,2,4950.0,1839,22008.0,22168,Left Center Forward,,drawing,0,0,4,3857272-1839-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3857273,72612fb1-490a-4ee6-877b-789f8e568209,2,4038.0,797,5224.0,5231,Center Forward,,drawing,0,0,1,3857273-797-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857273,6328135e-9286-4fec-b188-317c6e38a92c,2,4543.0,797,23874.0,5239,Right Midfield,,drawing,0,0,2,3857273-797-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857273,6f2dc550-a62f-453f-a24a-2c59d471bfe4,2,4548.0,797,5230.0,124161,Left Midfield,,drawing,0,0,3,3857273-797-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857273,bf601d58-e61c-4fa8-8062-1c64c5b6ccc3,2,4644.0,797,124167.0,5222,Left Defensive Midfield,,drawing,0,0,4,3857273-797-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857273,c47ef60b-0d3d-4755-bd67-5181d5eb9b3f,2,4931.0,797,5722.0,125818,Right Defensive Midfield,,drawing,0,0,5,3857273-797-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3857273,1f5aea4f-181a-4a9d-be13-34a6cbb09852,2,3413.0,907,4774.0,29377,Right Wing Back,,drawing,0,0,1,3857273-907-2-18,unknown,substitution_position_balance_v1,missing_player_in_position
+3857273,9cd64b11-5db6-4740-b128-724c102fb4aa,2,3414.0,907,9540.0,11252,Left Center Midfield,,drawing,0,0,2,3857273-907-2-18,unknown,substitution_position_balance_v1,missing_player_in_position
+3857273,6265801b-6b11-41fe-a0bd-49caea7a24d3,2,4612.0,907,4934.0,10931,Right Defensive Midfield,,drawing,0,0,3,3857273-907-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857273,9cd72bc6-dec7-4f73-8b98-0188f0f5eebe,2,5208.0,907,3517.0,9914,Left Defensive Midfield,,drawing,0,-1,4,3857273-907-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3857274,a074c570-a274-423d-8307-681b4fe3e407,2,2700.0,941,8259.0,2988,Left Center Forward,,leading,1,0,1,3857274-941-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857274,4b539261-1857-464f-a090-2ec988e6ce5e,2,4136.0,941,4318.0,7745,Center Attacking Midfield,,drawing,0,0,2,3857274-941-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857274,3307eff1-b310-4aa3-9d3d-602b4a9a555b,2,4736.0,941,20750.0,7829,Right Center Forward,,drawing,0,0,3,3857274-941-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857274,812abbc9-4b0a-4cef-aad7-e7cdf72574de,2,4742.0,941,7891.0,6994,Right Defensive Midfield,,drawing,0,0,4,3857274-941-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857274,41aa6c64-cd60-45bf-8dcf-ad22a9f95e8a,2,4403.0,3565,34396.0,40211,Center Forward,,drawing,0,0,1,3857274-3565-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857274,334dce72-eb13-4e64-a1e1-527adcda7353,2,5342.0,3565,28559.0,348757,Center Forward,,drawing,0,0,2,3857274-3565-2-29,unknown,substitution_position_balance_v1,missing_player_in_position
+3857274,baaa1b0e-f077-4890-b74f-181a5b431abf,2,5349.0,3565,31152.0,12803,Right Attacking Midfield,,drawing,0,0,3,3857274-3565-2-29,unknown,substitution_position_balance_v1,missing_player_in_position
+3857275,8e599fb1-0bee-4a9d-9951-18e3455145da,2,3754.0,771,5485.0,17592,Right Center Back,,trailing,-1,0,1,3857275-771-2-20,unknown,substitution_position_balance_v1,missing_player_in_position
+3857275,bfb21f36-71eb-4e0b-8798-fcfef9a9d193,2,3755.0,771,8217.0,3009,Right Wing,,trailing,-1,0,2,3857275-771-2-20,unknown,substitution_position_balance_v1,missing_player_in_position
+3857275,0d42977b-9ed3-4ccd-9007-220745739402,2,3763.0,771,7153.0,3026,Left Center Midfield,,trailing,-1,0,3,3857275-771-2-20,unknown,substitution_position_balance_v1,missing_player_in_position
+3857275,feb3ee1e-86f0-4e8c-b2a0-45135e9d0879,2,4336.0,771,11990.0,5487,Right Center Midfield,,trailing,-1,0,4,3857275-771-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857275,4e2a59bc-3756-4b29-8f47-b26435379b6e,2,4686.0,771,7345.0,5477,Right Wing,,trailing,-1,0,5,3857275-771-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857275,6e1c8983-6b4e-4f77-8c60-5cf0346c0730,2,3544.0,777,3196.0,16352,Center Forward,,leading,1,0,1,3857275-777-2-19,unknown,substitution_position_balance_v1,missing_player_in_position
+3857275,5195a002-a719-4f9c-bf7a-2adb84b3beb3,2,4432.0,777,102816.0,6347,Left Attacking Midfield,,leading,1,0,2,3857275-777-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857275,1dde524d-32d2-40f1-877a-f8edf3fb8b5d,2,4976.0,777,35592.0,30681,Right Attacking Midfield,,leading,1,0,3,3857275-777-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3857276,c3119f45-b744-4f1f-ada2-ade2436aee1d,2,3850.0,788,3625.0,21736,Left Wing,,leading,1,0,1,3857276-788-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857276,af9a6f30-9ad5-48c4-8ddf-0c08aca634bf,2,3868.0,788,3634.0,23774,Left Center Midfield,,leading,1,0,2,3857276-788-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857276,0af4ab50-25c2-4507-8324-2f7cdb1acc3c,2,4536.0,788,5237.0,59493,Right Wing,,leading,1,0,3,3857276-788-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857276,34c63339-b138-44f0-be08-d37c32410af2,2,4548.0,788,46258.0,7459,Right Center Midfield,,leading,1,0,4,3857276-788-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857276,c4c15d58-0699-41a3-a2b9-bf8a9f71d7f4,2,5095.0,788,5245.0,102668,Right Wing Back,,leading,1,0,5,3857276-788-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3857276,72347fda-045d-48ec-b456-7af85ba13503,2,3587.0,1833,16459.0,23640,Center Forward,,trailing,-1,0,1,3857276-1833-2-19,unknown,substitution_position_balance_v1,missing_player_in_position
+3857276,777ac928-1ce7-4141-9b0e-4bdd092fcf36,2,3591.0,1833,16252.0,31684,Left Defensive Midfield,,trailing,-1,0,2,3857276-1833-2-19,unknown,substitution_position_balance_v1,missing_player_in_position
+3857276,aa2170fe-6638-4ceb-866a-64acc0a72d4c,2,3612.0,1833,29758.0,133229,Left Back,,trailing,-1,0,3,3857276-1833-2-20,unknown,substitution_position_balance_v1,missing_player_in_position
+3857276,05ea9578-acfa-44d3-9c14-587b8339a2fe,2,3904.0,1833,12770.0,16120,Left Midfield,,trailing,-1,0,4,3857276-1833-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857276,89982369-0b24-42ca-92c3-fb33fe40c9f2,2,4524.0,1833,9922.0,9036,Left Midfield,,trailing,-1,0,5,3857276-1833-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857277,0a830e74-4040-4ef8-852d-48f66fdd9447,2,2700.0,785,3441.0,11603,Right Wing,,drawing,0,0,1,3857277-785-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857277,8f2899e0-6eda-4a83-91b7-1d2603d841bb,2,4198.0,785,5460.0,22041,Center Forward,,drawing,0,0,2,3857277-785-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857277,f0fc4a48-2420-4ef8-a1f7-e6b70bf64709,2,4723.0,785,5456.0,28914,Left Center Midfield,,drawing,0,0,3,3857277-785-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857277,f68125b9-94a8-4694-ad70-bdcc32c2d0ab,2,5356.0,785,5474.0,16527,Right Wing,,drawing,0,0,4,3857277-785-2-29,unknown,substitution_position_balance_v1,missing_player_in_position
+3857277,e40b75b2-90c6-4f23-becc-d18646ded857,2,3592.0,788,15890.0,31295,Left Back,,drawing,0,0,1,3857277-788-2-19,unknown,substitution_position_balance_v1,missing_player_in_position
+3857277,39146a6d-16e6-45d4-95c6-24bd0d68daf7,2,3886.0,788,3625.0,149714,Left Midfield,,drawing,0,0,2,3857277-788-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857277,451decad-b79d-4c40-b765-ec4edefcab92,2,4846.0,788,6301.0,59493,Center Forward,,drawing,0,0,3,3857277-788-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857277,850b43e4-fffd-475f-b8d4-1943bccd92a1,2,4873.0,788,46258.0,3634,Right Center Midfield,,drawing,0,0,4,3857277-788-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3857278,bc03c31d-fce0-4ae8-834c-7ae8ddb47dc2,1,2821.0,797,5720.0,125818,Left Back,,trailing,-1,0,1,3857278-797-1-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857278,9c31b370-10ef-43b2-a760-1a394ec8796c,2,2700.0,797,5224.0,5240,Center Forward,,trailing,-1,0,2,3857278-797-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857278,d924efa4-3650-4438-b3c6-88a3f6313d82,2,4236.0,797,124167.0,124161,Right Center Midfield,,trailing,-1,0,3,3857278-797-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857278,1ece6ae9-7ed7-482a-b709-8e0b2e6d79aa,2,4263.0,797,5230.0,326758,Left Back,,trailing,-1,0,4,3857278-797-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857278,a7a919bc-9410-407c-999d-3b3a12405316,2,4616.0,797,23874.0,5231,Right Wing,,trailing,-1,0,5,3857278-797-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857278,cbe1a5da-bafd-4a9d-9fc1-aaeb55d11328,2,2700.0,1839,8246.0,24243,Left Wing,,leading,1,0,1,3857278-1839-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857278,69a396c8-baff-438a-910e-883c76c1f7b0,2,3888.0,1839,8526.0,13035,Left Defensive Midfield,,leading,1,0,2,3857278-1839-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857278,a2f3d918-5aa5-484c-939b-b20557b7435f,2,4615.0,1839,22168.0,22008,Left Center Forward,,leading,1,0,3,3857278-1839-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857278,76cae12e-52f5-434b-a357-bbca0acfe367,2,4868.0,1839,3377.0,12524,Right Center Forward,,leading,1,0,4,3857278-1839-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3857278,a9a2eec3-5604-44a2-a729-423ade1ebbef,2,4869.0,1839,21881.0,6806,Right Back,,leading,1,0,5,3857278-1839-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3857279,ec51b81d-bff5-4443-becf-196354dc7b4b,1,722.0,771,5484.0,6704,Left Back,,trailing,-1,0,1,3857279-771-1-4,unknown,substitution_position_balance_v1,missing_player_in_position
+3857279,9dee2d4f-c59f-409b-924e-d46d082e6710,2,4569.0,771,10481.0,11990,Right Defensive Midfield,,leading,3,0,2,3857279-771-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857279,214033b0-bf75-462b-969e-cef6586ccab3,2,4579.0,771,5477.0,8217,Right Wing,,leading,3,0,3,3857279-771-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857279,b6a7affc-5758-4994-94cc-0c2f8b90e7f8,2,5314.0,771,5476.0,4445,Right Back,,leading,3,0,4,3857279-771-2-29,unknown,substitution_position_balance_v1,missing_player_in_position
+3857279,7e19e279-0532-48ce-90cb-8f2b5bd9d2c0,2,5315.0,771,3604.0,2972,Center Forward,,leading,3,0,5,3857279-771-2-29,unknown,substitution_position_balance_v1,missing_player_in_position
+3857279,4a089dce-8416-41e9-b27c-890696c66e3b,2,3335.0,792,33492.0,9430,Center Forward,,trailing,-1,0,1,3857279-792-2-18,unknown,substitution_position_balance_v1,missing_player_in_position
+3857279,414ef37f-34a0-4ac1-bcd9-00aac04023a7,2,4345.0,792,33477.0,24475,Left Center Midfield,,trailing,-3,0,2,3857279-792-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857279,e57a1b2a-49c2-43d2-9187-de2ce9426aa3,2,4360.0,792,8346.0,227697,Left Midfield,,trailing,-3,0,3,3857279-792-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857279,4929f7a5-5c9e-47d5-80a1-81b482d07cc1,2,5043.0,792,5490.0,33488,Left Center Midfield,,trailing,-3,0,4,3857279-792-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3857279,a2b7c289-7599-4f80-8ba9-e7d609e6d07c,2,5047.0,792,33572.0,15957,Right Back,,trailing,-3,0,5,3857279-792-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3857280,51607a88-6eca-4b21-aa75-a2a266115a39,2,3249.0,781,11183.0,4372,Left Back,,drawing,0,0,1,3857280-781-2-18,unknown,substitution_position_balance_v1,missing_player_in_position
+3857280,cce55f4e-862c-4837-bc8f-3c9afe4c56e3,2,3265.0,781,9904.0,25142,Right Defensive Midfield,,drawing,0,0,2,3857280-781-2-18,unknown,substitution_position_balance_v1,missing_player_in_position
+3857280,f115f48f-b609-4ee0-9759-328e649c03c9,2,3265.0,781,25104.0,25154,Center Attacking Midfield,,drawing,0,0,3,3857280-781-2-18,unknown,substitution_position_balance_v1,missing_player_in_position
+3857280,d0fe6b4e-65b7-4dc3-ab2e-d0ea2150912e,2,3813.0,781,3202.0,25305,Center Forward,,drawing,0,0,4,3857280-781-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857280,526e8b4d-15c1-423b-9585-82475ab5467a,2,4721.0,781,25363.0,10595,Right Wing,,drawing,0,0,5,3857280-781-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857280,1d36c10f-994b-418a-a159-7e0b9c2fa479,2,3789.0,2722,4935.0,3551,Right Midfield,,drawing,0,0,1,3857280-2722-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857280,ebeb7608-75b8-4f8d-adcf-1fdbf8d49342,2,4045.0,2722,12623.0,10530,Right Defensive Midfield,,drawing,0,0,2,3857280-2722-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857280,160fcc6e-fcbd-471d-bf52-7e3716411ae0,2,5097.0,2722,16015.0,33813,Right Midfield,,drawing,0,0,3,3857280-2722-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3857281,a1bf2a1b-dabf-4910-bce0-9a9ff49861c0,2,3598.0,785,22041.0,7693,Center Forward,,leading,1,0,1,3857281-785-2-19,unknown,substitution_position_balance_v1,missing_player_in_position
+3857281,17de4ff1-09bd-4720-9363-f08f004f622f,2,4331.0,785,5460.0,3441,Right Wing,,leading,2,0,2,3857281-785-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857281,beb8a8c1-b3c1-44b6-bc27-8a1f675607b4,2,5120.0,785,5474.0,16527,Left Wing,,leading,2,0,3,3857281-785-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3857281,c597e4bc-4824-4531-ab09-876e87a17491,2,5125.0,785,5463.0,11603,Right Center Midfield,,leading,2,0,4,3857281-785-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3857281,2a569722-d82b-4328-ab5a-6a0a6a1d4962,2,5142.0,785,5456.0,28914,Left Center Midfield,,leading,2,0,5,3857281-785-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3857281,95cc6deb-fe53-4a55-9cdd-ce68b7171e1f,2,2700.0,1833,16459.0,12770,Right Center Forward,,trailing,-1,0,1,3857281-1833-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857281,c6668731-f47f-4724-b775-df6af2597a69,2,2700.0,1833,11187.0,133229,Left Defensive Midfield,,trailing,-1,0,2,3857281-1833-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857281,2ef8512c-d770-435c-a69b-81bbf59bdcc2,2,3685.0,1833,16120.0,9922,Left Wing Back,,trailing,-1,0,3,3857281-1833-2-20,unknown,substitution_position_balance_v1,missing_player_in_position
+3857281,85d90532-90ca-4d2e-9fb8-0bdf94c29dde,2,4347.0,1833,23640.0,26348,Left Center Forward,,trailing,-2,0,4,3857281-1833-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857281,c035e09c-0637-40a0-bc92-7ef9d37f194f,2,4348.0,1833,31684.0,29758,Center Defensive Midfield,,trailing,-2,0,5,3857281-1833-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857282,cd37cb6c-d003-4bad-b807-587d139daef9,2,2700.0,907,11252.0,3853,Left Center Forward,,trailing,-1,0,1,3857282-907-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857282,966bd529-296e-4021-a558-828073374ddb,2,4699.0,907,34794.0,29377,Left Wing Back,,trailing,-1,0,2,3857282-907-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857282,0f10aebd-c114-4c96-a828-58895aabbfdc,2,5555.0,907,9540.0,50528,Left Midfield,,drawing,0,0,3,3857282-907-2-30,unknown,substitution_position_balance_v1,missing_player_in_position
+3857282,1ed870b6-0270-4605-a421-e285a20e1a41,2,5682.0,907,4934.0,22074,Left Defensive Midfield,,drawing,0,0,4,3857282-907-2-31,unknown,substitution_position_balance_v1,missing_player_in_position
+3857282,287361ae-1b20-44c9-b6bc-d6630a0929fa,2,3912.0,1839,8526.0,24243,Right Center Midfield,,leading,1,0,1,3857282-1839-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857282,2f7d93cd-b8ca-4ce0-9dc2-2f3333517787,2,4409.0,1839,22168.0,22008,Center Forward,,leading,1,0,2,3857282-1839-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857282,1484e424-7581-4307-95c9-11acea7dec2a,2,4455.0,1839,21881.0,3658,Right Back,,leading,1,0,3,3857282-1839-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857282,487fba58-8fef-4444-bdfe-1a2aec3aad99,2,4455.0,1839,38792.0,13035,Left Center Midfield,,leading,1,0,4,3857282-1839-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857282,e16b9af3-8b90-49ee-a3cd-fbf76df6e009,2,5253.0,1839,3377.0,23789,Right Wing,,drawing,0,0,5,3857282-1839-2-29,unknown,substitution_position_balance_v1,missing_player_in_position
+3857283,a8619b19-cd72-4e4f-b601-0313c199e03e,2,3579.0,782,3621.0,5630,Center Attacking Midfield,,drawing,0,0,1,3857283-782-2-19,unknown,substitution_position_balance_v1,missing_player_in_position
+3857283,3b763ccc-569d-4023-b5c6-57f37f1d52fa,2,3580.0,782,48347.0,2954,Right Defensive Midfield,,drawing,0,0,2,3857283-782-2-19,unknown,substitution_position_balance_v1,missing_player_in_position
+3857283,7ab81830-2861-4ea5-b27a-647e010842c3,2,4441.0,782,3457.0,32688,Center Forward,,trailing,-1,0,3,3857283-782-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857283,0d9de65c-28b0-46c8-93a8-b7451a004f9b,2,4443.0,782,5632.0,16559,Left Wing,,trailing,-1,0,4,3857283-782-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857283,a1dac564-8008-4605-bf07-83dc31a6af77,2,4842.0,782,3176.0,3289,Right Back,,trailing,-1,0,5,3857283-782-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857283,b7429de7-39fc-4622-9f6a-2fe6137c2789,2,3996.0,788,23774.0,31295,Right Center Midfield,,drawing,0,0,1,3857283-788-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857283,02f68c92-feaf-4836-8d63-bbdde6e91fd9,2,3998.0,788,5245.0,3634,Right Back,,drawing,0,0,2,3857283-788-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857283,0839cabc-de02-4d55-be28-a5d610ac0e1f,2,4298.0,788,3625.0,21736,Left Wing,,drawing,0,0,3,3857283-788-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857283,b86eca45-24d2-4fae-b561-bdcdef7cae43,2,4300.0,788,6301.0,59493,Center Forward,,drawing,0,0,4,3857283-788-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857283,0d8c2de0-c478-4c6a-a9ee-1d96c6fea07f,2,4657.0,788,46258.0,7459,Left Center Midfield,,leading,1,0,5,3857283-788-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857284,6ed4d0e8-4743-48d4-b90f-b2ccc30237f9,2,3997.0,770,5562.0,8804,Center Attacking Midfield,,leading,1,0,1,3857284-770-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857284,d11fb04a-e92d-44b7-aa87-6c8c9d0c3f19,2,4025.0,770,10287.0,6324,Left Defensive Midfield,,leading,1,0,2,3857284-770-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857284,78b8c35c-21a5-4eae-a833-96928b389eb1,2,4693.0,770,39565.0,8227,Center Attacking Midfield,,drawing,0,0,3,3857284-770-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857284,462afc4e-bf75-44c7-b216-8f2d7cef35eb,2,4694.0,770,8966.0,8546,Center Forward,,drawing,0,0,4,3857284-770-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857284,72154c72-d817-48ee-a284-d41d67b97b1d,2,5341.0,770,8400.0,38837,Left Wing,,trailing,-1,0,5,3857284-770-2-29,unknown,substitution_position_balance_v1,missing_player_in_position
+3857284,b8fe0e07-6fcd-4c55-b6d8-3eb9781d98ec,2,2700.0,778,31090.0,23730,Left Wing,,trailing,-1,0,1,3857284-778-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857284,00026ffe-6297-4fd4-b4b1-35211bc10933,2,3393.0,778,5690.0,37211,Left Wing Back,,trailing,-1,0,2,3857284-778-2-18,unknown,substitution_position_balance_v1,missing_player_in_position
+3857284,d22ce87b-40d7-4bb9-a0a3-5abf329f2b43,2,3399.0,778,30628.0,8949,Center Forward,,trailing,-1,0,3,3857284-778-2-18,unknown,substitution_position_balance_v1,missing_player_in_position
+3857284,eef70629-3ff6-4b3d-b347-527342bb30ea,2,4238.0,778,37208.0,8361,Left Defensive Midfield,,trailing,-1,0,4,3857284-778-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857284,156e7610-9b54-4ad5-9d23-af4b560222a5,2,4433.0,778,3530.0,8776,Right Wing Back,,trailing,-1,0,5,3857284-778-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857285,3ab73733-85ae-46b5-90ee-0f3e42c0445f,2,3685.0,787,8553.0,32915,Left Back,,drawing,0,0,1,3857285-787-2-20,unknown,substitution_position_balance_v1,missing_player_in_position
+3857285,1a13c2b3-d7ba-44d3-9d50-8799797f9c21,2,4091.0,787,20611.0,88123,Center Forward,,drawing,0,0,2,3857285-787-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857285,d17d4431-d700-41af-826c-c9c947da99d7,2,4391.0,787,3684.0,21026,Right Center Midfield,,drawing,0,0,3,3857285-787-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857285,2425bed7-89c5-464d-b0e5-3b2d539eec4e,2,4392.0,787,20758.0,50497,Right Wing,,drawing,0,0,4,3857285-787-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857285,d927a137-a029-4036-b071-0d75888559b8,2,3683.0,941,3264.0,2988,Right Center Forward,,drawing,0,0,1,3857285-941-2-20,unknown,substitution_position_balance_v1,missing_player_in_position
+3857285,b5b94167-6a87-4dec-bc16-d7d7ba6692c2,2,4685.0,941,8259.0,4318,Right Center Forward,,drawing,0,0,2,3857285-941-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857285,cd8528b5-0be2-47e7-b1b6-cc5b83205802,2,4694.0,941,7745.0,7891,Right Defensive Midfield,,drawing,0,0,3,3857285-941-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857285,8eef287b-bfd6-428b-8875-c24361b5e102,2,5615.0,941,20750.0,6994,Right Center Forward,,leading,1,0,4,3857285-941-2-31,unknown,substitution_position_balance_v1,missing_player_in_position
+3857286,b81dd9d3-c008-4993-bdee-4d954785794b,2,4026.0,3565,12803.0,40211,Left Midfield,,leading,2,0,1,3857286-3565-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857286,eb1cb548-f46e-412f-840a-1b4d9389797f,2,4557.0,3565,28559.0,36148,Right Center Forward,,leading,2,0,2,3857286-3565-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857286,449b5573-85fb-4afd-b637-0b40472ada83,2,5350.0,3565,34396.0,348757,Center Forward,,leading,2,0,3,3857286-3565-2-29,unknown,substitution_position_balance_v1,missing_player_in_position
+3857286,9565a967-8eb9-41ea-bc82-b134c8ad928a,2,5394.0,3565,37726.0,37945,Left Defensive Midfield,,leading,2,0,4,3857286-3565-2-29,unknown,substitution_position_balance_v1,missing_player_in_position
+3857286,dba4b789-5d76-40c2-b318-03af55bcee5e,2,4261.0,3566,124488.0,124909,Right Center Midfield,,trailing,-2,0,1,3857286-3566-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857286,0412cd50-376d-42eb-8958-33991e2b2a8c,2,4270.0,3566,124495.0,124901,Right Center Forward,,trailing,-2,0,2,3857286-3566-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857287,d5779d61-4946-487b-ab17-d1c1af1294ce,2,3816.0,783,5246.0,4319,Center Forward,,drawing,0,0,1,3857287-783-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857287,5f5771e7-9ba9-472d-9118-c87ecefbe575,2,4670.0,783,5255.0,28729,Left Midfield,,drawing,0,0,2,3857287-783-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857287,071b33da-9954-4e0f-825f-9d48de5beb80,2,4697.0,783,7104.0,34476,Left Back,,drawing,0,0,3,3857287-783-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857287,84106acd-4a14-4a37-a9c9-575256e25b8e,2,5242.0,783,36288.0,5264,Right Midfield,,drawing,0,0,4,3857287-783-2-29,unknown,substitution_position_balance_v1,missing_player_in_position
+3857287,a113f3a0-1070-4388-a98e-4d9881903878,2,4414.0,791,29966.0,40542,Center Forward,,drawing,0,0,1,3857287-791-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857287,a98fcdec-7f7f-4734-8995-24c503b88856,2,4418.0,791,5623.0,40558,Center Attacking Midfield,,drawing,0,0,2,3857287-791-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857287,8854ec76-0996-430d-859f-c8c758e00dbd,2,4443.0,791,41711.0,22740,Right Wing,,drawing,0,0,3,3857287-791-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857288,69724491-50c8-4a79-89a1-f52c6c998d5e,2,2700.0,777,9236.0,5650,Right Wing Back,,trailing,-1,0,1,3857288-777-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857288,99f3c660-65ff-48ba-89e9-96d222f7b317,2,4007.0,777,44955.0,3196,Left Center Midfield,,trailing,-1,0,2,3857288-777-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857288,58ae3005-2cc9-4681-9dea-e471bcf700fa,2,4363.0,777,16352.0,128793,Center Forward,,trailing,-1,0,3,3857288-777-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857288,7f1b6c00-137c-44bd-b131-96b4b7150dae,2,4363.0,777,5655.0,105944,Right Back,,trailing,-1,0,4,3857288-777-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857288,abc62236-b4f4-49a0-9af5-64b98cbfe335,2,3781.0,792,33492.0,9980,Right Center Forward,,leading,1,0,1,3857288-792-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857288,9e2fa7b2-7a55-47c0-a712-3fd966f3ca1f,2,3785.0,792,33477.0,8859,Left Center Forward,,leading,1,0,2,3857288-792-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857288,92473483-6434-4dfc-bf69-9d53a9ab0f8c,2,4489.0,792,28370.0,15957,Right Back,,leading,1,0,3,3857288-792-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857288,1ca3a0f7-ea81-49ae-b6ac-7b8c9d4b7c05,2,5068.0,792,5481.0,33488,Right Midfield,,leading,1,0,4,3857288-792-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3857288,9acd492d-771b-4ac7-b6a2-be85729abe6a,2,5072.0,792,8346.0,24475,Left Midfield,,leading,1,0,5,3857288-792-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3857289,24d18c6f-df93-47ae-9995-a213a56a28c8,2,3406.0,779,26404.0,38718,Left Defensive Midfield,,drawing,0,0,1,3857289-779-2-18,unknown,substitution_position_balance_v1,missing_player_in_position
+3857289,ad4cab42-7a73-420d-92fd-754ea88c716c,2,3746.0,779,11456.0,29560,Left Center Forward,,drawing,0,0,2,3857289-779-2-20,unknown,substitution_position_balance_v1,missing_player_in_position
+3857289,69d219e6-e56e-4ddb-a714-58c4a942e045,2,3752.0,779,28263.0,29201,Right Back,,drawing,0,0,3,3857289-779-2-20,unknown,substitution_position_balance_v1,missing_player_in_position
+3857289,b485fe79-c3a8-42c0-b59f-9878530f4d8a,2,4096.0,779,27886.0,28268,Left Midfield,,leading,1,0,4,3857289-779-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857289,32c3b1ae-d3de-4401-9a3e-455a21fa8465,2,4128.0,779,2995.0,20572,Right Midfield,,leading,1,0,5,3857289-779-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857289,b226cc43-d03f-4219-8b41-132c28509b9c,1,2452.0,794,5563.0,15872,Left Center Midfield,,drawing,0,0,1,3857289-794-1-13,unknown,substitution_position_balance_v1,missing_player_in_position
+3857289,e0ce35bb-c316-4aee-a337-ddff770524fa,2,3921.0,794,30500.0,5568,Right Wing Back,,trailing,-1,0,2,3857289-794-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857289,87af94c5-a65b-467f-8057-c38cd84cd35c,2,3922.0,794,26301.0,15452,Right Center Forward,,trailing,-1,0,3,3857289-794-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857289,5d5a3ffa-05e9-48ff-8be4-e7750ac36569,2,4338.0,794,5571.0,26375,Left Wing,,trailing,-1,0,4,3857289-794-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857290,337e9cb2-3b96-4cb0-98aa-354d15b2b693,2,4258.0,773,16026.0,8561,Center Attacking Midfield,,leading,1,0,1,3857290-773-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857290,16f07777-2cbf-476d-9ad9-7e256e2c73c6,2,4270.0,773,3533.0,29006,Right Wing,,leading,1,0,2,3857290-773-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857290,0d1dd153-ccc2-4141-813a-b3997aa6df6a,2,4282.0,773,5545.0,5543,Center Forward,,leading,1,0,3,3857290-773-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857290,3a329bbd-f318-4752-a382-e7d096b0a29b,2,4831.0,773,30401.0,50436,Left Wing,,leading,1,0,4,3857290-773-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857290,c4fee02f-6114-4217-ac73-32b16144bd94,2,5393.0,773,5544.0,29012,Left Back,,leading,1,0,5,3857290-773-2-29,unknown,substitution_position_balance_v1,missing_player_in_position
+3857290,2eed3afa-1fbb-42b1-be3d-86f121a51785,2,4073.0,2722,30016.0,28966,Left Center Midfield,,trailing,-1,0,1,3857290-2722-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857290,9cbc7a89-c642-4fc5-a0c6-aff536b25563,2,4407.0,2722,3551.0,3639,Left Wing,,trailing,-1,0,2,3857290-2722-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857290,306f92c9-5d38-4d93-a926-f5ea0e4bb02e,2,4420.0,2722,3499.0,11174,Center Forward,,trailing,-1,0,3,3857290-2722-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857290,a23110df-a1f5-4ffb-95d1-df0efce2a68e,2,4844.0,2722,4935.0,16015,Right Wing,,trailing,-1,0,4,3857290-2722-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857291,e8ed6113-7ddc-4dbf-af2a-69975846349d,2,3384.0,772,6748.0,3477,Right Wing,,leading,4,0,1,3857291-772-2-18,unknown,substitution_position_balance_v1,missing_player_in_position
+3857291,ef8ce8cb-740a-4e3d-aa51-018d5d654b94,2,3391.0,772,30486.0,6583,Left Center Midfield,,leading,4,0,2,3857291-772-2-18,unknown,substitution_position_balance_v1,missing_player_in_position
+3857291,e7139736-f4ab-41e2-8278-95164abd360e,2,3798.0,772,5211.0,39161,Left Back,,leading,4,0,3,3857291-772-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857291,01fe0a99-649f-4344-9316-493ca7d9391a,2,3804.0,772,5203.0,5199,Center Defensive Midfield,,leading,4,0,4,3857291-772-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857291,f17f73a1-a3a5-4ec1-92ff-d863b72f43e8,2,4106.0,772,5719.0,68574,Right Wing,,leading,4,0,5,3857291-772-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857291,7493c4e0-812c-4dbd-b7a9-57b8bec72d86,2,2700.0,795,132271.0,6328,Right Center Back,,trailing,-3,0,1,3857291-795-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857291,2c0c30f7-6aa1-4aee-86ed-2438d9b1f8eb,2,3647.0,795,132296.0,184468,Right Wing,,trailing,-4,0,2,3857291-795-2-20,unknown,substitution_position_balance_v1,missing_player_in_position
+3857291,59a3bca3-0efe-4067-8cba-75b2cb26fadf,2,3653.0,795,132728.0,5592,Left Wing,,trailing,-4,0,3,3857291-795-2-20,unknown,substitution_position_balance_v1,missing_player_in_position
+3857291,4ad806fe-3370-4a51-b827-8314b95aab9f,2,4272.0,795,5582.0,108340,Right Center Midfield,,trailing,-4,0,4,3857291-795-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857291,d63d5b4b-957b-4f75-86d9-c3ee2c4b7f38,2,4864.0,795,5836.0,15477,Left Wing Back,,trailing,-5,0,5,3857291-795-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3857292,909b6b45-9f99-4105-88ac-092807551094,2,2700.0,770,6324.0,8507,Right Defensive Midfield,,leading,1,0,1,3857292-770-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857292,a9aaf44e-e4b9-473f-a196-e876cc5a8da9,2,3236.0,770,10287.0,8546,Left Defensive Midfield,,leading,1,0,2,3857292-770-2-17,unknown,substitution_position_balance_v1,missing_player_in_position
+3857292,0d16f93d-e970-4b9d-bac4-caf5aec35e1a,2,3951.0,770,5562.0,8966,Left Center Forward,,drawing,0,0,3,3857292-770-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857292,3f7be925-aa4f-473b-b30d-77a56f44db2c,2,3952.0,770,12034.0,8227,Left Back,,drawing,0,0,4,3857292-770-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857292,6b905f2c-4df3-4cc3-b3b5-beae1ddb8012,2,5617.0,770,6322.0,8808,Center Back,,leading,2,0,5,3857292-770-2-31,unknown,substitution_position_balance_v1,missing_player_in_position
+3857292,aad81251-d4e7-49d4-8c24-23dd601a2a99,2,2700.0,795,108340.0,132756,Left Wing,,trailing,-1,0,1,3857292-795-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857292,ae67c47c-c103-4c59-9e9f-57db22b61bc7,2,4394.0,795,5595.0,15477,Left Wing,,drawing,0,0,2,3857292-795-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857292,aef01798-e0ad-4618-819d-76156fc43723,2,4410.0,795,130185.0,132728,Right Wing,,drawing,0,0,3,3857292-795-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857292,8bfd32f2-14a6-497d-86d4-96b30f5f5c13,2,5549.0,795,5836.0,132296,Left Wing Back,,trailing,-2,0,4,3857292-795-2-30,unknown,substitution_position_balance_v1,missing_player_in_position
+3857292,4b7cef77-7f9b-47b1-aa2d-498e5b931a87,2,5552.0,795,5839.0,135271,Left Defensive Midfield,,trailing,-2,0,5,3857292-795-2-30,unknown,substitution_position_balance_v1,missing_player_in_position
+3857293,7321a54a-36c4-4fbe-b4fb-c1c43b02a649,1,2025.0,783,5260.0,5255,Left Defensive Midfield,,leading,2,0,1,3857293-783-1-11,unknown,substitution_position_balance_v1,missing_player_in_position
+3857293,43c9d944-4691-4bac-8e64-a50a22b2b9c7,2,3913.0,783,5246.0,4319,Right Center Forward,,leading,2,0,2,3857293-783-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857293,2d7e7e2c-4cbe-46bc-958a-61553e65a180,2,3927.0,783,36288.0,28729,Right Midfield,,leading,2,0,3,3857293-783-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857293,04d40d8d-cc40-4766-8921-116834c0c7ee,2,4771.0,783,5258.0,36666,Left Midfield,,leading,2,0,4,3857293-783-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857293,f310919c-be20-42a8-b9f5-2d29bbea1e5a,2,4781.0,783,32478.0,6297,Left Center Forward,,leading,2,0,5,3857293-783-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857293,359a093a-b085-4251-903d-65f05a083d17,2,2700.0,4885,3347.0,44225,Center Attacking Midfield,,trailing,-2,0,1,3857293-4885-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857293,0fd52a6e-92c7-4e67-a8ec-f508dd14fcb6,2,2700.0,4885,3450.0,35658,Left Wing,,trailing,-2,0,2,3857293-4885-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857293,a5867e65-d1e8-45ba-b8b5-392c6f9838c6,2,4305.0,4885,6393.0,9286,Center Forward,,trailing,-2,0,3,3857293-4885-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857293,3726a4f1-8c9c-4045-898d-cc106a57ce57,2,4316.0,4885,31029.0,28616,Left Defensive Midfield,,trailing,-2,0,4,3857293-4885-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857293,5833b06d-5810-42f9-8cf1-f5c6d49bf2d3,2,5828.0,4885,17033.0,136306,Center Attacking Midfield,,trailing,-2,0,5,3857293-4885-2-32,unknown,substitution_position_balance_v1,missing_player_in_position
+3857294,41ee30bd-776a-4902-b8ca-0a67c614a37d,2,3924.0,941,4318.0,7745,Center Attacking Midfield,,leading,2,0,1,3857294-941-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857294,d2ce7aa9-f813-47d3-9ed0-e9a8b23d4118,2,3945.0,941,2988.0,3264,Left Center Forward,,leading,2,0,2,3857294-941-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857294,9886a74c-18a8-469a-9bcb-4d5b31602afa,2,4926.0,941,20750.0,7829,Right Center Forward,,leading,2,0,3,3857294-941-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3857294,60d86b7d-fe79-47f1-a561-c0541d0f6e8c,2,4930.0,941,6994.0,7891,Right Defensive Midfield,,leading,2,0,4,3857294-941-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3857294,f177efce-6f2f-4b29-a541-af812c239095,2,5159.0,941,8118.0,21879,Left Defensive Midfield,,leading,2,0,5,3857294-941-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3857294,2e031f4e-6d03-4899-868e-9c38fe2b3076,2,3827.0,3566,124488.0,149463,Left Center Midfield,,trailing,-2,0,1,3857294-3566-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857294,d55b58c0-f255-407d-a935-1f6c531dc23e,2,3829.0,3566,124500.0,124492,Center Defensive Midfield,,trailing,-2,0,2,3857294-3566-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857294,440dba29-f341-49cc-b9a9-02936ce7ccb3,2,3852.0,3566,124495.0,124901,Right Center Forward,,trailing,-2,0,3,3857294-3566-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857294,4255cac6-baf1-4819-aee5-c481df8a0757,2,5068.0,3566,124514.0,124490,Right Center Midfield,,trailing,-2,0,4,3857294-3566-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3857294,e17c512e-7bdb-4aaf-b1a1-0a84c69a273f,2,5075.0,3566,124899.0,124512,Right Wing Back,,trailing,-2,0,5,3857294-3566-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3857295,8221b131-38f9-4412-bb05-22d87fafd7ff,2,2700.0,778,5690.0,95272,Left Center Back,,drawing,0,0,1,3857295-778-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857295,4d194a3f-aa63-461f-885a-f76ca4c61ce2,2,2700.0,778,38285.0,8949,Center Forward,,drawing,0,0,2,3857295-778-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857295,026ded78-abfb-4c9a-b375-e696e3d991d1,2,3694.0,778,37209.0,37211,Right Wing Back,,drawing,0,0,3,3857295-778-2-20,unknown,substitution_position_balance_v1,missing_player_in_position
+3857295,985c32d3-2b92-4050-9ad7-539b6d42937b,2,3971.0,778,8361.0,23527,Right Wing,,drawing,0,0,4,3857295-778-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857295,6f5e2ed6-ade5-4df9-8306-db1489075841,2,4909.0,778,37122.0,8776,Right Wing Back,,trailing,-1,0,5,3857295-778-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3857295,96ea5156-cbcc-4282-ab2e-ff398ef09575,2,3844.0,795,132497.0,108340,Right Wing,,drawing,0,0,1,3857295-795-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857295,49fcfb03-0028-41e8-ab5b-b845d0ec174e,2,3867.0,795,132296.0,132728,Center Forward,,drawing,0,0,2,3857295-795-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857295,59b452df-b399-4052-aaa9-d0fe8c80c3fc,2,5329.0,795,5582.0,132756,Right Defensive Midfield,,leading,1,0,3,3857295-795-2-29,unknown,substitution_position_balance_v1,missing_player_in_position
+3857295,37c3a2f6-4db7-4768-897b-b247f5494f0c,2,5660.0,795,5581.0,132772,Center Forward,,leading,1,0,4,3857295-795-2-31,unknown,substitution_position_balance_v1,missing_player_in_position
+3857296,98f2473c-df4d-4f19-8f6c-f80774afdeab,2,2700.0,782,5630.0,3289,Center Attacking Midfield,,drawing,0,0,1,3857296-782-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857296,ac8e5665-5187-4a35-bdd7-0ee7d2e05a33,2,3485.0,782,16559.0,5632,Center Attacking Midfield,,drawing,0,0,2,3857296-782-2-19,unknown,substitution_position_balance_v1,missing_player_in_position
+3857296,d205e8ed-f896-417d-82d4-da326ce10337,2,4290.0,782,5633.0,23650,Center Attacking Midfield,,drawing,0,0,3,3857296-782-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857296,07666215-7d34-4b4b-9282-a9eb7d5d910c,2,4297.0,782,6331.0,2954,Right Defensive Midfield,,drawing,0,0,4,3857296-782-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857296,2c671ca4-0f18-4e82-bdf3-d42d980ec7ce,2,5197.0,782,3176.0,3621,Right Back,,drawing,0,0,5,3857296-782-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3857296,5bce2389-a5d8-4726-b7d5-3b837daceab6,2,3796.0,785,22041.0,7693,Center Forward,,drawing,0,0,1,3857296-785-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857296,9b774e0b-075f-48ee-9b21-47c5aaeee380,2,3822.0,785,5460.0,11603,Right Wing,,drawing,0,0,2,3857296-785-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857296,2a6d4b6f-9156-43da-a86b-e398c00e1d2a,2,5454.0,785,5456.0,28914,Left Center Midfield,,drawing,0,0,3,3857296-785-2-30,unknown,substitution_position_balance_v1,missing_player_in_position
+3857297,f94a9eeb-9be6-4f1a-9392-9eab9108344c,2,3728.0,789,5660.0,31955,Center Attacking Midfield,,leading,1,0,1,3857297-789-2-20,unknown,substitution_position_balance_v1,missing_player_in_position
+3857297,461a3c2a-6b76-42cf-b821-01d44c36ffa4,2,4237.0,789,5665.0,12493,Left Center Forward,,leading,1,0,2,3857297-789-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857297,4c4540e8-1fad-4a0a-9534-93a1eec32b95,2,2700.0,799,51632.0,54144,Center Attacking Midfield,,trailing,-1,0,1,3857297-799-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857297,9f3dd550-3cf7-4f2f-94bb-85282694cfef,2,3885.0,799,5191.0,57620,Right Back,,trailing,-1,0,2,3857297-799-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857297,90b9babc-7070-4c21-8a0e-56e31fbebc61,2,5096.0,799,56755.0,51705,Left Defensive Midfield,,trailing,-2,0,3,3857297-799-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3857297,83e35309-0994-4353-b078-164420292cc0,2,5100.0,799,51469.0,74623,Center Forward,,trailing,-2,0,4,3857297-799-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3857297,2a850a82-c6eb-48ab-baeb-df30235f0d04,2,5681.0,799,54144.0,5188,Center Attacking Midfield,,trailing,-2,0,5,3857297-799-2-31,unknown,substitution_position_balance_v1,missing_player_in_position
+3857298,7d81965d-6916-4301-98b4-33b891488c13,2,3349.0,780,11184.0,5214,Left Center Midfield,,drawing,0,0,1,3857298-780-2-18,unknown,substitution_position_balance_v1,missing_player_in_position
+3857298,83ee0b38-6a3d-4642-8669-096d687db2a6,2,4606.0,780,9927.0,18360,Center Defensive Midfield,,drawing,0,0,2,3857298-780-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857298,c50ba75e-bcd8-43ad-9839-6794819c5852,2,5238.0,780,5207.0,38803,Center Forward,,leading,2,0,3,3857298-780-2-29,unknown,substitution_position_balance_v1,missing_player_in_position
+3857298,77b3ef76-c4f9-4dd1-b581-82e8e76ac197,2,5243.0,780,12041.0,4272,Right Wing,,leading,2,0,4,3857298-780-2-29,unknown,substitution_position_balance_v1,missing_player_in_position
+3857298,1780cabc-b9a4-4fa6-a789-511642ce7b72,2,5251.0,780,3193.0,12169,Left Defensive Midfield,,leading,2,0,5,3857298-780-2-29,unknown,substitution_position_balance_v1,missing_player_in_position
+3857298,0920e907-52ca-4d4c-83ec-8e6f519d7312,2,3940.0,4885,45047.0,33602,Right Wing Back,,trailing,-1,0,1,3857298-4885-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857298,a2ce3548-f552-414c-8bdb-7c972bfea4cf,2,4540.0,4885,17033.0,44225,Left Center Midfield,,drawing,0,0,2,3857298-4885-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857298,13dae1e6-b98f-43e1-b4f5-10e48243ab6a,2,4582.0,4885,3347.0,3450,Right Center Forward,,drawing,0,0,3,3857298-4885-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857298,a624a763-f8b3-4402-b3e7-af4449ebd476,2,5503.0,4885,2989.0,9286,Center Back,,trailing,-1,0,4,3857298-4885-2-30,unknown,substitution_position_balance_v1,missing_player_in_position
+3857298,6c424e89-51ac-4186-801a-08292621111b,2,5526.0,4885,31029.0,28616,Center Defensive Midfield,,trailing,-1,0,5,3857298-4885-2-30,unknown,substitution_position_balance_v1,missing_player_in_position
+3857299,cb87a2fe-49ea-4850-96cb-efa8741677c7,2,2700.0,791,22067.0,41711,Center Attacking Midfield,,trailing,-2,0,1,3857299-791-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857299,df970688-269f-41e7-a4be-b968c87cf0b0,2,3379.0,791,3135.0,22740,Center Attacking Midfield,,trailing,-2,0,2,3857299-791-2-18,unknown,substitution_position_balance_v1,missing_player_in_position
+3857299,83a4900a-77e9-4f98-b054-ccab7e6bcce3,2,4689.0,791,5618.0,29966,Right Defensive Midfield,,trailing,-1,0,3,3857299-791-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3857299,1fd4f4cd-0d01-486e-84f5-9b01b3c0d71b,2,5502.0,791,43565.0,40564,Right Center Back,,trailing,-1,0,4,3857299-791-2-30,unknown,substitution_position_balance_v1,missing_player_in_position
+3857299,cbead842-d911-4291-934a-3fbad478f98a,2,4666.0,4885,33602.0,12259,Right Back,,leading,1,0,1,3857299-4885-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857299,8cdbe0e1-fe71-448b-a1ee-647673ec71dc,2,4667.0,4885,3347.0,28616,Center Attacking Midfield,,leading,1,0,2,3857299-4885-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857299,6c9d2c71-a6ab-4692-a295-4a9b91939a27,2,4668.0,4885,3450.0,35658,Left Wing,,leading,1,0,3,3857299-4885-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857299,543c129c-0586-441f-a8a5-5375138ad68d,2,4928.0,4885,17033.0,2989,Right Wing,,leading,1,0,4,3857299-4885-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3857299,d1af58c0-dc26-47a6-abc2-05673c2ed35c,2,5251.0,4885,23615.0,12325,Left Wing Back,,leading,1,0,5,3857299-4885-2-29,unknown,substitution_position_balance_v1,missing_player_in_position
+3857300,e06af55c-ffca-4465-a368-280cba48dd2b,2,3494.0,779,20572.0,27768,Right Center Back,,trailing,-1,0,1,3857300-779-2-19,unknown,substitution_position_balance_v1,missing_player_in_position
+3857300,19e6ceb9-e4a8-4764-9def-4e9d279babb1,2,3495.0,779,7006.0,29560,Left Midfield,,trailing,-1,0,2,3857300-779-2-19,unknown,substitution_position_balance_v1,missing_player_in_position
+3857300,111e9ac6-3b2b-41fd-b8a0-c2248d57d84c,2,3504.0,779,16308.0,38718,Left Defensive Midfield,,trailing,-1,0,3,3857300-779-2-19,unknown,substitution_position_balance_v1,missing_player_in_position
+3857300,fdb2f137-a94f-4a1e-82aa-547ac00ca39c,2,4201.0,779,5507.0,19597,Left Back,,trailing,-1,0,4,3857300-779-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3857300,19057d45-7969-4795-b9e2-527591c75a28,1,2859.0,799,5178.0,54144,Right Center Midfield,,trailing,-1,0,1,3857300-799-1-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3857300,1b91db7c-31df-44f8-81b5-05f30e420660,2,4641.0,799,51469.0,57620,Center Forward,,leading,1,0,2,3857300-799-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857300,bb7db8b9-e75f-4cda-97b3-addc75e522de,2,5264.0,799,54144.0,51094,Center Attacking Midfield,,leading,1,0,3,3857300-799-2-29,unknown,substitution_position_balance_v1,missing_player_in_position
+3857300,fe4614ca-012f-4b00-a416-6c9894d5cb2f,2,5305.0,799,51099.0,121539,Center Forward,,leading,1,0,4,3857300-799-2-29,unknown,substitution_position_balance_v1,missing_player_in_position
+3857300,e859b894-d1e8-4c24-bf67-9c06117c66ef,2,5916.0,799,5183.0,5191,Left Midfield,,leading,1,0,5,3857300-799-2-32,unknown,substitution_position_balance_v1,missing_player_in_position
+3857301,a2ec80df-584c-4dd3-b89d-0f8054c1a8a6,2,3823.0,787,20758.0,31751,Left Wing,,leading,2,0,1,3857301-787-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3857301,ffdb32ab-0ae6-4d2e-a1cf-3566cb038f9f,2,4427.0,787,13314.0,88123,Center Forward,,leading,2,0,2,3857301-787-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857301,f8a6c12a-5e36-47a1-9755-0b7ffd031c03,2,4437.0,787,2941.0,80484,Left Wing,,leading,2,0,3,3857301-787-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857301,ab2be83f-0ebc-424a-96f8-ba8309cb8b60,2,4617.0,787,32915.0,15970,Left Back,,leading,2,0,4,3857301-787-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857301,c49e8e7d-b04b-4d00-9e3a-4c73d3636fd6,2,4618.0,787,4506.0,50498,Right Center Midfield,,leading,2,0,5,3857301-787-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3857301,ed9080c7-eb0d-4743-b7c2-d25520fb0d80,2,4099.0,3566,124492.0,124514,Right Center Midfield,,trailing,-2,0,1,3857301-3566-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3857301,00cd79a6-f04f-4a8a-97f6-162ce63582e0,2,4457.0,3566,124488.0,124901,Left Center Midfield,,trailing,-2,0,2,3857301-3566-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3857301,86cdcc61-da19-4df4-b89a-9258a33f2b13,2,4928.0,3566,124900.0,124504,Left Wing Back,,trailing,-1,0,3,3857301-3566-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3857301,c4662747-d990-490c-b650-56e451057140,2,4934.0,3566,124506.0,124909,Right Center Back,,trailing,-1,0,4,3857301-3566-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3869117,4d4dbd2d-6cfa-41c8-86cf-3165c88496c0,2,2700.0,941,6994.0,8259,Right Defensive Midfield,,leading,2,0,1,3869117-941-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3869117,0c6340a6-46a8-4dd4-9011-2372296ead79,2,2700.0,941,4318.0,7891,Center Attacking Midfield,,leading,2,0,2,3869117-941-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3869117,29b4cf54-f718-436c-a9fe-29a9febf2a87,2,4921.0,941,2988.0,39167,Left Center Forward,,leading,2,0,3,3869117-941-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3869117,a55c2557-1851-4a91-a463-8a0f93ed74d7,2,5575.0,941,3306.0,8069,Left Center Back,,leading,2,0,4,3869117-941-2-30,unknown,substitution_position_balance_v1,missing_player_in_position
+3869117,ac10594b-a9f0-43ca-a584-aac45b7f2200,2,5575.0,941,20750.0,7829,Center Attacking Midfield,,leading,2,0,5,3869117-941-2-30,unknown,substitution_position_balance_v1,missing_player_in_position
+3869117,597671be-d440-4246-9229-a2ce8bf8102c,2,2700.0,1839,22433.0,34339,Center Forward,,trailing,-2,0,1,3869117-1839-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3869117,ed3f859b-c8da-4adb-9299-7e8e70d678ef,2,4011.0,1839,3377.0,24243,Right Wing,,trailing,-2,0,2,3869117-1839-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3869117,d8bee911-107c-42f7-987e-8af49ce82525,2,4011.0,1839,8526.0,22008,Right Center Midfield,,trailing,-2,0,3,3869117-1839-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3869117,c8cd2599-5a31-4642-b77e-6af0b5a82827,2,4497.0,1839,21881.0,3658,Right Back,,trailing,-2,0,4,3869117-1839-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3869117,55501a39-8f98-484f-aad5-fe78b691b652,2,5474.0,1839,4614.0,23789,Left Back,,trailing,-2,0,5,3869117-1839-2-30,unknown,substitution_position_balance_v1,missing_player_in_position
+3869118,363943c3-80ed-48ee-a8d5-7c46e3204ac2,2,3859.0,768,22084.0,3318,Right Wing,,leading,3,0,1,3869118-768-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3869118,6d4665c6-7b26-426f-be64-59fb4e733092,2,3867.0,768,4354.0,9638,Left Wing,,leading,3,0,2,3869118-768-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3869118,436dafb4-5edc-4336-99e7-e6d88f8c289f,2,4555.0,768,30714.0,7843,Left Center Midfield,,leading,3,0,3,3869118-768-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3869118,fc0f6738-0132-4aa6-bc3c-ba36046b2e75,2,4570.0,768,3244.0,10956,Right Center Back,,leading,3,0,4,3869118-768-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3869118,49dc8dc2-ff67-47f7-91dd-8d571dbaede8,2,4869.0,768,3532.0,4706,Right Center Midfield,,leading,3,0,5,3869118-768-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3869118,9fb12e9c-570f-4588-982f-c483e7b29887,2,2700.0,787,31751.0,21026,Right Defensive Midfield,,trailing,-2,0,1,3869118-787-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3869118,e8c27e9d-1cdd-48ea-811b-c249b1fbb8ef,2,2700.0,787,20758.0,50498,Right Wing,,trailing,-2,0,2,3869118-787-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3869118,850ba3c1-c2c2-42c7-af3f-da127d5cf349,2,2701.0,787,80484.0,88123,Center Attacking Midfield,,trailing,-2,0,3,3869118-787-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3869118,753f807a-543e-42aa-a0b6-45fc2b8b4859,2,4267.0,787,20611.0,13314,Right Wing,,trailing,-3,0,4,3869118-787-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3869118,08c50046-3613-408d-b744-7b6791428545,2,5034.0,787,32915.0,3675,Left Back,,trailing,-3,0,5,3869118-787-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3869151,9d26b3f5-3b66-4341-91e4-d69ccee5c786,2,2947.0,779,7006.0,27768,Right Midfield,,leading,1,0,1,3869151-779-2-16,unknown,substitution_position_balance_v1,missing_player_in_position
+3869151,3a8a17d8-6b17-4277-88b3-e561d63248f9,2,4260.0,779,29560.0,11456,Left Center Forward,,leading,2,0,2,3869151-779-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3869151,4c706c35-758f-41f0-b543-bc63d423dcbe,2,4279.0,779,19597.0,5507,Left Wing Back,,leading,2,0,3,3869151-779-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3869151,ed5c1ba4-22b3-4b86-8be2-de5a953d159b,2,4755.0,779,29201.0,28268,Right Wing Back,,leading,1,0,4,3869151-779-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3869151,23678b52-1481-4ac6-a3c4-518e441a04c6,2,4757.0,779,27886.0,28263,Left Center Midfield,,leading,1,0,5,3869151-779-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3869151,0785bb9a-445c-4d51-9fac-a865b9de9e28,2,3472.0,792,33477.0,8346,Left Wing,,trailing,-2,0,1,3869151-792-2-19,unknown,substitution_position_balance_v1,missing_player_in_position
+3869151,3d5a739a-2baa-41c3-8d51-2d3f5815c968,2,3472.0,792,33488.0,8859,Right Defensive Midfield,,trailing,-2,0,2,3869151-792-2-19,unknown,substitution_position_balance_v1,missing_player_in_position
+3869151,5b523ef1-f23e-4dca-bb28-8d21b5ae4eb1,2,4308.0,792,33492.0,9980,Left Center Forward,,trailing,-2,0,3,3869151-792-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3869151,cf36514a-7d3d-4b0c-9b13-8b49345683fb,2,4308.0,792,5481.0,227697,Right Center Forward,,trailing,-2,0,4,3869151-792-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3869151,a15cfcc7-d2c3-42cb-b2bb-7ab45f6b322e,2,4309.0,792,15957.0,28370,Right Back,,trailing,-2,0,5,3869151-792-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3869152,2fdd46a2-6cc8-4836-a95b-f94bc74ba11d,2,3940.0,771,10481.0,11990,Right Defensive Midfield,,leading,1,0,1,3869152-771-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3869152,5390bc05-7d4e-4757-b757-77eb3acb3f4e,2,4540.0,771,5477.0,8217,Right Wing,,leading,2,0,2,3869152-771-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3869152,b2dbfb7e-41dc-499f-a6c0-5742d2807eb8,2,4548.0,771,3604.0,2972,Center Forward,,leading,2,0,3,3869152-771-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3869152,8d3688e7-c893-4b1a-be69-ba7e8b1d3ef8,2,5495.0,771,4445.0,7439,Right Back,,leading,3,0,4,3869152-771-2-30,unknown,substitution_position_balance_v1,missing_player_in_position
+3869152,f9b3a069-829d-4575-a220-29d1ebfc131c,2,3827.0,789,4664.0,5665,Left Center Midfield,,trailing,-1,0,1,3869152-789-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3869152,e53c4242-86f3-46b6-ac12-85c5f0892ae1,2,4217.0,789,31955.0,50502,Right Wing,,trailing,-1,0,2,3869152-789-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3869152,5a153fd3-82bc-4c79-bbbf-9bb895bf33c3,2,4228.0,789,3637.0,11737,Left Defensive Midfield,,trailing,-1,0,3,3869152-789-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3869152,6a5ddf35-beca-4be3-adf3-259caadca851,2,5173.0,789,44166.0,4626,Left Center Back,,trailing,-2,0,4,3869152-789-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3869152,9fda932f-3a5b-471b-b718-3d2421eb60cc,2,5174.0,789,7979.0,5667,Left Wing,,trailing,-2,0,5,3869152-789-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3869219,7349c733-b7b7-41bb-bc6f-4f19ea8a6e7b,2,3797.0,778,5690.0,37211,Left Wing Back,,drawing,0,0,1,3869219-778-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3869219,60b0982f-07d1-4d0a-b5cd-4abe6ccf2db5,2,3809.0,778,30628.0,8949,Center Forward,,drawing,0,0,2,3869219-778-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3869219,3cde10ac-f2c9-42f6-a2bc-9db3a22dbb03,2,4434.0,778,9411.0,3530,Left Wing,,drawing,0,0,3,3869219-778-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3869219,3bb9fac8-aa48-4111-a181-7de4dc0c7525,2,5169.0,778,8361.0,8776,Right Wing,,drawing,0,0,4,3869219-778-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3869219,52c2dacc-1df8-464a-acec-6f845ac010db,4,6300.0,778,37221.0,37208,Left Defensive Midfield,,drawing,0,0,5,3869219-778-4-35,unknown,substitution_position_balance_v1,missing_player_in_position
+3869219,378b364a-295e-4591-90b2-f462a8a34e86,2,3679.0,785,7693.0,8654,Center Forward,,drawing,0,0,1,3869219-785-2-20,unknown,substitution_position_balance_v1,missing_player_in_position
+3869219,9004db7d-8f75-4c76-8a5e-df6865b69f8f,2,4070.0,785,5460.0,11603,Left Wing,,drawing,0,0,2,3869219-785-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3869219,f522b1ad-362c-4cdd-853f-c41165ba4d55,3,5901.0,785,5463.0,28914,Right Center Midfield,,drawing,0,0,3,3869219-785-3-32,unknown,substitution_position_balance_v1,missing_player_in_position
+3869219,c5bcc6b5-18b9-45c9-9407-3ea6232d7a8b,3,5905.0,785,5456.0,3441,Left Center Midfield,,drawing,0,0,4,3869219-785-3-32,unknown,substitution_position_balance_v1,missing_player_in_position
+3869219,5a1982fb-af82-4e66-a498-daaa1249b85a,4,6300.0,785,5474.0,16527,Left Wing,,drawing,0,0,5,3869219-785-4-35,unknown,substitution_position_balance_v1,missing_player_in_position
+3869219,62e49431-8fa7-4db5-b98b-395bcf95d518,4,6300.0,785,8654.0,22041,Center Forward,,drawing,0,0,6,3869219-785-4-35,unknown,substitution_position_balance_v1,missing_player_in_position
+3869220,7fa06e72-7ecd-4a04-bc8a-c9b8f93c9c06,2,3753.0,772,133353.0,6583,Left Center Midfield,,drawing,0,0,1,3869220-772-2-20,unknown,substitution_position_balance_v1,missing_player_in_position
+3869220,ce6ab941-e523-4ccc-b334-eaae2f6818ae,2,3754.0,772,5719.0,3477,Center Forward,,drawing,0,0,2,3869220-772-2-20,unknown,substitution_position_balance_v1,missing_player_in_position
+3869220,2480e5be-49b6-44f3-8d6a-b443b558666b,2,4504.0,772,6748.0,68574,Right Wing,,drawing,0,0,3,3869220-772-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3869220,456546d7-d192-47f0-bb09-27d4a8ce343c,3,5841.0,772,16532.0,30756,Left Wing,,drawing,0,0,4,3869220-772-3-32,unknown,substitution_position_balance_v1,missing_player_in_position
+3869220,9468138d-3876-4b78-baf6-9e321d209604,3,5850.0,772,5211.0,39161,Left Back,,drawing,0,0,5,3869220-772-3-32,unknown,substitution_position_balance_v1,missing_player_in_position
+3869220,23efb733-928e-4d78-b7dc-e6cc6dc33212,4,7074.0,772,68574.0,6720,Right Wing,,drawing,0,0,6,3869220-772-4-39,unknown,substitution_position_balance_v1,missing_player_in_position
+3869220,b889ab61-3551-4d2c-bb28-b5a67bbb8b78,2,3952.0,788,3625.0,149714,Left Wing,,drawing,0,0,1,3869220-788-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3869220,7dac6c7b-09b4-40e8-a134-a98bdb364cca,2,4895.0,788,23774.0,296254,Left Center Midfield,,drawing,0,0,2,3869220-788-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3869220,7da1cdf9-1886-460b-8d24-c2e15fd163df,2,4897.0,788,6301.0,3634,Center Forward,,drawing,0,0,3,3869220-788-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3869220,16a3afd5-240e-488d-95d8-1af9fc0e968b,2,4970.0,788,15890.0,31295,Left Back,,drawing,0,0,4,3869220-788-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3869220,6d27ddbf-27cd-4633-8db5-d3d5cba3e617,2,5040.0,788,12149.0,7459,Right Center Back,,drawing,0,0,5,3869220-788-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3869220,44fd7afb-4796-4904-8f10-3fb64501a612,4,7170.0,788,46258.0,67700,Right Center Midfield,,drawing,0,0,6,3869220-788-4-39,unknown,substitution_position_balance_v1,missing_player_in_position
+3869253,b53b76e8-c57a-4550-9f1e-3d91c27953c8,2,3753.0,781,13620.0,4324,Right Back,,leading,4,0,1,3869253-781-2-20,unknown,substitution_position_balance_v1,missing_player_in_position
+3869253,aad08449-809b-4055-8c1e-b44f0aae65d9,2,4304.0,781,3063.0,11493,Left Back,,leading,4,0,2,3869253-781-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3869253,435800f5-d462-4c58-b0db-3ea6e42e78f7,2,4306.0,781,18395.0,29976,Left Wing,,leading,4,0,3,3869253-781-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3869253,7d1505bf-a5a3-422f-9a8c-c702b0cf132a,2,4793.0,781,5547.0,25101,Goalkeeper,,leading,3,0,4,3869253-781-2-26,goalkeeper,substitution_position_balance_v1,
+3869253,6056a6ab-b3df-4f22-805c-89b4ba099777,2,4817.0,781,4320.0,25104,Center Attacking Midfield,,leading,3,0,5,3869253-781-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3869253,a2dd07cd-34e3-4eea-bc13-59ec993ee95f,2,2700.0,791,40538.0,5986,Left Back,,trailing,-4,0,1,3869253-791-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3869253,cee10e5c-c19c-407a-b512-0f8ff05f781e,2,2700.0,791,5618.0,40558,Right Defensive Midfield,,trailing,-4,0,2,3869253-791-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3869253,1ec3434f-7816-4354-9e51-be47cbea8762,2,3866.0,791,23763.0,23264,Right Center Midfield,,trailing,-4,0,3,3869253-791-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3869253,a870c6ec-4aff-49df-ac06-cc2f268a27ae,2,4408.0,791,5623.0,22740,Left Center Midfield,,trailing,-4,0,4,3869253-791-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3869253,277b61b3-c7d9-4c6a-bf3c-d9b7ddda2bcf,2,4771.0,791,40542.0,29966,Center Forward,,trailing,-3,0,5,3869253-791-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3869254,62178a32-a5ba-450f-8fe9-6084f1578d4c,2,2700.0,773,5537.0,29012,Center Back,,trailing,-2,0,1,3869254-773-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3869254,78f899a6-7d69-4a37-9d35-465d4a1d5cd7,2,3216.0,773,6983.0,5538,Left Center Midfield,,trailing,-3,0,2,3869254-773-2-17,unknown,substitution_position_balance_v1,missing_player_in_position
+3869254,3b066e30-8db6-4410-b249-0dc16417b8ee,2,3234.0,773,16026.0,5543,Right Center Midfield,,trailing,-3,0,3,3869254-773-2-17,unknown,substitution_position_balance_v1,missing_player_in_position
+3869254,6c2b6706-49eb-4ff4-9ea6-ce022a9ca9b8,2,3943.0,773,30401.0,29006,Left Midfield,,trailing,-3,0,4,3869254-773-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3869254,edabea6c-5d16-477f-896d-ac15e3fdd0d5,2,5316.0,773,5545.0,41655,Left Center Forward,,trailing,-4,0,5,3869254-773-2-29,unknown,substitution_position_balance_v1,missing_player_in_position
+3869254,e19f9614-c46f-460c-ab3e-1bad309c4ea5,2,4355.0,780,38803.0,10868,Center Forward,,leading,4,0,1,3869254-780-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3869254,71479e73-7791-4020-b4f2-aba568d08407,2,4369.0,780,12041.0,5207,Left Wing,,leading,4,0,2,3869254-780-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3869254,374632e9-acf7-4e77-abb0-d3d22e167fbb,2,4384.0,780,11184.0,34639,Left Center Midfield,,leading,4,0,3,3869254-780-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3869254,1c6b84f4-1e6f-4d84-ac75-0470971ac8a5,2,4839.0,780,3193.0,9927,Right Center Midfield,,leading,4,0,4,3869254-780-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3869254,8e479f7b-edb6-4068-bcc9-2d7bc8a8d2bb,2,5200.0,780,5204.0,18360,Right Wing,,leading,4,0,5,3869254-780-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3869321,17ba40b3-f2b0-4108-8c33-226f1ad45ac3,2,3947.0,779,7797.0,16308,Right Center Midfield,,leading,1,0,1,3869321-779-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3869321,88318d90-f718-463c-bf28-0eeb972d5509,2,4629.0,779,19597.0,5507,Left Wing Back,,leading,2,0,2,3869321-779-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3869321,cd1246a2-4e6b-4e0e-86d4-8150e443a28c,2,4648.0,779,20572.0,7161,Right Center Back,,leading,2,0,3,3869321-779-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3869321,ade904a3-0e91-4a4b-a208-72dba7aafa66,2,4855.0,779,29560.0,11456,Left Center Forward,,leading,2,0,4,3869321-779-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3869321,436289e7-4855-4ba2-b310-3ffcb56c7efc,4,6300.0,779,29201.0,28263,Right Wing Back,,drawing,0,0,5,3869321-779-4-35,unknown,substitution_position_balance_v1,missing_player_in_position
+3869321,6b6618c3-6800-4c7f-8f03-aecbd3aecea1,4,6661.0,779,27768.0,2995,Left Center Back,,drawing,0,0,6,3869321-779-4-37,unknown,substitution_position_balance_v1,missing_player_in_position
+3869321,984639f8-7add-40be-9d35-4a203521c029,2,2700.0,941,8259.0,7745,Right Center Forward,,trailing,-1,0,1,3869321-941-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3869321,a617add6-229d-4795-b098-0e26d7467c8d,2,2700.0,941,6994.0,7891,Right Defensive Midfield,,trailing,-1,0,2,3869321-941-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3869321,9c8afea9-9e2a-4996-8838-ad05f9ddcc31,2,3841.0,941,3311.0,20033,Left Wing Back,,trailing,-1,0,3,3869321-941-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3869321,c3d06186-b9f6-48d1-80d5-dfade1103eef,2,4677.0,941,2988.0,7829,Center Attacking Midfield,,trailing,-2,0,4,3869321-941-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3869321,dd30f143-ef67-4b77-9ad0-67b07c5f0f19,4,6761.0,941,20750.0,21547,Left Midfield,,drawing,0,0,5,3869321-941-4-37,unknown,substitution_position_balance_v1,missing_player_in_position
+3869354,02eae2e6-b7bd-4fc6-9c2b-4fd01e98e10c,2,4728.0,768,3532.0,7843,Right Center Midfield,,trailing,-1,0,1,3869354-768-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3869354,725ce7ae-e230-4356-a9e5-d3bfe0a92b41,2,4731.0,768,22084.0,3233,Right Wing,,trailing,-1,0,2,3869354-768-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3869354,bd7ec7b6-8ed1-45e7-a499-f54007f025cf,2,5068.0,768,4354.0,3318,Left Wing,,trailing,-1,0,3,3869354-768-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3869354,a2e472e6-da55-495e-96c8-0f6dc3d1bc87,2,5824.0,768,3244.0,9638,Right Center Back,,trailing,-1,0,4,3869354-768-2-32,unknown,substitution_position_balance_v1,missing_player_in_position
+3869354,6d3e0ab2-8db1-4fe0-befe-ded4c7202530,2,4717.0,771,5477.0,8217,Right Wing,,leading,1,0,1,3869354-771-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3869420,3f6f2752-1f11-4d93-9fd2-795c2d653b47,2,3311.0,781,10595.0,25363,Right Midfield,,drawing,0,0,1,3869420-781-2-18,unknown,substitution_position_balance_v1,missing_player_in_position
+3869420,369e7ae0-4051-4cc8-bc70-1da505ab98fa,2,3822.0,781,18395.0,25104,Left Midfield,,drawing,0,0,2,3869420-781-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3869420,78e43b5f-b533-435f-be57-fa6c63892790,2,4998.0,781,3280.0,25305,Center Forward,,drawing,0,0,3,3869420-781-2-27,unknown,substitution_position_balance_v1,missing_player_in_position
+3869420,d24dfdf3-65c9-49a5-9299-b16440f137e0,4,6300.0,781,22600.0,9904,Right Defensive Midfield,,leading,1,0,4,3869420-781-4-35,unknown,substitution_position_balance_v1,missing_player_in_position
+3869420,be1fb8ab-5f75-4a30-a038-e8216b1d5206,4,6301.0,781,13620.0,6945,Right Back,,leading,1,0,5,3869420-781-4-35,unknown,substitution_position_balance_v1,missing_player_in_position
+3869420,6a95c4ff-7dd2-4e35-a845-1f9bce9964a4,2,4310.0,785,11603.0,3441,Right Wing,,drawing,0,0,1,3869420-785-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3869420,7ee1fdef-9c3d-412b-a3c3-ddbf05f9138e,2,4314.0,785,5460.0,7693,Center Forward,,drawing,0,0,2,3869420-785-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3869420,5264c7d7-02f2-480b-8755-ea045acf2dda,4,6300.0,785,5456.0,28914,Left Center Midfield,,trailing,-1,0,3,3869420-785-4-35,unknown,substitution_position_balance_v1,missing_player_in_position
+3869420,fc154453-7a21-4963-9509-6273b7ccb394,4,6565.0,785,12625.0,8654,Left Back,,trailing,-1,0,4,3869420-785-4-36,unknown,substitution_position_balance_v1,missing_player_in_position
+3869420,5d52d284-09d4-4ee5-a738-651b34776807,4,6786.0,785,5469.0,16527,Left Midfield,,trailing,-1,0,5,3869420-785-4-37,unknown,substitution_position_balance_v1,missing_player_in_position
+3869486,5177c0ae-a280-4f97-a436-74508f18d4d2,2,3043.0,780,5209.0,7005,Left Back,,trailing,-1,0,1,3869486-780-2-16,unknown,substitution_position_balance_v1,missing_player_in_position
+3869486,dda18ec7-83fe-4315-9fe3-2c35bec9255b,2,3047.0,780,9927.0,5207,Center Defensive Midfield,,trailing,-1,0,2,3869486-780-2-16,unknown,substitution_position_balance_v1,missing_player_in_position
+3869486,291b1273-cff8-40e5-9aa4-b9f36d54526d,2,4101.0,780,38803.0,18360,Center Attacking Midfield,,trailing,-1,0,3,3869486-780-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3869486,1efad622-9c62-4624-ab7b-ca6975a810e5,2,4109.0,780,11184.0,34639,Right Defensive Midfield,,trailing,-1,0,4,3869486-780-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3869486,0c6f9267-fec0-429c-98a0-92d5dcf4a2a9,2,4720.0,780,16028.0,10868,Right Back,,trailing,-1,0,5,3869486-780-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3869486,1b1d5d03-8785-447d-98dd-c513ce5a94d7,2,3417.0,788,5219.0,139016,Left Center Back,,leading,1,0,1,3869486-788-2-18,unknown,substitution_position_balance_v1,missing_player_in_position
+3869486,0d30329e-3f85-4eb7-9291-aa58b5b57068,2,3826.0,788,23774.0,296254,Left Center Midfield,,leading,1,0,2,3869486-788-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3869486,a7b2b17f-03e8-47c6-9400-e0c5e27bc465,2,3840.0,788,6301.0,67700,Center Forward,,leading,1,0,3,3869486-788-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3869486,223b71fd-8ed0-41dc-8b05-1ca5ca2bac7c,2,4835.0,788,5237.0,21736,Right Wing,,leading,1,0,4,3869486-788-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3869486,32333a1f-a1a1-442d-b4ca-84f3bf1e4091,2,4852.0,788,3625.0,102668,Left Wing,,leading,1,0,5,3869486-788-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3869519,5d00585b-8f36-4dfa-b036-bb2045096e12,2,3688.0,779,16308.0,27768,Right Defensive Midfield,,leading,2,0,1,3869519-779-2-20,unknown,substitution_position_balance_v1,missing_player_in_position
+3869519,533b8145-7c43-4442-bb5f-24e5b754d934,2,4418.0,779,7797.0,28268,Right Center Midfield,,leading,3,0,2,3869519-779-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3869519,0b6afa8a-cbb1-4c91-b12b-d61c95f4edb9,2,4427.0,779,29560.0,5743,Left Center Forward,,leading,3,0,3,3869519-779-2-24,unknown,substitution_position_balance_v1,missing_player_in_position
+3869519,913342f4-387f-4e20-bd50-8e31efe76d01,2,5136.0,779,27886.0,6377,Left Center Midfield,,leading,3,0,4,3869519-779-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3869519,6a3ff067-67e9-46d8-bef6-003f8cd6051e,2,5157.0,779,29201.0,21081,Right Wing Back,,leading,3,0,5,3869519-779-2-28,unknown,substitution_position_balance_v1,missing_player_in_position
+3869519,4f8da580-ea66-44a7-8240-c19402167719,2,2700.0,785,12625.0,16527,Left Back,,trailing,-2,0,1,3869519-785-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3869519,f904a674-0437-46e9-bf85-e2b50b2cb80a,2,2700.0,785,11603.0,3441,Right Wing,,trailing,-2,0,2,3869519-785-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3869519,90125fd5-ddb1-494c-9d05-9cdf40e12dbd,2,2983.0,785,5469.0,7693,Center Defensive Midfield,,trailing,-2,0,3,3869519-785-2-16,unknown,substitution_position_balance_v1,missing_player_in_position
+3869519,edf07d01-6dc5-4055-a83f-63a6304d0086,2,4307.0,785,5460.0,22041,Center Attacking Midfield,,trailing,-3,0,4,3869519-785-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3869519,c9da8ec4-a9a1-4fc6-95e9-51b24ec5bc2a,2,4840.0,785,5463.0,28914,Right Defensive Midfield,,trailing,-3,0,5,3869519-785-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3869552,11696e19-7bc7-49bc-a661-def6849c41bf,2,3885.0,771,3604.0,2972,Center Forward,,leading,1,0,1,3869552-771-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3869552,1ea98086-edeb-4434-ba24-b91b4af6a8dc,2,4687.0,771,5477.0,22097,Right Wing,,leading,1,0,2,3869552-771-2-26,unknown,substitution_position_balance_v1,missing_player_in_position
+3869552,a175f361-f4a2-4d96-b884-e24c77254288,1,1236.0,788,5219.0,23774,Center Back,,trailing,-1,0,1,3869552-788-1-6,unknown,substitution_position_balance_v1,missing_player_in_position
+3869552,560baaaa-dd30-4b0d-a8e3-bace53edfded,2,2700.0,788,15890.0,31295,Left Back,,trailing,-1,0,2,3869552-788-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3869552,b3df7430-10bd-4cb7-831d-4a0af1b4c1d4,2,3943.0,788,6301.0,59493,Center Forward,,trailing,-1,0,3,3869552-788-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3869552,a385e278-e208-4478-8778-47484c65c1f2,2,3965.0,788,3625.0,21736,Left Wing,,trailing,-1,0,4,3869552-788-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3869552,bcd77a09-09de-43b7-9b3a-984f6c5431b8,2,4651.0,788,23774.0,149714,Left Center Midfield,,trailing,-1,0,5,3869552-788-2-25,unknown,substitution_position_balance_v1,missing_player_in_position
+3869684,e674ead9-edce-4a47-9b41-da13e3e65208,2,3664.0,785,5460.0,3441,Right Wing,,leading,1,0,1,3869684-785-2-20,unknown,substitution_position_balance_v1,missing_player_in_position
+3869684,3224e803-a209-4217-aaa7-cfd3f3138d64,2,4015.0,785,28914.0,11603,Center Attacking Midfield,,leading,1,0,2,3869684-785-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3869684,0187836d-d9eb-4cd8-a6da-b5337e6a74f3,2,4018.0,785,22041.0,7693,Center Forward,,leading,1,0,3,3869684-785-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3869684,24013071-314d-4152-94fd-320faf16bf76,2,5692.0,785,16527.0,32602,Left Wing,,leading,1,0,4,3869684-785-2-31,unknown,substitution_position_balance_v1,missing_player_in_position
+3869684,b8f55195-7688-412b-9eb7-41b3ca7cad10,2,2700.0,788,3634.0,21214,Left Center Midfield,,trailing,-1,0,1,3869684-788-2-15,unknown,substitution_position_balance_v1,missing_player_in_position
+3869684,4fc488a7-2f00-4039-be76-132173e5bf4a,2,3302.0,788,156734.0,46258,Left Center Midfield,,trailing,-1,0,2,3869684-788-2-18,unknown,substitution_position_balance_v1,missing_player_in_position
+3869684,bb656f1f-6187-4cd6-b49e-ce447e60dea5,2,3797.0,788,3625.0,131037,Left Wing,,trailing,-1,0,3,3869684-788-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3869684,a2b79be4-6350-416f-acb5-80554c7f33c5,2,3804.0,788,139016.0,67700,Left Center Back,,trailing,-1,0,4,3869684-788-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3869684,cf0feac3-e562-4749-8ea9-eba6ae5a75f6,2,4008.0,788,7459.0,23774,Right Center Back,,trailing,-1,0,5,3869684-788-2-22,unknown,substitution_position_balance_v1,missing_player_in_position
+3869685,df245155-92fc-4123-8bcf-66ba2ee77870,1,2432.0,771,5477.0,22097,Right Wing,,trailing,-2,0,1,3869685-771-1-13,unknown,substitution_position_balance_v1,missing_player_in_position
+3869685,bae6c6ee-59b6-419e-992d-7567437736f5,1,2461.0,771,3604.0,2972,Center Forward,,trailing,-2,0,2,3869685-771-1-13,unknown,substitution_position_balance_v1,missing_player_in_position
+3869685,3c9df00b-0b30-4548-9cd1-ceff03cc9919,2,4227.0,771,6704.0,24778,Left Back,,trailing,-2,0,3,3869685-771-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3869685,43fe1865-0aa9-4bb1-bf33-a2871df4589b,2,4229.0,771,5487.0,8217,Center Attacking Midfield,,trailing,-2,0,4,3869685-771-2-23,unknown,substitution_position_balance_v1,missing_player_in_position
+3869685,5688fcf1-1b7a-4938-8d14-92b87c198d95,3,5710.0,771,3026.0,11990,Left Defensive Midfield,,drawing,0,0,5,3869685-771-3-31,unknown,substitution_position_balance_v1,missing_player_in_position
+3869685,c001d49f-247b-40d8-b247-38c7adcdebe4,4,6748.0,771,5485.0,11135,Right Center Back,,trailing,-1,0,6,3869685-771-4-37,unknown,substitution_position_balance_v1,missing_player_in_position
+3869685,838765c8-45c7-4379-857c-f103770acbfc,4,7235.0,771,4445.0,7439,Right Back,,drawing,0,0,7,3869685-771-4-40,unknown,substitution_position_balance_v1,missing_player_in_position
+3869685,e7e1f696-1fe2-4b3a-b2ec-aeb36b0c8258,2,3831.0,779,2995.0,19597,Left Wing,,leading,2,0,1,3869685-779-2-21,unknown,substitution_position_balance_v1,missing_player_in_position
+3869685,c7266755-5003-418c-bf4f-f7da41d47840,3,5400.0,779,29201.0,28263,Right Back,,drawing,0,0,2,3869685-779-3-30,unknown,substitution_position_balance_v1,missing_player_in_position
+3869685,8939a18c-593c-41fc-b86d-308cd189fca1,3,6097.0,779,7797.0,16308,Right Center Midfield,,drawing,0,0,3,3869685-779-3-33,unknown,substitution_position_balance_v1,missing_player_in_position
+3869685,1e6477ea-098a-41d5-96d1-d2944e38f46c,3,6109.0,779,29560.0,11456,Center Forward,,drawing,0,0,4,3869685-779-3-33,unknown,substitution_position_balance_v1,missing_player_in_position
+3869685,6e81c350-5788-4f84-891a-92db9bfbf0db,4,6922.0,779,27886.0,7161,Left Center Midfield,,leading,1,0,5,3869685-779-4-38,unknown,substitution_position_balance_v1,missing_player_in_position
+3869685,27c68f97-cc44-4fb8-9703-0a4de1c9f6ed,4,7246.0,779,5507.0,5743,Left Wing Back,,drawing,0,0,6,3869685-779-4-40,unknown,substitution_position_balance_v1,missing_player_in_position
