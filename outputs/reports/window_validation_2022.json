@@ -1,0 +1,20 @@
+{
+  "team_window_rows": 2822,
+  "match_window_pairs": 1411,
+  "period_1_windows": 1322,
+  "period_2_windows": 1420,
+  "extra_time_windows": 80,
+  "windows_spanning_period_boundaries": 0,
+  "events_assigned_to_multiple_windows": 0,
+  "events_unassigned_from_eligible_periods": 0,
+  "mixed_score_state_windows": 210,
+  "mixed_numerical_state_windows": 6,
+  "score_majority_ties": 0,
+  "numerical_majority_ties": 0,
+  "zero_effective_time_windows": 0,
+  "low_effective_time_windows": 42,
+  "total_effective_seconds": 728786.0,
+  "total_capped_seconds": 70160.0,
+  "state_duration_reconciliation_failures": 0,
+  "numerical_duration_reconciliation_failures": 0
+}

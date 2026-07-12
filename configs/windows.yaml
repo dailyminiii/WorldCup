@@ -1,0 +1,17 @@
+window_minutes: 5
+include_stoppage_time: true
+split_by_period: true
+split_on_goal: false
+split_on_red_card: false
+minimum_effective_seconds: 30
+effective_time_gap_cap_seconds: 30
+boundary_assignment: right_closed
+majority_tie_rule: state_at_window_end
+minimum_denominators:
+  effective_seconds: 30
+  passes: 5
+  possessions: 2
+  opponent_passes_for_ppda: 5
+  defensive_actions_for_ppda: 1
+  pressure_events_for_conversion: 3
+
