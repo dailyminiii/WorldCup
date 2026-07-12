@@ -1,0 +1,15 @@
+{
+  "classification_counts": {
+    "ambiguous_provider_representation": 653,
+    "provider_possession_boundary": 248,
+    "same_timestamp_transition": 1221
+  },
+  "counterpress_count": 1041,
+  "counterpress_rate": 0.49057492931196983,
+  "milestone3_bug_identified": false,
+  "next_change_2s": 248,
+  "possible_pipeline_issue_count": 0,
+  "previous_change_2s": 0,
+  "sequence_starts": 1934,
+  "total_affected": 2122
+}
