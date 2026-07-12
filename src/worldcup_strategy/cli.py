@@ -24,6 +24,16 @@ from worldcup_strategy.pressure.pipeline import (
     compute_regains_2022,
     validate_2022,
 )
+from worldcup_strategy.state.pipeline import (
+    build_features_2022,
+    build_segments_2022,
+    build_windows_2022,
+    fit_models_2022,
+    summarize_2022,
+)
+from worldcup_strategy.state.pipeline import (
+    validate_2022 as validate_state_2022,
+)
 
 app = typer.Typer(help="World Cup Strategy Lab reproducible research CLI.")
 data_app = typer.Typer(help="Acquire, canonicalize, and validate provider data.")
@@ -32,6 +42,64 @@ actions_app = typer.Typer(help="Build action metrics and attacking summaries.")
 app.add_typer(actions_app, name="actions")
 pressure_app = typer.Typer(help="Build PPDA, Pressure, regain, and 360-context metrics.")
 app.add_typer(pressure_app, name="pressure")
+state_app = typer.Typer(help="Build score-state windows, features, summaries, and models.")
+app.add_typer(state_app, name="state")
+
+
+@state_app.command("build-windows")
+def state_windows(
+    competition: Annotated[str, typer.Option()] = "FIFA World Cup",
+    season: Annotated[int, typer.Option()] = 2022,
+    window_minutes: Annotated[int, typer.Option()] = 5,
+) -> None:
+    del competition, season
+    typer.echo(f"Team windows: {len(build_windows_2022(window_minutes))}")
+
+
+@state_app.command("build-segments")
+def state_segments(
+    competition: Annotated[str, typer.Option()] = "FIFA World Cup",
+    season: Annotated[int, typer.Option()] = 2022,
+) -> None:
+    del competition, season
+    typer.echo(f"Team segments: {len(build_segments_2022())}")
+
+
+@state_app.command("build-features")
+def state_features(
+    competition: Annotated[str, typer.Option()] = "FIFA World Cup",
+    season: Annotated[int, typer.Option()] = 2022,
+) -> None:
+    del competition, season
+    windows, segments = build_features_2022()
+    typer.echo(f"Window features: {len(windows)}; segment features: {len(segments)}")
+
+
+@state_app.command("summarize")
+def state_summarize(
+    competition: Annotated[str, typer.Option()] = "FIFA World Cup",
+    season: Annotated[int, typer.Option()] = 2022,
+) -> None:
+    del competition, season
+    typer.echo(f"Summary rows: {len(summarize_2022())}")
+
+
+@state_app.command("fit-models")
+def state_models(
+    competition: Annotated[str, typer.Option()] = "FIFA World Cup",
+    season: Annotated[int, typer.Option()] = 2022,
+) -> None:
+    del competition, season
+    typer.echo(f"Model coefficient rows: {len(fit_models_2022())}")
+
+
+@state_app.command("validate")
+def state_validate(
+    competition: Annotated[str, typer.Option()] = "FIFA World Cup",
+    season: Annotated[int, typer.Option()] = 2022,
+) -> None:
+    del competition, season
+    typer.echo(json_summary(validate_state_2022()))
 
 
 @pressure_app.command("compute-ppda")

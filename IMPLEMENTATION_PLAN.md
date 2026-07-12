@@ -96,3 +96,19 @@ publication figures, and paper results.
 
 Milestone 3 excludes score-state models, qualification simulation, publication figures, and
 paper results.
+
+## Milestone 4 continuation status (2026-07-13)
+
+- [x] Symmetric event-level score and discipline state.
+- [x] Period-local right-closed five-minute windows with stoppage and extra time.
+- [x] Goal/red-card/period homogeneous state segments.
+- [x] Timestamp-based core attacking, Pressure, regain, substitution, and Tactical Shift joins.
+- [x] Pooled and unweighted non-causal descriptive summaries.
+- [x] Deterministic primary Poisson count associations with match-clustered uncertainty.
+- [x] CLI and Make entry points for the executable state pipeline.
+- [ ] Complete the full feature/rate contract (notably window PPDA, xT, progression, and style).
+- [ ] Execute continuous, passing-style, substitution, and all robustness model specifications.
+- [ ] Add the remaining boundary, feature-join, estimability, and end-to-end integration tests.
+
+Milestone 4 remains in progress until the unchecked scientific contracts are implemented and
+validated. Milestone 5 must not begin before then.

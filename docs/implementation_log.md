@@ -47,3 +47,20 @@
   requirements or off-camera imputation.
 - Investigated three wrong-direction shot endpoints; all were isolated provider endpoint edge
   cases, so Milestone 1 orientation logic was not changed.
+
+## 2026-07-13 — Milestone 4 continuation
+
+- Built 2,822 period-local five-minute team windows. The right-closed boundary convention
+  assigns an event at exactly 300 seconds once, to the preceding window; period-start events
+  enter the first interval.
+- Built 626 homogeneous team-perspective state segments (313 paired match segments), with
+  172 goal, 3 red-card, and 138 period-start splits and no interval mismatch.
+- Reconciled timestamp-assigned window and segment totals to 68,515 passes, 53,764 carries,
+  1,793 dribbles, 1,453 regular shots, 172 goals, 155.8985419302 xG, 16,554 Pressure events,
+  14,066 Pressure sequences, 587 substitutions, and 243 Tactical Shift events.
+- Added non-causal pooled and unweighted score-state summaries.
+- Added deterministic primary Poisson association models with match-clustered standard errors.
+  The complete continuous-outcome and robustness grid remains pending and is reported as a
+  limitation rather than represented as complete.
+- The executable CLI reproduction completed for windows, segments, features, summaries,
+  models, and validation. Ruff, strict Mypy, and 43 tests passed under Python 3.12.13.
