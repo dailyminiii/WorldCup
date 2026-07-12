@@ -4,6 +4,10 @@
 import pandas as pd
 
 
+def _score_state(difference: int) -> str:
+    return "leading" if difference > 0 else "trailing" if difference < 0 else "drawing"
+
+
 def reconstruct_score(events: pd.DataFrame, matches: pd.DataFrame) -> pd.DataFrame:
     """Create two symmetric team-perspective rows per event with before/after scores."""
     rows = []
@@ -24,7 +28,6 @@ def reconstruct_score(events: pd.DataFrame, matches: pd.DataFrame) -> pd.DataFra
             for team, opponent in ((home, away), (away, home)):
                 diff_before = before[team] - before[opponent]
                 diff_after = score[team] - score[opponent]
-                state = lambda d: "leading" if d > 0 else "trailing" if d < 0 else "drawing"
                 rows.append(
                     {
                         "match_id": match_id,
@@ -37,11 +40,11 @@ def reconstruct_score(events: pd.DataFrame, matches: pd.DataFrame) -> pd.DataFra
                         "goals_for_before": before[team],
                         "goals_against_before": before[opponent],
                         "goal_difference_before": diff_before,
-                        "score_state_before": state(diff_before),
+                        "score_state_before": _score_state(diff_before),
                         "goals_for_after": score[team],
                         "goals_against_after": score[opponent],
                         "goal_difference_after": diff_after,
-                        "score_state_after": state(diff_after),
+                        "score_state_after": _score_state(diff_after),
                         "scoring_event": scoring is not None,
                         "scoring_team_id": scoring,
                         "conceding_team_id": opponent
