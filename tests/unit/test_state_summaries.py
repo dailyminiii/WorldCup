@@ -13,19 +13,21 @@ def test_pooled_rate_preserves_raw_denominator() -> None:
             "match_id": [1, 1],
             "effective_play_seconds": [100.0, 200.0],
             "possessions": [2, 3],
-            "shots": [1, 2],
-            "statsbomb_xg": [0.1, 0.2],
-            "passes": [1, 9],
-            "completed_passes": [1, 0],
-            "pressure_events": [1, 9],
-            "pressure_regains_5s": [1, 0],
+            "shots_per_effective_10min": [6.0, 6.0],
+            "shots_per_effective_10min_numerator": [1, 2],
+            "shots_per_effective_10min_denominator": [100, 200],
+            "shots_per_effective_10min_reliable": [True, True],
+            "shots_per_effective_10min_unreliable_reason": [None, None],
             "pressure_regain_5s_rate": [1.0, 0.0],
-            "substitutions": [0, 0],
-            "goalkeeper_substitutions": [0, 0],
-            "unknown_substitutions": [0, 0],
-            "tactical_shifts": [0, 0],
+            "pressure_regain_5s_rate_numerator": [1, 0],
+            "pressure_regain_5s_rate_denominator": [1, 9],
+            "pressure_regain_5s_rate_reliable": [False, True],
+            "pressure_regain_5s_rate_unreliable_reason": ["below_minimum_pressure_events", None],
         }
     )
+    for outcome in summarize_score_state.__globals__["OUTCOMES"]:
+        if outcome not in frame:
+            frame[outcome] = 0.0
     summary = summarize_score_state(frame)
     pressure = summary[summary.outcome == "pressure_regain_5s_rate"].iloc[0]
     assert pressure.raw_denominator == 10

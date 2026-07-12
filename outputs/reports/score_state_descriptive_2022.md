@@ -1,43 +1,59 @@
-# Score-state descriptive summary (2022)
+# Score-state descriptive associations (2022)
 
-These are descriptive associations, not causal effects.
+All differences below are observational associations, not causal effects.
+Unweighted window means and pooled numerator/denominator rates are distinct.
 
-## drawing
-
-- `shots`: mean=0.514483, pooled=0.00194657, n=1450
-- `statsbomb_xg`: mean=0.0489949, pooled=0.000185374, n=1450
-- `passes`: mean=25.0593, pooled=0.0948131, n=1450
-- `completed_passes`: mean=20.589, pooled=0.821609, n=1450
-- `pressure_events`: mean=6.02207, pooled=0.0227848, n=1450
-- `pressure_regain_5s_rate`: mean=0.225029, pooled=0.200183, n=1396
-- `substitutions`: mean=0.127586, pooled=0.000482729, n=1450
-- `goalkeeper_substitutions`: mean=0.000689655, pooled=2.60934e-06, n=1450
-- `unknown_substitutions`: mean=0.126897, pooled=0.000480119, n=1450
-- `tactical_shifts`: mean=0.0455172, pooled=0.000172217, n=1450
-
-## leading
-
-- `shots`: mean=0.53207, pooled=0.00211259, n=686
-- `statsbomb_xg`: mean=0.0748704, pooled=0.000297273, n=686
-- `passes`: mean=22.6706, pooled=0.0900135, n=686
-- `completed_passes`: mean=18.7682, pooled=0.827868, n=686
-- `pressure_events`: mean=5.75948, pooled=0.022868, n=686
-- `pressure_regain_5s_rate`: mean=0.193955, pooled=0.180714, n=643
-- `substitutions`: mean=0.282799, pooled=0.00112285, n=686
-- `goalkeeper_substitutions`: mean=0.00145773, pooled=5.78791e-06, n=686
-- `unknown_substitutions`: mean=0.281341, pooled=0.00111707, n=686
-- `tactical_shifts`: mean=0.104956, pooled=0.000416729, n=686
-
-## trailing
-
-- `shots`: mean=0.498542, pooled=0.00197946, n=686
-- `statsbomb_xg`: mean=0.0488264, pooled=0.000193865, n=686
-- `passes`: mean=24.2376, pooled=0.0962355, n=686
-- `completed_passes`: mean=19.8499, pooled=0.818969, n=686
-- `pressure_events`: mean=5.64286, pooled=0.022405, n=686
-- `pressure_regain_5s_rate`: mean=0.232823, pooled=0.211057, n=637
-- `substitutions`: mean=0.303207, pooled=0.00120388, n=686
-- `goalkeeper_substitutions`: mean=0, pooled=0, n=686
-- `unknown_substitutions`: mean=0.303207, pooled=0.00120388, n=686
-- `tactical_shifts`: mean=0.153061, pooled=0.00060773, n=686
-
+- drawing / shots_per_effective_10min: unweighted=1.2246004650529108, pooled=0.0019465710602810785, reliable_n=1442, missing_n=0
+- drawing / xg_per_effective_10min: unweighted=0.12486635461190823, pooled=0.00018537447970112567, reliable_n=1442, missing_n=0
+- drawing / xt_per_effective_10min: unweighted=0.22262096339287135, pooled=0.0003635240028199104, reliable_n=1442, missing_n=0
+- drawing / progressive_passes_per_100_passes: unweighted=3.21628587770668, pooled=0.029172170849845882, reliable_n=1383, missing_n=16
+- drawing / progressive_carries_per_100_possessions: unweighted=10.458049628794884, pooled=0.09847566256712281, reliable_n=1436, missing_n=2
+- drawing / possession_share: unweighted=0.5, pooled=0.5, reliable_n=1436, missing_n=2
+- drawing / pass_completion_rate: unweighted=0.7681788571472764, pooled=0.8216094231616028, reliable_n=1383, missing_n=16
+- drawing / forward_pass_share: unweighted=0.614391453119654, pooled=0.5801133861734918, reliable_n=1383, missing_n=16
+- drawing / long_pass_share: unweighted=0.1596536378904482, pooled=0.12844011448701012, reliable_n=1383, missing_n=16
+- drawing / pass_directness: unweighted=0.486115921000437, pooled=0.486115921000437, reliable_n=1450, missing_n=16
+- drawing / mean_pass_length: unweighted=19.40005813739976, pooled=19.40005813739976, reliable_n=1450, missing_n=16
+- drawing / ppda_classic: unweighted=6.229589093701996, pooled=8.379615952732644, reliable_n=520, missing_n=582
+- drawing / pressure_events_per_30_opponent_passes: unweighted=8.21737692089305, pooled=0.2403126376045795, reliable_n=1383, missing_n=16
+- drawing / high_pressure_share: unweighted=0.3443389935204784, pooled=0.3254695373339441, reliable_n=1232, missing_n=54
+- drawing / pressure_regain_5s_rate: unweighted=0.22502911034271644, pooled=0.20018323408153918, reliable_n=1232, missing_n=54
+- drawing / sequence_regain_5s_rate: unweighted=0.2277073921920543, pooled=0.20075198066335437, reliable_n=1202, missing_n=54
+- drawing / any_substitution: unweighted=0.08827586206896551, pooled=0.08827586206896551, reliable_n=1450, missing_n=0
+- drawing / tactical_shifts: unweighted=0.04551724137931035, pooled=0.04551724137931035, reliable_n=1450, missing_n=0
+- leading / shots_per_effective_10min: unweighted=1.2752939688756746, pooled=0.0021125863845254493, reliable_n=669, missing_n=0
+- leading / xg_per_effective_10min: unweighted=0.1927197401718886, pooled=0.00029727334044300644, reliable_n=669, missing_n=0
+- leading / xt_per_effective_10min: unweighted=0.23078685843795352, pooled=0.00038436114240088124, reliable_n=669, missing_n=0
+- leading / progressive_passes_per_100_passes: unweighted=3.7371998226524203, pooled=0.032214506172839504, reliable_n=630, missing_n=20
+- leading / progressive_carries_per_100_possessions: unweighted=12.29982278816098, pooled=0.11556603773584906, reliable_n=665, missing_n=0
+- leading / possession_share: unweighted=0.4702164080345909, pooled=0.46899202099614523, reliable_n=668, missing_n=9
+- leading / pass_completion_rate: unweighted=0.7447885523889622, pooled=0.8278677983539094, reliable_n=630, missing_n=20
+- leading / forward_pass_share: unweighted=0.6409558895152718, pooled=0.5815329218106996, reliable_n=630, missing_n=20
+- leading / long_pass_share: unweighted=0.1882893685797187, pooled=0.1293724279835391, reliable_n=630, missing_n=20
+- leading / pass_directness: unweighted=0.5373017295722051, pooled=0.5373017295722051, reliable_n=686, missing_n=20
+- leading / mean_pass_length: unweighted=20.542308486818925, pooled=20.542308486818925, reliable_n=686, missing_n=20
+- leading / ppda_classic: unweighted=5.34697357203751, pooled=6.99219968798752, reliable_n=225, missing_n=295
+- leading / pressure_events_per_30_opponent_passes: unweighted=7.742043981115304, pooled=0.23762554880615866, reliable_n=636, missing_n=16
+- leading / high_pressure_share: unweighted=0.30516703269996653, pooled=0.29157175398633256, reliable_n=559, missing_n=43
+- leading / pressure_regain_5s_rate: unweighted=0.19395485840458854, pooled=0.18071374335611237, reliable_n=559, missing_n=43
+- leading / sequence_regain_5s_rate: unweighted=0.20208631009564135, pooled=0.18761220825852784, reliable_n=531, missing_n=43
+- leading / any_substitution: unweighted=0.19096209912536444, pooled=0.19096209912536444, reliable_n=686, missing_n=0
+- leading / tactical_shifts: unweighted=0.10495626822157435, pooled=0.10495626822157435, reliable_n=686, missing_n=0
+- trailing / shots_per_effective_10min: unweighted=1.212683363681325, pooled=0.001979464502760832, reliable_n=669, missing_n=0
+- trailing / xg_per_effective_10min: unweighted=0.13652780216655636, pooled=0.00019386535564841929, reliable_n=669, missing_n=0
+- trailing / xt_per_effective_10min: unweighted=0.24614892398205585, pooled=0.0004231949966975972, reliable_n=669, missing_n=0
+- trailing / progressive_passes_per_100_passes: unweighted=3.182004639705567, pooled=0.030011427196728214, reliable_n=636, missing_n=16
+- trailing / progressive_carries_per_100_possessions: unweighted=10.557930143657291, pooled=0.1062171116741376, reliable_n=664, missing_n=0
+- trailing / possession_share: unweighted=0.5297835919654091, pooled=0.5310079790038548, reliable_n=668, missing_n=9
+- trailing / pass_completion_rate: unweighted=0.7771607426101024, pooled=0.8189691465688338, reliable_n=636, missing_n=16
+- trailing / forward_pass_share: unweighted=0.6105223787005761, pooled=0.5886810609250015, reliable_n=636, missing_n=16
+- trailing / long_pass_share: unweighted=0.15167443658485008, pooled=0.12762374451193842, reliable_n=636, missing_n=16
+- trailing / pass_directness: unweighted=0.46595722059086064, pooled=0.46595722059086064, reliable_n=686, missing_n=16
+- trailing / mean_pass_length: unweighted=19.018595011510484, pooled=19.018595011510484, reliable_n=686, missing_n=16
+- trailing / ppda_classic: unweighted=5.68846153846154, pooled=7.704761904761905, reliable_n=210, missing_n=283
+- trailing / pressure_events_per_30_opponent_passes: unweighted=9.063937628582591, pooled=0.24890689300411523, reliable_n=630, missing_n=20
+- trailing / high_pressure_share: unweighted=0.3482491935906579, pooled=0.3311805734952209, reliable_n=538, missing_n=49
+- trailing / pressure_regain_5s_rate: unweighted=0.23282263454832483, pooled=0.2110565745285456, reliable_n=538, missing_n=49
+- trailing / sequence_regain_5s_rate: unweighted=0.2323094023193328, pooled=0.20720170888007325, reliable_n=525, missing_n=50
+- trailing / any_substitution: unweighted=0.20845481049562684, pooled=0.20845481049562684, reliable_n=686, missing_n=0
+- trailing / tactical_shifts: unweighted=0.15306122448979592, pooled=0.15306122448979592, reliable_n=686, missing_n=0
