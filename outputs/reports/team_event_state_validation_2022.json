@@ -1,0 +1,8 @@
+{
+  "team_event_rows": 469274,
+  "expected_rows": 469274,
+  "duplicate_rows": 0,
+  "events_without_two_perspectives": 0,
+  "symmetry_failures": 0,
+  "valid": true
+}
