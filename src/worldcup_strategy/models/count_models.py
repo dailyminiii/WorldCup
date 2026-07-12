@@ -38,3 +38,41 @@ def fit_poisson(
         "converged": converged,
         "fitted": mu,
     }
+
+
+def fit_binomial(
+    successes: np.ndarray,
+    trials: np.ndarray,
+    x: np.ndarray,
+    clusters: np.ndarray,
+    iterations: int = 100,
+) -> dict[str, object]:
+    """Fit grouped-binomial logit with cluster-robust covariance."""
+    beta = np.zeros(x.shape[1])
+    converged = False
+    proportions = successes / trials
+    for _ in range(iterations):
+        eta = np.clip(x @ beta, -20, 20)
+        probability = 1 / (1 + np.exp(-eta))
+        weights = trials * probability * (1 - probability)
+        working = eta + (proportions - probability) / (probability * (1 - probability))
+        weighted_x = x * np.sqrt(weights)[:, None]
+        updated = np.linalg.pinv(weighted_x) @ (working * np.sqrt(weights))
+        if np.max(np.abs(updated - beta)) < 1e-9:
+            beta = updated
+            converged = True
+            break
+        beta = updated
+    bread = np.linalg.pinv(x.T @ (weights[:, None] * x))
+    meat = np.zeros_like(bread)
+    residual = successes - trials * probability
+    for cluster in np.unique(clusters):
+        selected = clusters == cluster
+        score = x[selected].T @ residual[selected]
+        meat += np.outer(score, score)
+    return {
+        "coefficient": beta,
+        "standard_error": np.sqrt(np.diag(bread @ meat @ bread)),
+        "converged": converged,
+        "fitted": probability,
+    }

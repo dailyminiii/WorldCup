@@ -11,4 +11,7 @@ def fit_clustered_ols(y: np.ndarray, x: np.ndarray, clusters: np.ndarray) -> dic
     coefficients = np.linalg.pinv(x) @ y
     residuals = y - x @ coefficients
     covariance = clustered_covariance(x, residuals, clusters)
-    return {"coefficient": coefficients, "standard_error": np.sqrt(np.diag(covariance))}
+    return {
+        "coefficient": coefficients,
+        "standard_error": np.sqrt(np.clip(np.diag(covariance), 0, None)),
+    }

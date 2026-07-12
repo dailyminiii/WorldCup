@@ -2,4 +2,4 @@
 
 These adjusted conditional relationships are observational and are not causal effects.
 
-The current executable set covers three Poisson count models with match-clustered standard errors. Continuous outcomes and the complete robustness grid remain pending.
+The executable set covers count, continuous, and grouped-proportion associations with clustered uncertainty. All robustness cells are retained, including explicitly unavailable non-identifiable cells.

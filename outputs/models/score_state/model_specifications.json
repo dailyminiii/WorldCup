@@ -18,6 +18,66 @@
     "execution_status": "planned"
   },
   {
+    "model_id": "primary_xg_per_effective_10min",
+    "outcome": "xg_per_effective_10min",
+    "model_family": "ols_clustered",
+    "execution_status": "planned"
+  },
+  {
+    "model_id": "primary_xt_per_effective_10min",
+    "outcome": "xt_per_effective_10min",
+    "model_family": "ols_clustered",
+    "execution_status": "planned"
+  },
+  {
+    "model_id": "primary_mean_pass_length",
+    "outcome": "mean_pass_length",
+    "model_family": "ols_clustered",
+    "execution_status": "planned"
+  },
+  {
+    "model_id": "primary_pass_directness",
+    "outcome": "pass_directness",
+    "model_family": "ols_clustered",
+    "execution_status": "planned"
+  },
+  {
+    "model_id": "primary_pass_completion_rate",
+    "outcome": "pass_completion_rate",
+    "model_family": "grouped_binomial_logit",
+    "execution_status": "planned"
+  },
+  {
+    "model_id": "primary_forward_pass_share",
+    "outcome": "forward_pass_share",
+    "model_family": "grouped_binomial_logit",
+    "execution_status": "planned"
+  },
+  {
+    "model_id": "primary_long_pass_share",
+    "outcome": "long_pass_share",
+    "model_family": "grouped_binomial_logit",
+    "execution_status": "planned"
+  },
+  {
+    "model_id": "primary_possession_share",
+    "outcome": "possession_share",
+    "model_family": "fractional_logit",
+    "execution_status": "planned"
+  },
+  {
+    "model_id": "primary_high_pressure_share",
+    "outcome": "high_pressure_share",
+    "model_family": "grouped_binomial_logit",
+    "execution_status": "planned"
+  },
+  {
+    "model_id": "primary_pressure_regain_5s_rate",
+    "outcome": "pressure_regain_5s_rate",
+    "model_family": "grouped_binomial_logit",
+    "execution_status": "planned"
+  },
+  {
     "model_id": "attacking_substitution",
     "outcome": "attacking_substitution",
     "model_family": "binomial",
@@ -36,6 +96,6 @@
     "outcome": "goalkeeper_substitutions",
     "model_family": "binomial",
     "execution_status": "unavailable",
-    "unavailable_reason": "only_two_events_not_estimable"
+    "unavailable_reason": "insufficient_positive_events"
   }
 ]
