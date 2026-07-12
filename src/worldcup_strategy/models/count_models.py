@@ -31,7 +31,7 @@ def fit_poisson(
         selected = clusters == cluster
         score = x[selected].T @ (y[selected] - mu[selected])
         meat += np.outer(score, score)
-    standard_error = np.sqrt(np.diag(bread @ meat @ bread))
+    standard_error = np.sqrt(np.clip(np.diag(bread @ meat @ bread), 0, None))
     return {
         "coefficient": beta,
         "standard_error": standard_error,
@@ -72,7 +72,7 @@ def fit_binomial(
         meat += np.outer(score, score)
     return {
         "coefficient": beta,
-        "standard_error": np.sqrt(np.diag(bread @ meat @ bread)),
+        "standard_error": np.sqrt(np.clip(np.diag(bread @ meat @ bread), 0, None)),
         "converged": converged,
         "fitted": probability,
     }

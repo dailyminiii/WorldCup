@@ -11,7 +11,7 @@
   "rate_contract_missing_fields": 0,
   "zero_denominator_nonnull_rate_failures": 0,
   "robustness_specifications": 14,
-  "robustness_executed_rows": 338,
-  "robustness_unavailable_rows": 55,
+  "robustness_executed_rows": 326,
+  "robustness_unavailable_rows": 80,
   "valid": true
 }

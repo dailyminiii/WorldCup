@@ -41,73 +41,68 @@ def execute_robustness(
 ) -> pd.DataFrame:
     """Execute all estimable grid cells and retain unavailable cells explicitly."""
     stages = matches[["match_id", "competition_stage"]]
-    inputs: dict[str, tuple[pd.DataFrame | None, str]] = {
-        "fixed_five_minute_windows": (windows, "match_id"),
-        "homogeneous_state_segments": (_segment_model_frame(segments), "match_id"),
+    inputs: dict[str, tuple[pd.DataFrame, str, bool]] = {
+        "fixed_five_minute_windows": (windows, "match_id", False),
+        "homogeneous_state_segments": (_segment_model_frame(segments), "match_id", False),
         "exclude_red_card_affected": (
             windows[
                 windows.red_card_difference_start.eq(0) & windows.red_card_difference_end.eq(0)
             ],
             "match_id",
+            False,
         ),
         "group_stage_only": (
             windows.merge(stages, on="match_id").query("competition_stage == 'Group Stage'"),
             "match_id",
+            False,
         ),
-        "exclude_low_effective_time": (windows[windows.effective_play_seconds >= 30], "match_id"),
-        "team_fixed_effects": (windows, "match_id"),
-        "match_fixed_effects": (None, "match_id"),
-        "match_clustered_errors": (windows, "match_id"),
-        "team_clustered_errors": (windows, "team_id"),
-        "alternative_effective_time_gap_cap": (alternative_gap_windows, "match_id"),
-        "raw_count_models_with_offsets": (windows, "match_id"),
-        "exposure_normalized_outcomes": (windows, "match_id"),
-        "exclude_extra_time": (windows[windows.period.isin([1, 2])], "match_id"),
-        "exclude_mixed_score_state": (windows[~windows.multiple_score_states], "match_id"),
+        "exclude_low_effective_time": (
+            windows[windows.effective_play_seconds >= 30],
+            "match_id",
+            False,
+        ),
+        "team_fixed_effects": (windows, "match_id", False),
+        "match_fixed_effects": (windows, "match_id", True),
+        "match_clustered_errors": (windows, "match_id", False),
+        "team_clustered_errors": (windows, "team_id", False),
+        "alternative_effective_time_gap_cap": (alternative_gap_windows, "match_id", False),
+        "raw_count_models_with_offsets": (windows, "match_id", False),
+        "exposure_normalized_outcomes": (windows, "match_id", False),
+        "exclude_extra_time": (windows[windows.period.isin([1, 2])], "match_id", False),
+        "exclude_mixed_score_state": (windows[~windows.multiple_score_states], "match_id", False),
     }
-    primary, _ = fit_score_state_models(windows)
-    model_ids = sorted(primary.model_id.unique())
     rows = []
     for specification_id in SPECIFICATIONS:
-        frame, cluster = inputs[specification_id]
-        if frame is None:
-            for model_id in model_ids:
-                rows.append(
-                    {
-                        "specification_id": specification_id,
-                        "model_id": model_id,
-                        "execution_status": "unavailable",
-                        "sample_size": 0,
-                        "match_count": 0,
-                        "team_count": 0,
-                        "coefficient": None,
-                        "standard_error": None,
-                        "confidence_interval": None,
-                        "transformed_effect": None,
-                        "convergence_status": "not_run",
-                        "warning_flags": "",
-                        "unavailable_reason": (
-                            "match_fixed_effects_not_identifiable_with_team_perspectives"
-                        ),
-                    }
-                )
-            continue
-        fitted, _ = fit_score_state_models(frame, cluster_variable=cluster)
+        frame, cluster, match_effects = inputs[specification_id]
+        fitted, _ = fit_score_state_models(
+            frame,
+            cluster_variable=cluster,
+            include_match_effects=match_effects,
+        )
         for row in fitted.itertuples(index=False):
+            applicable = True
+            if specification_id == "raw_count_models_with_offsets":
+                applicable = row.model_family == "poisson" or row.execution_status == "unavailable"
+            if specification_id == "exposure_normalized_outcomes":
+                applicable = (
+                    row.model_family == "ols_clustered" or row.execution_status == "unavailable"
+                )
             rows.append(
                 {
                     "specification_id": specification_id,
                     "model_id": row.model_id,
                     "coefficient_name": row.coefficient_name,
-                    "execution_status": row.execution_status,
+                    "execution_status": row.execution_status if applicable else "unavailable",
                     "sample_size": row.sample_size,
                     "match_count": row.match_count,
                     "team_count": row.team_count,
-                    "coefficient": row.coefficient,
-                    "standard_error": row.standard_error,
+                    "coefficient": row.coefficient if applicable else None,
+                    "standard_error": row.standard_error if applicable else None,
                     "confidence_interval": (
                         f"[{row.confidence_interval_lower}, {row.confidence_interval_upper}]"
-                    ),
+                    )
+                    if applicable
+                    else None,
                     "transformed_effect": next(
                         (
                             value
@@ -119,10 +114,40 @@ def execute_robustness(
                             if pd.notna(value)
                         ),
                         None,
-                    ),
-                    "convergence_status": row.convergence_status,
+                    )
+                    if applicable
+                    else None,
+                    "convergence_status": row.convergence_status if applicable else "not_run",
                     "warning_flags": row.warning_flags,
-                    "unavailable_reason": row.unavailable_reason,
+                    "unavailable_reason": row.unavailable_reason
+                    if applicable
+                    else "specification_not_applicable_to_model_family",
                 }
             )
-    return pd.DataFrame(rows)
+    output = pd.DataFrame(rows)
+    baseline = output[
+        (output.specification_id == "fixed_five_minute_windows")
+        & (output.execution_status == "executed")
+    ][["model_id", "coefficient_name", "coefficient", "sample_size"]].rename(
+        columns={"coefficient": "baseline_coefficient", "sample_size": "baseline_sample_size"}
+    )
+    output = output.merge(baseline, on=["model_id", "coefficient_name"], how="left")
+    output["coefficient_sign"] = output.coefficient.apply(
+        lambda value: (
+            None
+            if pd.isna(value)
+            else "positive"
+            if value > 0
+            else "negative"
+            if value < 0
+            else "zero"
+        )
+    )
+    output["sign_consistent_with_baseline"] = (
+        output.coefficient * output.baseline_coefficient >= 0
+    ).where(output.coefficient.notna() & output.baseline_coefficient.notna())
+    output["magnitude_ratio_to_baseline"] = (
+        output.coefficient.abs() / output.baseline_coefficient.abs()
+    ).where(output.baseline_coefficient.notna() & output.baseline_coefficient.ne(0))
+    output["sample_size_change"] = output.sample_size - output.baseline_sample_size
+    return output

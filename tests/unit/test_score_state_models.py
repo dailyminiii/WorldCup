@@ -5,7 +5,7 @@ import numpy as np
 from worldcup_strategy.models.continuous_models import fit_clustered_ols
 from worldcup_strategy.models.count_models import fit_binomial
 from worldcup_strategy.models.robustness import SPECIFICATIONS
-from worldcup_strategy.models.score_state_models import model_specifications
+from worldcup_strategy.models.score_state_models import _design, model_specifications
 
 
 def test_reference_and_unavailable_substitution_specs() -> None:
@@ -37,3 +37,28 @@ def test_clustered_ols_and_grouped_binomial_are_deterministic() -> None:
         clusters,
     )
     assert np.isfinite(fitted["coefficient"]).all()
+
+
+def test_match_fixed_effect_design_is_constructed_when_requested() -> None:
+    import pandas as pd
+
+    frame = pd.DataFrame(
+        {
+            "window_start_seconds": [0, 300, 0, 300, 0, 300],
+            "window_end_seconds": [300, 600, 300, 600, 300, 600],
+            "score_state_majority": [
+                "drawing",
+                "leading",
+                "drawing",
+                "trailing",
+                "drawing",
+                "leading",
+            ],
+            "red_card_difference_start": [0] * 6,
+            "team_id": [1, 1, 2, 2, 3, 3],
+            "match_id": [10, 11, 10, 12, 11, 12],
+        }
+    )
+    design, names = _design(frame, include_match_effects=True)
+    assert any(name.startswith("match[") for name in names)
+    assert design.shape[1] > _design(frame, include_match_effects=False)[0].shape[1]

@@ -11,5 +11,7 @@
   "segment_unreliable_ppda_rows": 167,
   "classic_pressure_event_leakage_count": 0,
   "opponent_passes_reconciled": 20682.0,
-  "defensive_actions_reconciled": 2625.0
+  "defensive_actions_reconciled": 2625.0,
+  "upstream_opponent_passes": 20682,
+  "upstream_defensive_actions": 2625
 }

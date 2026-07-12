@@ -2,6 +2,8 @@
   "progressive_passes": 2060,
   "progressive_carries": 2270,
   "progressive_dribbles": 0,
+  "upstream_progressive_passes": 2060,
+  "upstream_progressive_carries_dribbles": 2270,
   "unassigned_eligible_actions": 0,
   "multiply_assigned_actions": 0,
   "definition_version": "progressive_goal_distance_v1"

@@ -86,7 +86,9 @@ def model_specifications() -> list[dict[str, object]]:
     return specs
 
 
-def _design(frame: pd.DataFrame) -> tuple[np.ndarray, list[str]]:
+def _design(
+    frame: pd.DataFrame, include_match_effects: bool = False
+) -> tuple[np.ndarray, list[str]]:
     minute = (frame.window_start_seconds + frame.window_end_seconds) / 120
     columns = [
         np.ones(len(frame)),
@@ -107,19 +109,26 @@ def _design(frame: pd.DataFrame) -> tuple[np.ndarray, list[str]]:
     for team in sorted(frame.team_id.unique())[1:]:
         columns.append(frame.team_id.eq(team).astype(float))
         names.append(f"team[{team}]")
+    if include_match_effects:
+        for match in sorted(frame.match_id.unique())[1:]:
+            columns.append(frame.match_id.eq(match).astype(float))
+            names.append(f"match[{match}]")
     design = np.column_stack(columns)
     keep = [0, *[index for index in range(1, design.shape[1]) if np.ptp(design[:, index]) > 0]]
     return design[:, keep], [names[index] for index in keep]
 
 
 def fit_score_state_models(
-    features: pd.DataFrame, cluster_variable: str = "match_id"
+    features: pd.DataFrame,
+    cluster_variable: str = "match_id",
+    include_match_effects: bool = False,
 ) -> tuple[pd.DataFrame, dict[str, object]]:
     """Fit all estimable planned models without significance filtering."""
     eligible = features[
         (features.effective_play_seconds >= 30) & features.score_state_majority.notna()
     ].copy()
-    x, names = _design(eligible)
+    x, names = _design(eligible, include_match_effects=include_match_effects)
+    fixed_effects = "team_id + match_id" if include_match_effects else "team_id"
     rows = []
     diagnostics = {}
     for outcome in COUNT_OUTCOMES:
@@ -154,7 +163,7 @@ def fit_score_state_models(
                     "dataset_unit": "team_window_5min",
                     "offset": offset_source,
                     "weights": None,
-                    "fixed_effects": "team_id",
+                    "fixed_effects": fixed_effects,
                     "cluster_variable": cluster_variable,
                     "coefficient_name": name,
                     "coefficient": coefficient,
@@ -197,6 +206,7 @@ def fit_score_state_models(
                     data,
                     adjusted_difference=coefficient,
                     cluster_variable=cluster_variable,
+                    fixed_effects=fixed_effects,
                 )
             )
     for outcome in PROPORTION_OUTCOMES:
@@ -229,6 +239,7 @@ def fit_score_state_models(
                     odds_ratio=math.exp(coefficient),
                     weights=denominator,
                     cluster_variable=cluster_variable,
+                    fixed_effects=fixed_effects,
                 )
             )
     for specification in model_specifications():
@@ -244,7 +255,7 @@ def fit_score_state_models(
                 "reference_category": "drawing",
                 "offset": None,
                 "weights": None,
-                "fixed_effects": "team_id",
+                "fixed_effects": fixed_effects,
                 "cluster_variable": cluster_variable,
                 "coefficient_name": None,
                 "coefficient": None,
@@ -279,6 +290,7 @@ def _model_row(
     odds_ratio: float | None = None,
     weights: str | None = None,
     cluster_variable: str = "match_id",
+    fixed_effects: str = "team_id",
 ) -> dict[str, object]:
     return {
         "model_id": f"primary_{outcome}",
@@ -289,7 +301,7 @@ def _model_row(
         "reference_category": "drawing",
         "offset": None,
         "weights": weights,
-        "fixed_effects": "team_id",
+        "fixed_effects": fixed_effects,
         "cluster_variable": cluster_variable,
         "coefficient_name": coefficient_name,
         "coefficient": coefficient,

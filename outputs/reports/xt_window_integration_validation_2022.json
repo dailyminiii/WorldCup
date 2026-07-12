@@ -5,6 +5,7 @@
   "negative_xt": -444.51571932680184,
   "xt_missing_actions": 14979,
   "xt_failed_actions": 12589,
+  "upstream_xt_eligible_actions": 110546,
   "multiply_assigned_actions": 0,
   "unassigned_eligible_actions": 0,
   "floating_point_tolerance": 1e-10,

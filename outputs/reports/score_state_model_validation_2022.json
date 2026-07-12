@@ -6,6 +6,6 @@
   "deterministic": true,
   "causal_language_used": false,
   "robustness_specifications": 14,
-  "robustness_executed_rows": 338,
-  "robustness_unavailable_rows": 55
+  "robustness_executed_rows": 326,
+  "robustness_unavailable_rows": 80
 }
