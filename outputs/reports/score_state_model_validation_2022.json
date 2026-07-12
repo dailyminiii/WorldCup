@@ -1,0 +1,9 @@
+{
+  "executed_models": 3,
+  "coefficient_rows": 6,
+  "unavailable_models": 3,
+  "match_clustered_standard_errors": true,
+  "deterministic": true,
+  "causal_language_used": false,
+  "remaining_limitation": "full robustness grid and continuous outcomes not yet executed"
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "model_id": "primary_shots",
+    "outcome": "shots",
+    "model_family": "poisson",
+    "execution_status": "planned"
+  },
+  {
+    "model_id": "primary_pressure_events",
+    "outcome": "pressure_events",
+    "model_family": "poisson",
+    "execution_status": "planned"
+  },
+  {
+    "model_id": "primary_pressure_regains_5s",
+    "outcome": "pressure_regains_5s",
+    "model_family": "poisson",
+    "execution_status": "planned"
+  },
+  {
+    "model_id": "attacking_substitution",
+    "outcome": "attacking_substitution",
+    "model_family": "binomial",
+    "execution_status": "unavailable",
+    "unavailable_reason": "incoming_positions_not_available"
+  },
+  {
+    "model_id": "defensive_substitution",
+    "outcome": "defensive_substitution",
+    "model_family": "binomial",
+    "execution_status": "unavailable",
+    "unavailable_reason": "incoming_positions_not_available"
+  },
+  {
+    "model_id": "goalkeeper_substitution",
+    "outcome": "goalkeeper_substitutions",
+    "model_family": "binomial",
+    "execution_status": "unavailable",
+    "unavailable_reason": "only_two_events_not_estimable"
+  }
+]

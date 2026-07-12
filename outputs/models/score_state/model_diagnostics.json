@@ -1,0 +1,14 @@
+{
+  "shots": {
+    "overdispersion": 1.1947320521036453,
+    "converged": true
+  },
+  "pressure_events": {
+    "overdispersion": 1.6308511804901022,
+    "converged": true
+  },
+  "pressure_regains_5s": {
+    "overdispersion": 1.2791464716469976,
+    "converged": true
+  }
+}

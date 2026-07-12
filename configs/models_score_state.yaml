@@ -1,0 +1,7 @@
+reference_category: drawing
+cluster_variable: match_id
+fixed_effects: [team_id]
+covariates: [match_minute, match_minute_squared, red_card_difference_start]
+minimum_effective_seconds: 30
+terminology: observational_association
+
