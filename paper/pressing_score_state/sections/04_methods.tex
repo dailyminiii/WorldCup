@@ -1,0 +1,19 @@
+\section{Methods}
+
+\subsection{Units, exposure, and exclusions}
+The primary analytical unit is team $\times$ match $\times$ fixed five-minute window. Score state is the majority state in the window, restricted to leading, drawing, or trailing, with drawing as reference. Primary windows must be in periods 1 or 2, contain one score state, and begin and end at numerical equality. The intensity outcome additionally requires at least five opponent passes; the efficiency outcome requires at least three Pressure sequences and valid successes not exceeding trials. The principal alternative unit is a score-state-homogeneous segment.
+
+\subsection{Pressing intensity}
+The first confirmatory outcome is the raw count of provider Pressure events. A Poisson log-link model uses $\log(\text{opponent passes})$ as an offset. Results are reported as incidence-rate ratios (IRRs), adjusted predictions per 30 opponent passes, and differences from drawing. Classic PPDA remains separate: it is opponent eligible passes divided by mapped defensive actions and excludes provider Pressure events from the classic numerator. Material Poisson overdispersion (\PoissonDispersion) triggered the preregistered NB2 robustness model without replacing the Poisson primary specification.
+
+\subsection{Pressure-to-regain efficiency}
+Pressure events for a team are grouped into episodes when consecutive actions are no more than two seconds apart. The second confirmatory outcome counts sequences followed by controlled possession within five seconds. A grouped-binomial logit model uses successful sequence regains as successes and Pressure sequences as trials. Sequence level is primary because several Pressure events can belong to one tactical episode; treating each event as an independent opportunity would change the estimand.
+
+\subsection{Secondary and exploratory outcomes}
+Secondary measures include Pressure sequences per opponent possession, classic PPDA components, high-pressure share, mean and median Pressure height, provider counterpress share, event-level five-second regain, three- and eight-second sequence regains, and high-regain rate. Post-regain shot production uses successful five-second regains as its opportunity denominator. Same-possession xG and xT per successful regain are exploratory continuous outcomes; zero-opportunity rows remain missing. Same-possession goal was unavailable in the analysis-ready high-regain table, and provider-augmented PPDA was not promoted to primary or secondary inference.
+
+\subsection{Covariates and uncertainty}
+Both primary formulas include score state, centered match minute, its square, competition stage, group matchday, and team fixed effects. Standard errors are clustered by match. Robustness specifications use team clustering, match fixed effects where identifiable, exact goal difference, stage subsets, alternative exposure definitions, mixed-state duration weighting, red-card exclusion, and denominator thresholds. The diagnostics flag one rank deficiency among nuisance indicators; primary contrasts are estimated with a generalized inverse, and the limitation is retained rather than changing the locked formula after estimates were observed.
+
+\subsection{Multiplicity, reliability, and missingness}
+Holm adjustment is applied across the two primary outcome families separately for each leading/drawing and trailing/drawing contrast. Effect sizes and intervals remain central; secondary analyses do not inherit primary multiplicity control. Threshold sensitivity evaluates opponent-pass minima of 3, 5, and 10 and sequence minima of 1, 3, and 5 without selecting a threshold by significance. Exclusion flow is generated stepwise, and missing metric values are not silently recoded as zero.

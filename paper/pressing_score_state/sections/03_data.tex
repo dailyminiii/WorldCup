@@ -1,0 +1,23 @@
+\section{Data}
+
+\subsection{Source and tournament coverage}
+The source is StatsBomb Open Data for the 2022 FIFA World Cup, resolved to competition 43 and season 106 at provider commit \texttt{b0bc9f22dd77c206ddedc1d742893b3bbe64baec}. The canonical dataset contains \MatchCount{} matches, \TeamCount{} teams, and \EventCount{} events. The repository stores acquisition support, manifests, checksums, and processed schemas but does not track raw provider JSON. Use of the data remains subject to StatsBomb's Open Data terms and attribution requirements \citep{VERIFY_STATSBOMB_LICENSE_REFERENCE}.
+
+All 64 matches have event and 360 files. There are \FreezeFrameCount{} events linked to 360 records. For provider Pressure events, \PressureFreezeFrameCount{} of \PressureEventCount{} have linked 360 context. These are event-linked visible freeze frames, not continuous tracking: absence from a frame does not imply absence from the pitch or from tactical relevance. Spatial context is therefore exploratory and is not part of either confirmatory outcome.
+
+\subsection{Canonicalization and temporal-spatial rules}
+Provider inputs are converted to canonical matches, lineups, events, and 360 schemas with source identifiers and provenance. Coordinates are transformed to a provider-independent pitch and an attacking-team frame. The attacking direction is applied symmetrically by team and period, preserving opponent-relative interpretation. Event time is normalized across periods while retaining source period and timestamp fields.
+
+Penalty-shootout events are excluded from match-state and tactical analyses. Extra time is available in processed data but excluded from the primary window analysis. Own goals are assigned to the benefiting team for score reconstruction while retaining provider event identity; they update score state at the event boundary under the audited right-closed interval convention. Red cards update numerical state without being treated as ordinary tactical events.
+
+\subsection{Analysis sample}
+The fixed-window source has \InitialWindows{} team--match observations. Primary exclusions remove extra-time windows, invalid or mixed score states, numerical inequality, and outcome-specific low or missing denominators. Table~1 describes score-state exposure and opportunities; Figure~\ref{fig:coverage} visualizes eligible-window coverage. Null rates remain null when an opportunity denominator is absent and are not converted to zero.
+
+\input{tables/table_1.tex}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.85\linewidth]{../../outputs/figures/pressing_score_state/figure_2.pdf}
+\caption{Sample coverage by score state. Counts refer to eligible team--match five-minute windows after regular-time, homogeneous-state, and numerical-equality restrictions. Outcome-specific pass and sequence thresholds yield the model samples reported in Methods. This is descriptive coverage, not adjusted inference.}
+\label{fig:coverage}
+\end{figure}
