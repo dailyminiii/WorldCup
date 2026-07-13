@@ -1,0 +1,10 @@
+{
+  "deterministic_rerun": true,
+  "fabricated_2026_tactical_value_count": 0,
+  "inferential_tests": false,
+  "match_count_2022": 3,
+  "match_count_2026": 3,
+  "tournament_row_count": 2,
+  "valid": true,
+  "whole_match_metrics_assigned_to_score_state": false
+}
