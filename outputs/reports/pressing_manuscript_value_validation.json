@@ -1,0 +1,164 @@
+{
+  "valid": true,
+  "checks": [
+    {
+      "name": "initial_windows",
+      "actual": 2822,
+      "expected": 2822,
+      "passed": true
+    },
+    {
+      "name": "intensity_sample",
+      "actual": 2379,
+      "expected": 2379,
+      "passed": true
+    },
+    {
+      "name": "efficiency_sample",
+      "actual": 2054,
+      "expected": 2054,
+      "passed": true
+    },
+    {
+      "name": "matches",
+      "actual": 64,
+      "expected": 64,
+      "passed": true
+    },
+    {
+      "name": "teams",
+      "actual": 32,
+      "expected": 32,
+      "passed": true
+    },
+    {
+      "name": "sequence_success_above_trials",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "required_robustness_groups",
+      "actual": 16,
+      "expected": 16,
+      "passed": true
+    },
+    {
+      "name": "figure_3_leading",
+      "actual": 6.991688776193475,
+      "expected": 6.991688776193475,
+      "passed": true
+    },
+    {
+      "name": "figure_3_drawing",
+      "actual": 7.219902001751084,
+      "expected": 7.219902001751084,
+      "passed": true
+    },
+    {
+      "name": "figure_3_trailing",
+      "actual": 8.264586524183928,
+      "expected": 8.264586524183928,
+      "passed": true
+    },
+    {
+      "name": "figure_4_leading",
+      "actual": 0.1813451549368041,
+      "expected": 0.1813451549368041,
+      "passed": true
+    },
+    {
+      "name": "figure_4_drawing",
+      "actual": 0.1942342442174199,
+      "expected": 0.1942342442174199,
+      "passed": true
+    },
+    {
+      "name": "figure_4_trailing",
+      "actual": 0.2323801824942066,
+      "expected": 0.2323801824942066,
+      "passed": true
+    },
+    {
+      "name": "primary_pressing_intensity_score_state[leading]_coefficient_finite",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "primary_pressing_intensity_score_state[leading]_ci_order",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "primary_pressing_intensity_score_state[leading]_incidence_rate_ratio_finite",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "primary_pressing_intensity_score_state[trailing]_coefficient_finite",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "primary_pressing_intensity_score_state[trailing]_ci_order",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "primary_pressing_intensity_score_state[trailing]_incidence_rate_ratio_finite",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "primary_sequence_regain_5s_score_state[leading]_coefficient_finite",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "primary_sequence_regain_5s_score_state[leading]_ci_order",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "primary_sequence_regain_5s_score_state[leading]_odds_ratio_finite",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "primary_sequence_regain_5s_score_state[trailing]_coefficient_finite",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "primary_sequence_regain_5s_score_state[trailing]_ci_order",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "primary_sequence_regain_5s_score_state[trailing]_odds_ratio_finite",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    }
+  ],
+  "validated_number_count": 25,
+  "numerical_validation_failures": 0,
+  "generated_files": [
+    "paper/pressing_score_state/macros.tex",
+    "paper/pressing_score_state/tables/table_1.tex",
+    "paper/pressing_score_state/tables/table_2.tex",
+    "paper/pressing_score_state/tables/table_3.tex",
+    "paper/pressing_score_state/tables/table_4.tex"
+  ]
+}

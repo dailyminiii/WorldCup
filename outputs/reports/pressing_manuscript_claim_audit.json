@@ -1,0 +1,19 @@
+{
+  "total_claims": 15,
+  "claims_linked_to_generated_evidence": 15,
+  "unsupported_empirical_claim_ids": [],
+  "both_primary_contrasts_reported": true,
+  "citation_placeholders": [
+    "VERIFY_360_REFERENCE",
+    "VERIFY_ENDOGENEITY_REFERENCE",
+    "VERIFY_PPDA_REFERENCE",
+    "VERIFY_PRESSURE_EVENT_REFERENCE",
+    "VERIFY_REGAIN_REFERENCE",
+    "VERIFY_REPRODUCIBILITY_REFERENCE",
+    "VERIFY_SCORE_STATE_REFERENCE",
+    "VERIFY_STATSBOMB_LICENSE_REFERENCE"
+  ],
+  "citation_placeholder_count": 8,
+  "missing_required_limitations": [],
+  "valid": true
+}
