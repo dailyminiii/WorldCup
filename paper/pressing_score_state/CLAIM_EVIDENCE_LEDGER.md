@@ -1,0 +1,23 @@
+# Claim–evidence ledger
+
+This ledger was created before the complete manuscript prose. Empirical claims are admissible only when linked to generated artifacts; literature-dependent background claims remain citation placeholders.
+
+| ID | Proposed claim | Type | Status | Evidence and estimate | Limitations | Allowed interpretation | Prohibited overinterpretation |
+|---|---|---|---|---|---|---|---|
+| C01 | Pressing intensity is operationalized as Pressure counts with opponent-pass exposure. | methodological | confirmatory | model `primary_pressing_intensity`; model specifications | Provider-defined Pressure; event-derived exposure | Denominator-aware intensity measure | Equivalent to PPDA or latent tactical intent |
+| C02 | Five-second controlled regains per two-second Pressure sequence define primary efficiency. | methodological | confirmatory | model `primary_sequence_regain_5s`; model specifications | Sequence/window definition dependent | Episode-level conversion measure | Event-level success or causal effectiveness |
+| C03 | The primary source has 2,822 windows; intensity and efficiency retain 2,379 and 2,054. | descriptive | confirmatory | sample characteristics and exclusion flow | Metric-specific eligibility | Audited sample construction | Missing rows are failures or zeros |
+| C04 | Trailing versus drawing has intensity IRR 1.1447; leading versus drawing has IRR 0.9684. | primary_result | confirmatory | Table 2; Figure 3; primary-model CSV | Observational; clustered uncertainty | Conditional rate-ratio association | Score state caused pressing changes |
+| C05 | Predicted events per 30 opponent passes are 8.2646 trailing, 7.2199 drawing, and 6.9917 leading. | primary_result | confirmatory | adjusted-prediction CSV; Figure 3 | Model-standardized values | Adjusted comparison on common scale | Raw team ranking or causal response |
+| C06 | Trailing versus drawing has regain OR 1.2598; leading versus drawing has OR 0.9180. | primary_result | confirmatory | Table 2; Figure 4; primary-model CSV | Sequence definition; opportunity selection | Conditional odds association | Trailing produced superior causal efficiency |
+| C07 | Predicted regain probabilities are 0.2324 trailing, 0.1942 drawing, and 0.1813 leading. | primary_result | confirmatory | adjusted-prediction CSV; Figure 4 | Model-standardized probabilities | Adjusted probability comparison | Individual-event probability or mechanism |
+| C08 | High-pressure share differs conditionally across score states. | secondary_result | secondary | model `secondary_high_pressure_share`; Table 3 | Secondary multiplicity | Supporting location/intensity context | Confirmatory primary conclusion |
+| C09 | Event-level five-second regain is a sensitivity outcome distinct from sequence efficiency. | secondary_result | secondary | model `secondary_event_regain_5s`; Table 3 | Events cluster within sequences | Measurement comparison | Replacement of primary sequence result |
+| C10 | Material Poisson overdispersion (1.603) triggered NB2 robustness. | robustness | preregistered | diagnostics; NB2 rows in robustness CSV | Alpha/model assumptions | Variance-specification check | Data-driven replacement of Poisson primary |
+| C11 | All 16 planned robustness groups were preserved, with unavailable combinations explicit. | robustness | preregistered | robustness CSV; validation JSON | Diagnostics vary by grid model | Specification transparency | Universal invariance of every estimate |
+| C12 | The nuisance design is rank deficient by one column. | limitation | not applicable | model diagnostics | Nuisance coefficients not uniquely parameterized | Transparent diagnostic limitation | Primary contrast invalidity proved or disproved |
+| C13 | Full residual diagnostics were not recomputed uniformly for every robustness variant. | limitation | not applicable | independent audit | Restricts variant-level influence comparisons | Honest residual limitation | All robustness diagnostics equivalent |
+| C14 | The source has 234,637 events and 203,882 linked 360 freeze frames across 64 matches. | descriptive | exploratory context | data coverage report | Event-linked visible frames only | Coverage description | Continuous full tracking |
+| C15 | Pressure 360 linkage is 14,504 of 16,554 events. | limitation | exploratory context | event-type coverage report | Missingness may be selective | Coverage qualification | Complete spatial observation |
+
+Background claims about tactics, score state, PPDA, and event-data methodology require the citation placeholders listed in `CITATIONS_TO_VERIFY.md`; they are not empirical findings of this study.

@@ -1,0 +1,29 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{microtype}
+\usepackage{natbib}
+\usepackage{caption}
+\input{macros.tex}
+\title{Pressing the Scoreline: Pressing Intensity and Regain Efficiency Across Match States in the 2022 FIFA World Cup}
+\author{World Cup Strategy Lab}
+\date{Internal draft v1}
+\begin{document}
+\maketitle
+\begin{abstract}
+Pressing is multidimensional: teams can apply pressure frequently without converting pressure episodes into controlled regains, and successful regains need not generate attacking value. We separate these constructs in an observational analysis of the 2022 FIFA World Cup. The primary unit is a team--match five-minute window. A Poisson model relates score state to Pressure-event counts using opponent passes as exposure; a grouped-binomial model relates score state to controlled regains within five seconds per Pressure sequence. Both include match time, tournament context, and team fixed effects with match-clustered uncertainty. Relative to drawing, trailing was associated with a higher Pressure-event rate (IRR \IntensityTrailingEffect) and higher sequence-regain odds (OR \EfficiencyTrailingEffect). Leading estimates were smaller and negative relative to drawing (IRR \IntensityLeadingEffect; OR \EfficiencyLeadingEffect). These estimates describe conditional associations in one tournament. They remain sensitive to provider definitions, opportunity denominators, sequence construction, and game-state endogeneity. The analysis provides a reproducible framework that keeps pressing intensity, regain efficiency, and post-regain value analytically distinct.
+\end{abstract}
+\input{sections/01_introduction.tex}
+\input{sections/02_related_work.tex}
+\input{sections/03_data.tex}
+\input{sections/04_methods.tex}
+\input{sections/05_results.tex}
+\input{sections/06_robustness.tex}
+\input{sections/07_discussion.tex}
+\input{sections/08_limitations.tex}
+\input{sections/09_conclusion.tex}
+\bibliographystyle{plainnat}
+\bibliography{references}
+\end{document}
