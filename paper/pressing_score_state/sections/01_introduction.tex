@@ -1,0 +1,24 @@
+\section{Introduction}
+
+Football tactics unfold under a changing match context. Time remaining, score difference, tournament stage, opponent behavior, and numerical balance jointly shape the choices available to a team. Score state is especially visible: leading, drawing, and trailing create different incentives, yet teams enter those states through the same competitive process that also reflects team strength and match performance \citep{VERIFY_SCORE_STATE_REFERENCE}. Comparisons across states are therefore informative descriptions of tactical behavior, but they are not randomized comparisons.
+
+Pressing is also not one behavior with one natural metric. A team may apply many provider-annotated Pressure actions, organize those actions into fewer or more episodes, regain the ball at different rates, and create different attacking value after a regain. Classic PPDA summarizes eligible opponent passes relative to a documented set of defensive actions and has an inverse interpretation. Provider Pressure events instead record individual applications of pressure. Neither measure alone states how often an episode yields controlled possession. Treating frequency as success obscures a central tactical distinction \citep{VERIFY_PPDA_REFERENCE,VERIFY_PRESSURE_EVENT_REFERENCE}.
+
+This study contributes an integrated operationalization that separates three stages: pressing intensity, pressure-to-regain efficiency, and post-regain attacking value. It defines event-level and sequence-level opportunities, uses raw numerators with explicit exposures, compares fixed five-minute windows with score-state-homogeneous segments, and preserves denominator-threshold and clustering choices in a reproducible robustness grid. The aim is not to identify a mechanism imposed by score state. It is to estimate conditional relationships in an audited tournament dataset and show how interpretation depends on measurement choices.
+
+The 2022 FIFA World Cup offers a high-stakes observational setting containing every match in a compact competition. That completeness is valuable, while heterogeneity across national teams, stages, opponents, and tactical systems limits generalization. We ask:
+
+\begin{enumerate}
+\item[\textbf{RQ1.}] How are pressing intensity and pressing height conditionally associated with score state?
+\item[\textbf{RQ2.}] How is five-second pressure-sequence regain efficiency conditionally associated with score state?
+\item[\textbf{RQ3.}] How does post-regain attacking value vary across score states? RQ3 is secondary or exploratory.
+\end{enumerate}
+
+Figure~\ref{fig:design} summarizes the design. The two confirmatory outcomes address frequency and sequence conversion separately; post-regain outcomes provide supporting context rather than a third primary family.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.9\linewidth]{../../outputs/figures/pressing_score_state/figure_1.pdf}
+\caption{Conceptual study design. The analysis distinguishes score-state associations with Pressure-event intensity, five-second sequence-regain efficiency, and secondary post-regain value. The primary unit is the team--match five-minute window; drawing is the reference; primary uncertainty is match-clustered; mixed states, numerical inequality, extra time, and unreliable denominators are excluded.}
+\label{fig:design}
+\end{figure}

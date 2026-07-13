@@ -1,0 +1,21 @@
+\section{Related Work}
+
+This section is deliberately a structured placeholder review. Every citation key is listed in \texttt{CITATIONS\_TO\_VERIFY.md}; the draft is not literature-complete.
+
+\subsection{Score state and tactical behavior}
+Research on game state commonly distinguishes leading, drawing, and trailing and reports associations with possession, risk, tempo, or spatial behavior \citep{VERIFY_SCORE_STATE_REFERENCE}. This work motivates adjustment for time and team identity while also highlighting endogeneity: the processes that generate the score may be related to subsequent tactical observations.
+
+\subsection{Pressing intensity and PPDA}
+PPDA is widely used as an intensity proxy, but definitions vary across action mappings and pitch zones \citep{VERIFY_PPDA_REFERENCE}. Its denominator and inverse direction matter: lower classic PPDA means more eligible defensive actions per opponent pass. A provider Pressure-event rate has a different numerator and should not be described as PPDA.
+
+\subsection{Event-based Pressure annotations}
+Provider annotations permit analysis of individual Pressure actions and their locations \citep{VERIFY_PRESSURE_EVENT_REFERENCE}. Such events are observed tactical labels rather than continuous measurements of every defender's behavior. Annotation rules and off-ball visibility constrain interpretation.
+
+\subsection{Possession regain and counterpressing}
+Counterpressing and regain research motivates temporal windows linking defensive actions to controlled possession \citep{VERIFY_REGAIN_REFERENCE}. Event-level conversion can double-count a shared episode; sequence construction offers an alternative opportunity unit but introduces a clustering-window choice.
+
+\subsection{Game-state endogeneity in football analytics}
+Because score state, opponent response, substitutions, fatigue, and tactical adaptation co-evolve, adjusted regressions remain associational \citep{VERIFY_ENDOGENEITY_REFERENCE}. Fixed effects address stable team differences but do not remove unobserved within-match variation.
+
+\subsection{Event data, freeze frames, and reproducibility}
+Event-linked freeze frames enrich spatial context, but visible players are not full tracking observations \citep{VERIFY_360_REFERENCE}. Reproducible event-data work requires explicit provider versions, transformations, missingness rules, and regeneration paths \citep{VERIFY_REPRODUCIBILITY_REFERENCE}.
