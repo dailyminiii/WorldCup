@@ -16,9 +16,11 @@ data/raw/*
 data/interim/*
 data/processed/*
 data/external/*
+!data/external/korea_2026_official/
+!data/external/korea_2026_official/*.csv
+!data/external/korea_2026_official/README.md
 data/manifests/*.jsonl
 outputs/**/*.parquet
 outputs/**/*.png
 outputs/**/*.pdf
 outputs/**/*.svg
-

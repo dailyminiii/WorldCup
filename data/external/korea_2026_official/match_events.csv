@@ -1,0 +1,6 @@
+match_id,event_id,period,minute,second,elapsed_seconds,event_type,team_id,team_name,player_id,player_name,event_detail,is_goal,is_own_goal,is_penalty,is_red_card,is_second_yellow,source_url,verification_status
+KOR-CZE-2026,KOR-CZE-G1,2,59,0,3540,goal,CZE,Czechia,,Ladislav Krejci,Goal,true,false,false,false,false,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/korea-republic-czechia-highlights-match-report,verified
+KOR-CZE-2026,KOR-CZE-G2,2,67,0,4020,goal,KOR,Korea Republic,,Hwang Inbeom,Goal,true,false,false,false,false,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/korea-republic-czechia-highlights-match-report,verified
+KOR-CZE-2026,KOR-CZE-G3,2,80,0,4800,goal,KOR,Korea Republic,,Oh Hyeongyu,Goal,true,false,false,false,false,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/korea-republic-czechia-highlights-match-report,verified
+MEX-KOR-2026,MEX-KOR-G1,2,50,0,3000,goal,MEX,Mexico,,Luis Romo,Goal,true,false,false,false,false,https://www.fifa.com/en/articles/mexico-korea-republic-highlights-match-report,verified
+RSA-KOR-2026,RSA-KOR-G1,2,63,0,3780,goal,RSA,South Africa,,Thapelo Maseko,Goal,true,false,false,false,false,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/south-africa-korea-republic-match-report-highlights,verified

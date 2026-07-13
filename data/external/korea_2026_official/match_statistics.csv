@@ -1,0 +1,5 @@
+match_id,team_id,opponent_id,metric_name,metric_value,metric_unit,provider_definition,source_url,verification_status
+KOR-CZE-2026,KOR,CZE,possession,62,percent,FIFA official match report possession,https://fdp.fifa.org/assetspublic/ce281/r12450/pdf/FullTimeMatchReport-English.pdf,verified
+KOR-CZE-2026,KOR,CZE,shots,15,count,FIFA attempts at goal,https://fdp.fifa.org/assetspublic/ce281/r12450/pdf/FullTimeMatchReport-English.pdf,verified
+KOR-CZE-2026,KOR,CZE,shots_on_target,6,count,FIFA attempts on target,https://fdp.fifa.org/assetspublic/ce281/r12450/pdf/FullTimeMatchReport-English.pdf,verified
+KOR-CZE-2026,KOR,CZE,corners,4,count,FIFA corners,https://fdp.fifa.org/assetspublic/ce281/r12450/pdf/FullTimeMatchReport-English.pdf,verified
