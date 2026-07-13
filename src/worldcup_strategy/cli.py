@@ -1,5 +1,7 @@
 """Command-line interface."""
 
+import json
+from pathlib import Path
 from typing import Annotated
 
 import typer
@@ -12,6 +14,26 @@ from worldcup_strategy.actions.pipeline import (
     compute_xt_2022,
     fit_xt,
 )
+from worldcup_strategy.analysis.korea.figures import generate_figures as generate_korea_figures
+from worldcup_strategy.analysis.korea.pipeline import (
+    build_2022 as korea_build_2022,
+)
+from worldcup_strategy.analysis.korea.pipeline import (
+    compare as korea_compare,
+)
+from worldcup_strategy.analysis.korea.pipeline import (
+    import_2026 as korea_import_2026,
+)
+from worldcup_strategy.analysis.korea.pipeline import (
+    reconstruct_score_state as korea_reconstruct,
+)
+from worldcup_strategy.analysis.korea.pipeline import (
+    validate_2026 as korea_validate_2026,
+)
+from worldcup_strategy.analysis.korea.pipeline import (
+    validate_case_study as korea_validate_case_study,
+)
+from worldcup_strategy.analysis.korea.report import generate_report as generate_korea_report
 from worldcup_strategy.analysis.pressing.figures import generate_figures
 from worldcup_strategy.analysis.pressing.pipeline import (
     describe as pressing_describe,
@@ -36,6 +58,7 @@ from worldcup_strategy.analysis.pressing.report import generate_report
 from worldcup_strategy.config import load_data_config
 from worldcup_strategy.data.downloader import fetch_repository
 from worldcup_strategy.data.pipeline import build_canonical, validate_data, write_coverage
+from worldcup_strategy.data.statsbomb_2026_adapter import write_availability_report
 from worldcup_strategy.pressure.pipeline import (
     build_sequences_2022,
     build_summary_2022,
@@ -69,6 +92,61 @@ analysis_app = typer.Typer(help="Run locked research analyses.")
 app.add_typer(analysis_app, name="analysis")
 pressing_analysis_app = typer.Typer(help="Run the pressing score-state analysis.")
 analysis_app.add_typer(pressing_analysis_app, name="pressing")
+korea_app = typer.Typer(help="Build the preliminary Korea 2022--2026 case study.")
+app.add_typer(korea_app, name="korea")
+
+
+@korea_app.command("import-official-summary")
+def korea_import(
+    year: Annotated[int, typer.Option()] = 2026,
+    input: Annotated[str, typer.Option()] = "data/external/korea_2026_official",
+) -> None:
+    if year != 2026:
+        raise typer.BadParameter("the preliminary importer is locked to 2026")
+    typer.echo(f"Imported rows: {len(korea_import_2026(Path(input)))}")
+
+
+@korea_app.command("validate-official-summary")
+def korea_source_validate(year: Annotated[int, typer.Option()] = 2026) -> None:
+    if year != 2026:
+        raise typer.BadParameter("validation is locked to 2026")
+    typer.echo(json_summary(korea_validate_2026()))
+
+
+@korea_app.command("build-2022-comparable")
+def korea_build() -> None:
+    typer.echo(f"2022 rows: {len(korea_build_2022())}")
+
+
+@korea_app.command("reconstruct-score-state")
+def korea_score_state() -> None:
+    typer.echo(f"Exposure rows: {len(korea_reconstruct())}")
+
+
+@korea_app.command("compare-2022-2026")
+def korea_comparison() -> None:
+    match, tournament = korea_compare()
+    typer.echo(f"Match rows: {len(match)}; tournament rows: {len(tournament)}")
+
+
+@korea_app.command("figures")
+def korea_figures() -> None:
+    typer.echo(f"Figure artifacts: {len(generate_korea_figures())}")
+
+
+@korea_app.command("report")
+def korea_report() -> None:
+    typer.echo(f"Report characters: {len(generate_korea_report())}")
+
+
+@korea_app.command("validate")
+def korea_validate() -> None:
+    typer.echo(json_summary(korea_validate_case_study()))
+
+
+@data_app.command("check-statsbomb-2026")
+def statsbomb_2026_check() -> None:
+    typer.echo(json.dumps(write_availability_report(), indent=2, sort_keys=True))
 
 
 @pressing_analysis_app.command("prepare")

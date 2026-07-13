@@ -1,6 +1,6 @@
 UV := PYTHONPATH=src UV_CACHE_DIR=.uv-cache ./.tools/uv/uv
 
-.PHONY: setup fetch-data validate-data build-data coverage test lint typecheck actions xg xt progression attacking-summary milestone-2 ppda pressure-events pressure-regains context360 pressure-summary milestone-3 state-windows state-segments state-features state-summaries state-models milestone-4 pressing-analysis pressing-figures pressing-report pressing-validate
+.PHONY: setup fetch-data validate-data build-data coverage test lint typecheck actions xg xt progression attacking-summary milestone-2 ppda pressure-events pressure-regains context360 pressure-summary milestone-3 state-windows state-segments state-features state-summaries state-models milestone-4 pressing-analysis pressing-figures pressing-report pressing-validate korea-official-import korea-comparable korea-figures korea-report korea-validate korea-case-study
 setup:
 	$(UV) sync
 
@@ -79,3 +79,24 @@ pressing-report:
 
 pressing-validate:
 	$(UV) run --no-sync wcstrategy analysis pressing validate
+
+korea-official-import:
+	$(UV) run --no-sync wcstrategy korea import-official-summary --year 2026 --input data/external/korea_2026_official
+	$(UV) run --no-sync wcstrategy korea validate-official-summary --year 2026
+
+korea-comparable:
+	$(UV) run --no-sync wcstrategy korea build-2022-comparable
+	$(UV) run --no-sync wcstrategy korea reconstruct-score-state
+	$(UV) run --no-sync wcstrategy korea compare-2022-2026
+
+korea-figures:
+	$(UV) run --no-sync wcstrategy korea figures
+
+korea-report:
+	$(UV) run --no-sync wcstrategy korea report
+
+korea-validate:
+	$(UV) run --no-sync wcstrategy data check-statsbomb-2026
+	$(UV) run --no-sync wcstrategy korea validate
+
+korea-case-study: korea-official-import korea-comparable korea-figures korea-report korea-validate

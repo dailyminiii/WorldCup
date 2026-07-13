@@ -1,0 +1,11 @@
+{
+  "competition_available": false,
+  "competition_id": null,
+  "events_available": false,
+  "korea_match_count": 0,
+  "lineups_available": false,
+  "matches_available": false,
+  "message": "FIFA World Cup 2026 is not present in the configured StatsBomb Open Data checkout.",
+  "season_id": null,
+  "three_sixty_available": false
+}
