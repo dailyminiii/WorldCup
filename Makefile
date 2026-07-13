@@ -1,6 +1,6 @@
 UV := PYTHONPATH=src UV_CACHE_DIR=.uv-cache ./.tools/uv/uv
 
-.PHONY: setup fetch-data validate-data build-data coverage test lint typecheck actions xg xt progression attacking-summary milestone-2 ppda pressure-events pressure-regains context360 pressure-summary milestone-3 state-windows state-segments state-features state-summaries state-models milestone-4
+.PHONY: setup fetch-data validate-data build-data coverage test lint typecheck actions xg xt progression attacking-summary milestone-2 ppda pressure-events pressure-regains context360 pressure-summary milestone-3 state-windows state-segments state-features state-summaries state-models milestone-4 pressing-analysis pressing-figures pressing-report pressing-validate
 setup:
 	$(UV) sync
 
@@ -63,3 +63,19 @@ state-models:
 	$(UV) run --no-sync wcstrategy state fit-models --season 2022
 milestone-4: state-windows state-segments state-features state-summaries state-models
 	$(UV) run --no-sync wcstrategy state validate --season 2022
+
+pressing-analysis:
+	$(UV) run --no-sync wcstrategy analysis pressing prepare
+	$(UV) run --no-sync wcstrategy analysis pressing describe
+	$(UV) run --no-sync wcstrategy analysis pressing fit-primary
+	$(UV) run --no-sync wcstrategy analysis pressing fit-secondary
+	$(UV) run --no-sync wcstrategy analysis pressing robustness
+
+pressing-figures:
+	$(UV) run --no-sync wcstrategy analysis pressing figures
+
+pressing-report:
+	$(UV) run --no-sync wcstrategy analysis pressing report
+
+pressing-validate:
+	$(UV) run --no-sync wcstrategy analysis pressing validate

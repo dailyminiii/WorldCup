@@ -1,0 +1,7 @@
+model_id,score_state,predicted_value,confidence_interval_lower,confidence_interval_upper,scale,adjusted_difference_from_drawing,adjusted_percentage_difference_from_drawing
+primary_pressing_intensity,leading,6.991688776193475,6.588951965552768,7.394425586834181,pressure_events_per_30_exposure_units,-0.22821322555760926,-3.160890902705593
+primary_pressing_intensity,drawing,7.219902001751084,6.879230818403608,7.56057318509856,pressure_events_per_30_exposure_units,0.0,0.0
+primary_pressing_intensity,trailing,8.264586524183928,7.606836975089426,8.92233607327843,pressure_events_per_30_exposure_units,1.0446845224328438,14.469511112193366
+primary_sequence_regain_5s,leading,0.18134515493680417,0.16506342856348447,0.19762688131012388,probability,-0.012889089280615745,
+primary_sequence_regain_5s,drawing,0.19423424421741992,0.18193258848609517,0.20653589994874466,probability,0.0,
+primary_sequence_regain_5s,trailing,0.23238018249420664,0.2105760574545919,0.2541843075338214,probability,0.03814593827678672,

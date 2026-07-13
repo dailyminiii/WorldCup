@@ -1,0 +1,4 @@
+score_state,all_windows,common_eligible_windows,intensity_eligible_windows,efficiency_eligible_windows,matches,teams,score_state_exposure_seconds,opponent_passes,pressure_events,pressure_sequences,sequence_regains_5s
+leading,686,632,585,498,54,28,192722.0,15405,3668,2972,559
+drawing,1450,1260,1213,1068,61,32,413502.0,32605,7779,6424,1268
+trailing,686,632,581,488,54,31,192722.0,14384,3550,2891,599

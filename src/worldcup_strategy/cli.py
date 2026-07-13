@@ -12,6 +12,27 @@ from worldcup_strategy.actions.pipeline import (
     compute_xt_2022,
     fit_xt,
 )
+from worldcup_strategy.analysis.pressing.figures import generate_figures
+from worldcup_strategy.analysis.pressing.pipeline import (
+    describe as pressing_describe,
+)
+from worldcup_strategy.analysis.pressing.pipeline import (
+    fit_primary as pressing_fit_primary,
+)
+from worldcup_strategy.analysis.pressing.pipeline import (
+    fit_secondary as pressing_fit_secondary,
+)
+from worldcup_strategy.analysis.pressing.pipeline import (
+    prepare as pressing_prepare,
+)
+from worldcup_strategy.analysis.pressing.pipeline import (
+    robustness as pressing_robustness,
+)
+from worldcup_strategy.analysis.pressing.pipeline import (
+    validate as pressing_validate,
+)
+from worldcup_strategy.analysis.pressing.pipeline import write_manifest as pressing_manifest
+from worldcup_strategy.analysis.pressing.report import generate_report
 from worldcup_strategy.config import load_data_config
 from worldcup_strategy.data.downloader import fetch_repository
 from worldcup_strategy.data.pipeline import build_canonical, validate_data, write_coverage
@@ -44,6 +65,64 @@ pressure_app = typer.Typer(help="Build PPDA, Pressure, regain, and 360-context m
 app.add_typer(pressure_app, name="pressure")
 state_app = typer.Typer(help="Build score-state windows, features, summaries, and models.")
 app.add_typer(state_app, name="state")
+analysis_app = typer.Typer(help="Run locked research analyses.")
+app.add_typer(analysis_app, name="analysis")
+pressing_analysis_app = typer.Typer(help="Run the pressing score-state analysis.")
+analysis_app.add_typer(pressing_analysis_app, name="pressing")
+
+
+@pressing_analysis_app.command("prepare")
+def analysis_pressing_prepare() -> None:
+    typer.echo(f"Analysis windows: {len(pressing_prepare())}")
+
+
+@pressing_analysis_app.command("describe")
+def analysis_pressing_describe() -> None:
+    descriptive, characteristics = pressing_describe()
+    typer.echo(f"Descriptive rows: {len(descriptive)}; sample rows: {len(characteristics)}")
+
+
+@pressing_analysis_app.command("fit-primary")
+def analysis_pressing_primary() -> None:
+    coefficients, predictions = pressing_fit_primary()
+    typer.echo(f"Primary contrasts: {len(coefficients)}; predictions: {len(predictions)}")
+
+
+@pressing_analysis_app.command("fit-secondary")
+def analysis_pressing_secondary() -> None:
+    typer.echo(f"Secondary rows: {len(pressing_fit_secondary())}")
+
+
+@pressing_analysis_app.command("robustness")
+def analysis_pressing_robustness() -> None:
+    typer.echo(f"Robustness rows: {len(pressing_robustness())}")
+
+
+@pressing_analysis_app.command("figures")
+def analysis_pressing_figures() -> None:
+    typer.echo(f"Figure artifacts: {len(generate_figures())}")
+
+
+@pressing_analysis_app.command("report")
+def analysis_pressing_report() -> None:
+    typer.echo(f"Report characters: {len(generate_report())}")
+    pressing_manifest(
+        [
+            "wcstrategy analysis pressing prepare",
+            "wcstrategy analysis pressing describe",
+            "wcstrategy analysis pressing fit-primary",
+            "wcstrategy analysis pressing fit-secondary",
+            "wcstrategy analysis pressing robustness",
+            "wcstrategy analysis pressing figures",
+            "wcstrategy analysis pressing report",
+            "wcstrategy analysis pressing validate",
+        ]
+    )
+
+
+@pressing_analysis_app.command("validate")
+def analysis_pressing_validate() -> None:
+    typer.echo(json_summary(pressing_validate()))
 
 
 @state_app.command("build-windows")
