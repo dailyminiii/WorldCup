@@ -1,0 +1,56 @@
+study_id: korea_2022_2026_preliminary
+team_name: Korea Republic
+tournaments: [2022, 2026]
+stage: Group Stage
+expected_matches_per_tournament: 3
+analysis_type: descriptive
+reference_source_priority:
+  - fifa_match_centre
+  - fifa_official_report
+  - fifa_data_centre
+  - official_national_federation
+  - documented_secondary_source
+candidate_metrics:
+  - matches
+  - wins
+  - draws
+  - losses
+  - goals_for
+  - goals_against
+  - goal_difference
+  - points
+  - leading_minutes
+  - drawing_minutes
+  - trailing_minutes
+  - leading_share
+  - drawing_share
+  - trailing_share
+  - shots
+  - shots_on_target
+  - possession
+  - passes
+  - pass_completion
+  - corners
+  - fouls
+  - yellow_cards
+  - red_cards
+  - substitutions
+unavailable_without_event_data:
+  - pressure_events
+  - pressure_sequences
+  - sequence_regain_5s_rate
+  - event_regain_5s_rate
+  - classic_ppda
+  - augmented_ppda
+  - xg
+  - xt
+  - progressive_passes
+  - progressive_carries
+  - high_pressure_share
+  - post_regain_xg
+  - post_regain_xt
+  - statsbomb_360_context
+score_state_tolerance_seconds: 1
+missing_data: preserve_null
+whole_match_to_score_state_allocation: forbidden
+inferential_tests: forbidden
