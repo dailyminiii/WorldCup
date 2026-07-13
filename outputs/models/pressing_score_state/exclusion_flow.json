@@ -1,0 +1,92 @@
+[
+  {
+    "outcome": "pressing_intensity",
+    "step": "initial_windows",
+    "excluded": 0,
+    "remaining": 2822
+  },
+  {
+    "outcome": "pressing_intensity",
+    "step": "exclude_extra_time",
+    "excluded": 80,
+    "remaining": 2742
+  },
+  {
+    "outcome": "pressing_intensity",
+    "step": "exclude_invalid_score_state",
+    "excluded": 0,
+    "remaining": 2742
+  },
+  {
+    "outcome": "pressing_intensity",
+    "step": "exclude_numerical_inequality",
+    "excluded": 20,
+    "remaining": 2722
+  },
+  {
+    "outcome": "pressing_intensity",
+    "step": "exclude_mixed_score_state",
+    "excluded": 198,
+    "remaining": 2524
+  },
+  {
+    "outcome": "pressing_intensity",
+    "step": "exclude_missing_opponent_passes",
+    "excluded": 0,
+    "remaining": 2524
+  },
+  {
+    "outcome": "pressing_intensity",
+    "step": "exclude_opponent_passes_below_5",
+    "excluded": 145,
+    "remaining": 2379
+  },
+  {
+    "outcome": "sequence_regain_efficiency",
+    "step": "initial_windows",
+    "excluded": 0,
+    "remaining": 2822
+  },
+  {
+    "outcome": "sequence_regain_efficiency",
+    "step": "exclude_extra_time",
+    "excluded": 80,
+    "remaining": 2742
+  },
+  {
+    "outcome": "sequence_regain_efficiency",
+    "step": "exclude_invalid_score_state",
+    "excluded": 0,
+    "remaining": 2742
+  },
+  {
+    "outcome": "sequence_regain_efficiency",
+    "step": "exclude_numerical_inequality",
+    "excluded": 20,
+    "remaining": 2722
+  },
+  {
+    "outcome": "sequence_regain_efficiency",
+    "step": "exclude_mixed_score_state",
+    "excluded": 198,
+    "remaining": 2524
+  },
+  {
+    "outcome": "sequence_regain_efficiency",
+    "step": "exclude_invalid_sequence_trials",
+    "excluded": 0,
+    "remaining": 2524
+  },
+  {
+    "outcome": "sequence_regain_efficiency",
+    "step": "exclude_sequences_below_3",
+    "excluded": 470,
+    "remaining": 2054
+  },
+  {
+    "outcome": "sequence_regain_efficiency",
+    "step": "exclude_successes_above_trials",
+    "excluded": 0,
+    "remaining": 2054
+  }
+]

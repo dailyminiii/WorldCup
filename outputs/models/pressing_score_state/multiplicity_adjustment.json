@@ -1,0 +1,30 @@
+[
+  {
+    "coefficient_name": "score_state[leading]",
+    "model_id": "primary_sequence_regain_5s",
+    "raw_p_value": 0.24867456895778264,
+    "holm_adjusted_p_value": 0.4973491379155653,
+    "family_size": 2
+  },
+  {
+    "coefficient_name": "score_state[leading]",
+    "model_id": "primary_pressing_intensity",
+    "raw_p_value": 0.3721677460377539,
+    "holm_adjusted_p_value": 0.4973491379155653,
+    "family_size": 2
+  },
+  {
+    "coefficient_name": "score_state[trailing]",
+    "model_id": "primary_sequence_regain_5s",
+    "raw_p_value": 0.0027255864698011224,
+    "holm_adjusted_p_value": 0.005451172939602245,
+    "family_size": 2
+  },
+  {
+    "coefficient_name": "score_state[trailing]",
+    "model_id": "primary_pressing_intensity",
+    "raw_p_value": 0.004614679853351154,
+    "holm_adjusted_p_value": 0.005451172939602245,
+    "family_size": 2
+  }
+]

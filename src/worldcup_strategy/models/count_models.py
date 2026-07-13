@@ -31,12 +31,58 @@ def fit_poisson(
         selected = clusters == cluster
         score = x[selected].T @ (y[selected] - mu[selected])
         meat += np.outer(score, score)
-    standard_error = np.sqrt(np.clip(np.diag(bread @ meat @ bread), 0, None))
+    covariance = bread @ meat @ bread
+    standard_error = np.sqrt(np.clip(np.diag(covariance), 0, None))
     return {
         "coefficient": beta,
         "standard_error": standard_error,
         "converged": converged,
         "fitted": mu,
+        "covariance": covariance,
+    }
+
+
+def fit_negative_binomial(
+    y: np.ndarray,
+    x: np.ndarray,
+    offset: np.ndarray,
+    clusters: np.ndarray,
+    alpha: float,
+    iterations: int = 100,
+) -> dict[str, object]:
+    """Fit a log-link NB2 GLM with fixed dispersion and clustered covariance."""
+    beta = np.zeros(x.shape[1])
+    converged = False
+    for _ in range(iterations):
+        eta = np.clip(x @ beta + offset, -20, 20)
+        mu = np.exp(eta)
+        variance = mu + alpha * mu**2
+        weights = mu**2 / variance
+        working = eta + (y - mu) / mu - offset
+        weighted_x = x * np.sqrt(weights)[:, None]
+        updated = np.linalg.pinv(weighted_x) @ (working * np.sqrt(weights))
+        if np.max(np.abs(updated - beta)) < 1e-9:
+            beta = updated
+            converged = True
+            break
+        beta = updated
+    eta = np.clip(x @ beta + offset, -20, 20)
+    mu = np.exp(eta)
+    weights = mu / (1 + alpha * mu)
+    bread = np.linalg.pinv(x.T @ (weights[:, None] * x))
+    meat = np.zeros_like(bread)
+    for cluster in np.unique(clusters):
+        selected = clusters == cluster
+        score = x[selected].T @ ((y[selected] - mu[selected]) / (1 + alpha * mu[selected]))
+        meat += np.outer(score, score)
+    covariance = bread @ meat @ bread
+    return {
+        "coefficient": beta,
+        "standard_error": np.sqrt(np.clip(np.diag(covariance), 0, None)),
+        "converged": converged,
+        "fitted": mu,
+        "covariance": covariance,
+        "alpha": alpha,
     }
 
 
@@ -70,9 +116,11 @@ def fit_binomial(
         selected = clusters == cluster
         score = x[selected].T @ residual[selected]
         meat += np.outer(score, score)
+    covariance = bread @ meat @ bread
     return {
         "coefficient": beta,
-        "standard_error": np.sqrt(np.clip(np.diag(bread @ meat @ bread), 0, None)),
+        "standard_error": np.sqrt(np.clip(np.diag(covariance), 0, None)),
         "converged": converged,
         "fitted": probability,
+        "covariance": covariance,
     }
