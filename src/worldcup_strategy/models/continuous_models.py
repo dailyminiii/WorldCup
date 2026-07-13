@@ -14,4 +14,5 @@ def fit_clustered_ols(y: np.ndarray, x: np.ndarray, clusters: np.ndarray) -> dic
     return {
         "coefficient": coefficients,
         "standard_error": np.sqrt(np.clip(np.diag(covariance), 0, None)),
+        "covariance": covariance,
     }
