@@ -1,0 +1,17 @@
+{
+  "analysis_plan_commit": "361534c",
+  "initial_windows": 2822,
+  "primary_model_ids": [
+    "primary_pressing_intensity",
+    "primary_sequence_regain_5s"
+  ],
+  "both_primary_contrasts_present": true,
+  "sequence_success_above_trials": 0,
+  "robustness_specification_groups": 17,
+  "missing_robustness_groups": [],
+  "unavailable_secondary_models": 2,
+  "reference_categories": [
+    "drawing"
+  ],
+  "valid": true
+}

@@ -1,0 +1,16 @@
+{
+  "runs": 2,
+  "files_compared": 99,
+  "hash_algorithm": "SHA-256",
+  "checksum_differences": 0,
+  "deterministic": true,
+  "scope": [
+    "model outputs",
+    "tables",
+    "figure artifacts and source data",
+    "paper scaffold",
+    "analysis reports"
+  ],
+  "execution_mode": "uv run --no-sync",
+  "python_version": "3.12.13"
+}

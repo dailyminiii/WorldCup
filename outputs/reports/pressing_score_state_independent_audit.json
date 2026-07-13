@@ -1,0 +1,65 @@
+{
+  "scope": "focused pressing score-state analysis",
+  "analysis_plan_commit": "361534c",
+  "critical_findings": 0,
+  "high_findings": 3,
+  "high_findings_fixed": 3,
+  "remaining_high_findings": 0,
+  "findings": [
+    {
+      "severity": "high",
+      "finding": "Poisson prediction intervals were incorrectly capped at 30 events per 30 opponent passes.",
+      "affected_files": ["src/worldcup_strategy/analysis/pressing/models.py"],
+      "scientific_consequence": "Upper confidence limits could be truncated and uncertainty understated.",
+      "fix_applied": true,
+      "validation": "Regression implementation now caps only binomial probabilities; full tests pass."
+    },
+    {
+      "severity": "high",
+      "finding": "Post-regain xG/xT construction used a boolean short-circuit expression instead of direct opportunity normalization.",
+      "affected_files": ["src/worldcup_strategy/analysis/pressing/pipeline.py"],
+      "scientific_consequence": "Exploratory post-regain values could be constructed incorrectly.",
+      "fix_applied": true,
+      "validation": "Values are divided directly by positive five-second pressure regains; secondary models execute."
+    },
+    {
+      "severity": "high",
+      "finding": "Material Poisson overdispersion initially lacked the preregistered NB2 robustness execution.",
+      "affected_files": ["src/worldcup_strategy/models/count_models.py", "src/worldcup_strategy/analysis/pressing/models.py", "src/worldcup_strategy/analysis/pressing/robustness.py"],
+      "scientific_consequence": "Count-model robustness to variance misspecification would be incomplete.",
+      "fix_applied": true,
+      "validation": "Dispersion=1.603 triggered a separately preserved match-clustered NB2 robustness model."
+    },
+    {
+      "severity": "medium",
+      "finding": "The locked design matrix is rank deficient by one column because stage and matchday indicators overlap.",
+      "affected_files": ["src/worldcup_strategy/analysis/pressing/models.py", "outputs/models/pressing_score_state/model_diagnostics.json"],
+      "scientific_consequence": "Generalized-inverse estimates are reproducible, but individual nuisance coefficients are not uniquely parameterized.",
+      "fix_applied": false,
+      "validation": "Primary contrasts converge and the rank warning is explicit; changing the locked formula post-estimate was avoided."
+    },
+    {
+      "severity": "medium",
+      "finding": "Full residual diagnostics are not recomputed for each robustness-grid variant.",
+      "affected_files": ["outputs/models/pressing_score_state/model_diagnostics.json"],
+      "scientific_consequence": "Per-variant influence and dispersion comparisons are limited.",
+      "fix_applied": false,
+      "validation": "Every variant is preserved with sample, clustering, convergence, and an explicit diagnostic limitation."
+    }
+  ],
+  "audit_checks": {
+    "post_hoc_primary_changes": false,
+    "significance_driven_selection": false,
+    "exposure_mismatch": false,
+    "event_sequence_conflation": false,
+    "event_regain_in_primary_sequence_model": false,
+    "pressure_leakage_into_classic_ppda": false,
+    "silent_null_to_zero": false,
+    "invalid_grouped_binomial_denominator": false,
+    "causal_wording": false,
+    "selective_contrast_reporting": false,
+    "omitted_unavailable_specifications": false,
+    "omitted_failed_robustness": false,
+    "deterministic_rerun": true
+  }
+}
