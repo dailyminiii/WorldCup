@@ -1,0 +1,57 @@
+analysis_id: pressing_score_state_2022_v1
+title: "Pressing the Scoreline: Pressing Intensity and Regain Efficiency Across Match States in the 2022 FIFA World Cup"
+seed: 20220713
+primary_unit: team_match_five_minute_window
+reference_score_state: drawing
+allowed_score_states: [leading, drawing, trailing]
+primary_outcomes:
+  intensity:
+    outcome: pressure_events
+    exposure: opponent_passes
+    family: poisson
+    minimum_denominator: 5
+  sequence_efficiency:
+    successes: sequence_regains_5s
+    trials: pressure_sequences
+    family: grouped_binomial_logit
+    minimum_denominator: 3
+primary_exclusions:
+  periods: [1, 2]
+  exclude_extra_time: true
+  exclude_mixed_score_state: true
+  require_numerical_equality: true
+covariates:
+  - match_minute_centered
+  - match_minute_centered_squared
+  - competition_stage
+  - group_matchday
+fixed_effects: [team_id]
+primary_cluster: match_id
+minimum_denominator_sensitivity:
+  opponent_passes: [3, 5, 10]
+  pressure_sequences: [1, 3, 5]
+multiplicity:
+  method: holm
+  families: [pressing_intensity, sequence_regain_efficiency]
+robustness_specifications:
+  - primary_five_minute_windows
+  - homogeneous_state_segments
+  - mixed_state_duration_proportions
+  - exclude_red_card_affected
+  - group_stage_only
+  - knockout_only
+  - exclude_extra_time
+  - alternative_minimum_denominators
+  - opponent_possession_count_exposure
+  - opponent_possession_seconds_exposure
+  - event_level_regain
+  - sequence_regain_3s
+  - sequence_regain_8s
+  - team_clustered_uncertainty
+  - match_fixed_effects
+  - exact_goal_difference
+interpretation:
+  observational_only: true
+  report_both_score_contrasts: true
+  significance_selection_prohibited: true
+  primary_reference: drawing

@@ -1,0 +1,27 @@
+{
+  "analysis_id": "pressing_score_state_2022_v1",
+  "status": "locked_before_pressing_specific_estimation",
+  "reference_category": "drawing",
+  "primary_models": [
+    {
+      "model_id": "primary_pressing_intensity",
+      "outcome": "pressure_events",
+      "model_family": "poisson",
+      "offset": "log(opponent_passes)",
+      "minimum_denominator": 5,
+      "formula": "pressure_events ~ score_state_majority + match_minute_centered + match_minute_centered_squared + competition_stage + group_matchday + team_fixed_effects",
+      "cluster_variable": "match_id"
+    },
+    {
+      "model_id": "primary_sequence_regain_5s",
+      "outcome": "sequence_regains_5s / pressure_sequences",
+      "model_family": "grouped_binomial_logit",
+      "minimum_denominator": 3,
+      "formula": "regain_success ~ score_state_majority + match_minute_centered + match_minute_centered_squared + competition_stage + group_matchday + team_fixed_effects",
+      "cluster_variable": "match_id"
+    }
+  ],
+  "multiplicity": "Holm across the two primary outcome families by score-state contrast",
+  "robustness_specification_count": 16,
+  "selection_rule": "No estimate-dependent model or outcome selection"
+}
