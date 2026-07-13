@@ -1,0 +1,12 @@
+{
+  "approximate_duration_count": 2,
+  "conflict_count": 0,
+  "errors": [],
+  "goal_count": 5,
+  "match_count": 3,
+  "valid": true,
+  "warnings": [
+    "some match durations remain approximate"
+  ],
+  "year": 2026
+}

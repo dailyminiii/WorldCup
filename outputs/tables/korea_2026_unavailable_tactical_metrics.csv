@@ -1,0 +1,15 @@
+metric_name,available_2022,available_2026,reason_unavailable,required_future_data,future_adapter
+pressure_events,True,False,No complete validated 2026 StatsBomb Event/360 data,StatsBomb Event,statsbomb_2026_adapter.py
+pressure_sequences,True,False,No complete validated 2026 StatsBomb Event/360 data,StatsBomb Event,statsbomb_2026_adapter.py
+sequence_regain_5s_rate,True,False,No complete validated 2026 StatsBomb Event/360 data,StatsBomb Event,statsbomb_2026_adapter.py
+event_regain_5s_rate,True,False,No complete validated 2026 StatsBomb Event/360 data,StatsBomb Event,statsbomb_2026_adapter.py
+classic_ppda,True,False,No complete validated 2026 StatsBomb Event/360 data,StatsBomb Event,statsbomb_2026_adapter.py
+augmented_ppda,True,False,No complete validated 2026 StatsBomb Event/360 data,StatsBomb Event,statsbomb_2026_adapter.py
+xg,True,False,No complete validated 2026 StatsBomb Event/360 data,StatsBomb Event,statsbomb_2026_adapter.py
+xt,True,False,No complete validated 2026 StatsBomb Event/360 data,StatsBomb Event,statsbomb_2026_adapter.py
+progressive_passes,True,False,No complete validated 2026 StatsBomb Event/360 data,StatsBomb Event,statsbomb_2026_adapter.py
+progressive_carries,True,False,No complete validated 2026 StatsBomb Event/360 data,StatsBomb Event,statsbomb_2026_adapter.py
+high_pressure_share,True,False,No complete validated 2026 StatsBomb Event/360 data,StatsBomb Event,statsbomb_2026_adapter.py
+post_regain_xg,True,False,No complete validated 2026 StatsBomb Event/360 data,StatsBomb Event,statsbomb_2026_adapter.py
+post_regain_xt,True,False,No complete validated 2026 StatsBomb Event/360 data,StatsBomb Event,statsbomb_2026_adapter.py
+statsbomb_360_context,True,False,No complete validated 2026 StatsBomb Event/360 data,StatsBomb Event/360,statsbomb_2026_adapter.py

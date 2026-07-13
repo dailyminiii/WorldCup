@@ -1,0 +1,7 @@
+tournament_year,match_id,match_date,opponent_name,goals_for,goals_against,result,points,verification_status
+2022,3857287,2022-11-24,Uruguay,0,0,D,1,verified
+2022,3857299,2022-11-28,Ghana,2,3,L,0,verified
+2022,3857262,2022-12-02,Portugal,2,1,W,3,verified
+2026,KOR-CZE-2026,2026-06-11,Czechia,2,1,W,3,verified
+2026,MEX-KOR-2026,2026-06-18,Mexico,0,1,L,0,verified
+2026,RSA-KOR-2026,2026-06-24,South Africa,0,1,L,0,verified

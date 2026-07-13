@@ -1,0 +1,17 @@
+metric_name,available_2022,available_2026,same_definition,comparable,comparison_level,limitation
+matches,True,True,True,True,tournament,
+wins,True,True,True,True,tournament,
+draws,True,True,True,True,tournament,
+losses,True,True,True,True,tournament,
+goals_for,True,True,True,True,match,
+goals_against,True,True,True,True,match,
+points,True,True,True,True,tournament,
+score_state_exposure,True,True,True,True,match,2026 durations partly approximate
+shots,True,False,False,False,match,official 2026 coverage incomplete
+shots_on_target,True,False,False,False,match,official 2026 coverage incomplete
+possession,True,False,False,False,match,official 2026 coverage incomplete and provider definitions differ
+passes,True,False,False,False,match,official 2026 coverage unavailable
+corners,True,False,False,False,match,official 2026 coverage incomplete
+fouls,True,False,False,False,match,official 2026 coverage incomplete
+yellow_cards,True,False,False,False,match,official 2026 timeline incomplete
+substitutions,True,False,False,False,match,official 2026 timeline incomplete
