@@ -1,0 +1,19 @@
+\section{Robustness Analyses}
+
+The robustness grid preserved all 16 preregistered groups plus the NB2 model triggered by overdispersion. Table~4 records executed and unavailable rows. Agreement is assessed through coefficient direction, transformed magnitude, interval width, sample-size change, convergence, and changes in the measurement target—not through a binary significance rule.
+
+Fixed-window results were compared with state-homogeneous segments using opportunity-appropriate offsets. Mixed windows were also retained under duration-proportional allocation. Separate specifications excluded every red-card-affected observation, restricted the sample to group-stage or knockout matches, and reconfirmed the regular-period restriction. Denominator analyses used opponent-pass thresholds of 3, 5, and 10 and Pressure-sequence thresholds of 1, 3, and 5.
+
+Intensity exposure was alternatively defined using opponent possessions and opponent-possession seconds. These versions address a different opportunity scale and are not expected to reproduce the opponent-pass coefficient mechanically. Regain conversion was redefined at event level and with three- and eight-second sequence windows. These analyses distinguish sensitivity to temporal definition from sensitivity to analytical unit.
+
+Uncertainty was recalculated with team clusters, and match fixed effects were used where identifiable. Exact goal difference replaced the categorical state exposure in a separate robustness model. The NB2 intensity contrast retained the count-model interpretation while allowing variance to exceed the Poisson mean. Several outcome/specification combinations are structurally inapplicable—for example, an intensity-exposure change does not define an alternative efficiency model—and are retained as unavailable rather than omitted.
+
+Full residual diagnostics were not recomputed uniformly for every grid variant. The grid preserves sample size, team and match coverage, clustering, convergence, coefficients, intervals, and explicit diagnostic limitations. This constrains fine-grained influence comparisons across variants and is not treated as evidence of universal model stability.
+
+\input{tables/table_4.tex}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.82\linewidth]{../../outputs/figures/pressing_score_state/figure_6.pdf}
+\caption{Robustness comparison. Executed primary and alternative specifications include fixed windows, homogeneous segments, denominator thresholds, alternative exposures, temporal regain windows, clustering choices, match fixed effects, and exact goal difference. Unavailable combinations remain in the source table. Drawing is the categorical reference where applicable; exclusions and uncertainty follow each specification.}
+\end{figure}

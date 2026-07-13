@@ -1,0 +1,45 @@
+\section{Results}
+
+\subsection{Sample construction}
+The source contained \InitialWindows{} team--match five-minute windows from \MatchCount{} matches and \TeamCount{} teams. After the common score-state, period, and numerical-state restrictions and the opponent-pass threshold, \IntensityWindows{} windows entered the intensity model. The sequence denominator restrictions retained \EfficiencyWindows{} windows for the efficiency model. The stepwise exclusion table reconciles every reduction; no match or team was silently removed. Drawing contributed the largest exposure total, while leading and trailing exposure seconds were symmetric in the fixed-window construction. Opportunity totals by state are shown in Table~1.
+
+\subsection{Descriptive results}
+Pooled Pressure events per 30 opponent passes were \DescriptiveIntensityLeadingPooled{} when leading, \DescriptiveIntensityDrawingPooled{} when drawing, and \DescriptiveIntensityTrailingPooled{} when trailing. The corresponding unweighted mean window rates were \DescriptiveIntensityLeadingMean{}, \DescriptiveIntensityDrawingMean{}, and \DescriptiveIntensityTrailingMean{}. These differ because pooled rates weight windows by opponent-pass exposure, whereas unweighted summaries give each eligible window equal weight.
+
+Pooled five-second sequence-regain proportions were \DescriptiveEfficiencyLeadingPooled{}, \DescriptiveEfficiencyDrawingPooled{}, and \DescriptiveEfficiencyTrailingPooled{} for leading, drawing, and trailing. Unweighted mean window proportions were \DescriptiveEfficiencyLeadingMean{}, \DescriptiveEfficiencyDrawingMean{}, and \DescriptiveEfficiencyTrailingMean{}. These are unadjusted summaries and should not be read as model-standardized comparisons.
+
+\subsection{Primary pressing-intensity model}
+Relative to drawing, trailing was associated with a higher adjusted Pressure-event rate: IRR \IntensityTrailingEffect{} (log-rate coefficient \IntensityTrailingCoef{}, 95\% CI \IntensityTrailingCILow{} to \IntensityTrailingCIHigh{}). Predicted Pressure events per 30 opponent passes were \IntensityTrailingPrediction{} when trailing and \IntensityDrawingPrediction{} when drawing, an adjusted difference of approximately \IntensityTrailingDifference\%. Leading versus drawing had IRR \IntensityLeadingEffect{} (coefficient \IntensityLeadingCoef{}, 95\% CI \IntensityLeadingCILow{} to \IntensityLeadingCIHigh{}); predicted rates were \IntensityLeadingPrediction{} and \IntensityDrawingPrediction{}, respectively, an adjusted difference of approximately \IntensityLeadingDifference\%.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.82\linewidth]{../../outputs/figures/pressing_score_state/figure_3.pdf}
+\caption{Adjusted pressing intensity. Predicted provider Pressure events per 30 opponent passes from the confirmatory Poisson model, using team--match five-minute windows and drawing as reference. Team fixed effects and match-clustered uncertainty are used; mixed state, numerical inequality, extra time, and windows with fewer than five opponent passes are excluded. Exact confidence limits are preserved in the source CSV.}
+\label{fig:intensity}
+\end{figure}
+
+\subsection{Primary regain-efficiency model}
+Trailing versus drawing had an estimated sequence-regain odds ratio of \EfficiencyTrailingEffect{} (log-odds coefficient \EfficiencyTrailingCoef{}, 95\% CI \EfficiencyTrailingCILow{} to \EfficiencyTrailingCIHigh{}). Adjusted predicted probabilities were \EfficiencyTrailingPrediction{} and \EfficiencyDrawingPrediction{}, a \EfficiencyTrailingDifference{} percentage-point difference. Leading versus drawing had OR \EfficiencyLeadingEffect{} (coefficient \EfficiencyLeadingCoef{}, 95\% CI \EfficiencyLeadingCILow{} to \EfficiencyLeadingCIHigh{}); predicted probabilities were \EfficiencyLeadingPrediction{} and \EfficiencyDrawingPrediction{}, a \EfficiencyLeadingDifference{} percentage-point difference.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.82\linewidth]{../../outputs/figures/pressing_score_state/figure_4.pdf}
+\caption{Adjusted five-second Pressure-sequence regain efficiency. Predicted probabilities from the confirmatory grouped-binomial model, using team--match five-minute windows and drawing as reference. Team fixed effects and match-clustered uncertainty are used; mixed state, numerical inequality, extra time, and windows with fewer than three sequences are excluded.}
+\label{fig:efficiency}
+\end{figure}
+
+\subsection{Multiplicity-adjusted inference}
+Holm-adjusted primary-family values were \IntensityTrailingHolmP{} for the trailing intensity contrast and \EfficiencyTrailingHolmP{} for trailing efficiency. The leading values were \IntensityLeadingHolmP{} and \EfficiencyLeadingHolmP{}. Interpretation rests on transformed estimates, adjusted predictions, and interval width in addition to these values.
+
+\input{tables/table_2.tex}
+
+\subsection{Secondary and exploratory results}
+High-pressure share and event-level regain models supplied secondary checks on location and measurement unit. Their estimated trailing contrasts were positive, while the event and sequence estimands remained distinct. Provider counterpress share, high-regain rate, Pressure height, sequence frequency, and classic defensive-action counts are retained in Table~3 rather than selected by statistical appearance. Post-regain shot production is secondary; xG and xT per successful regain are exploratory. Same-possession goal is explicitly unavailable, and provider-augmented PPDA remains an unavailable sensitivity entry in the inferential table.
+
+\input{tables/table_3.tex}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.82\linewidth]{../../outputs/figures/pressing_score_state/figure_5.pdf}
+\caption{Intensity--efficiency comparison. Trailing-minus-drawing adjusted contrasts are shown on interpretable but different scales: percentage change in Pressure events per opponent-pass exposure and percentage-point change in sequence-regain probability. Team--match five-minute windows, drawing reference, primary exclusions, team fixed effects, and match-clustered uncertainty apply. Both outcomes are confirmatory, but their scales are not interchangeable.}
+\end{figure}
