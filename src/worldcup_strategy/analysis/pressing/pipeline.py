@@ -71,6 +71,11 @@ def _prediction_contrasts(predictions: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
+def _per_success(values: pd.Series, successes: pd.Series) -> pd.Series:
+    """Normalize post-regain value without converting zero-opportunity rows to zero."""
+    return values / successes.where(successes > 0)
+
+
 def fit_primary() -> tuple[pd.DataFrame, pd.DataFrame]:
     windows = _read_windows()
     intensity, intensity_predictions, intensity_diagnostics = fit_intensity(windows)
@@ -146,9 +151,7 @@ def fit_secondary() -> pd.DataFrame:
         ("xg_after_pressure_regains", "post_regain_xg_per_success"),
         ("xt_after_pressure_regains", "post_regain_xt_per_success"),
     ):
-        windows[target] = windows[source] / windows.pressure_regains_5s.where(
-            windows.pressure_regains_5s > 0
-        )
+        windows[target] = _per_success(windows[source], windows.pressure_regains_5s)
         table, diagnostic = fit_continuous(
             windows,
             target,
